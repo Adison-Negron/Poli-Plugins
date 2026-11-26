@@ -1,21 +1,34 @@
 #!/usr/bin/env python3
 """Write the open-mpc catalog files for the Poli collection (workflow step 6):
 
-    python3 tools/make_catalog_entries.py <github-owner>
+    python3 tools/make_catalog_entries.py <github-owner> [<commit>]
 
 writes catalog/collections/poli.json and catalog/plugins/<id>.json. Copy both folders into a fork of
 open-mpc/mpc-vst-plugins (same paths) and open one pull request. Versions and checksums are not in these files: the
 catalog reads them from the GitHub releases (tools/release_all.py).
+With <commit> (a pushed commit that has docs/screenshots/<id>.png), each entry gets a "screenshot" link pinned to that
+commit (the catalog asks for a tag or commit, never a branch, so the image can't change or vanish under the card).
 """
-import json, os, re, sys
+import json, os, re, subprocess, sys
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AUTHOR = "Poli"
 COLLECTION = "poli"
 owner = sys.argv[1] if len(sys.argv) > 1 else ""
-if not re.fullmatch(r"[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})", owner):
-    sys.exit("usage: make_catalog_entries.py <github-owner>")
+ref = sys.argv[2] if len(sys.argv) > 2 else ""
+if not re.fullmatch(r"[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})", owner) or (ref and not re.fullmatch(r"[0-9a-f]{40}", ref)):
+    sys.exit("usage: make_catalog_entries.py <github-owner> [<full 40-character commit>]")
 repo = "%s/Poli-Plugins" % owner
+
+
+def screenshot(pid):
+    """the raw link to docs/screenshots/<pid>.png at `ref`, if that commit has the file"""
+    if not ref:
+        return None
+    path = "docs/screenshots/%s.png" % pid
+    if subprocess.run(["git", "-C", HERE, "cat-file", "-e", "%s:%s" % (ref, path)], capture_output=True).returncode:
+        sys.exit("commit %s has no %s" % (ref, path))
+    return "https://raw.githubusercontent.com/%s/%s/%s" % (repo, ref, path)
 
 # id, name, zip stem, style, tags, summary (plain ASCII; say up front anything unusual)
 PLUGINS = [
@@ -60,6 +73,9 @@ for pid, name, stem, style, tags, summary in PLUGINS:
     e = {"id": pid, "name": name, "author": AUTHOR, "repo": repo, "kind": "effect", "style": style, "tags": tags,
          "license": "MIT", "summary": summary + " Gen2 only.", "asset_pattern": "%s-*-mpc-aarch64.zip" % stem,
          "collection": COLLECTION}
+    shot = screenshot(pid)
+    if shot:
+        e["screenshot"] = shot
     json.dump(e, open(os.path.join(HERE, "catalog", "plugins", pid + ".json"), "w"), indent=2)
     open(os.path.join(HERE, "catalog", "plugins", pid + ".json"), "a").write("\n")
 open(os.path.join(HERE, "catalog", "collections", COLLECTION + ".json"), "a").write("\n")
