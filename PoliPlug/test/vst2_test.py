@@ -147,5 +147,46 @@ os.makedirs(root)
 rc, o, skins, names, valid = run(root, [])
 check(rc == 0 and ("Can't read MPC.settings" in o or "No installed effects found" in o), "status: %s" % o.strip())
 
+print("=== 7. a skin from another generator: version-1 bounds, no additionalInvalidatingHandles (Argevox Geraet drew over the rack) ===")
+root = os.path.join(out, "foreign")
+drive = os.path.join(root, "usb")
+d = vst2(drive, "Voc - VST - Vocoder", pj("Vocoder", "Voc", uid="VcDr"))
+tp = os.path.join(d, "Plugin Skins", "TUI.json")
+t = json.load(open(tp))
+def strip_keys(x):
+    if isinstance(x, dict):
+        b = x.get("bounds")
+        if isinstance(b, dict) and "componentData" in x:
+            b.pop("additionalInvalidatingHandles", None); b.pop("showWhenDataModelInvalid", None)
+            b["version"] = 1   # as Argevox Geraet, Voxman, Voxboy, Twenty FX write it: MPC reads no gate in a v1 bounds
+        for v in x.values(): strip_keys(v)
+    elif isinstance(x, list):
+        for v in x: strip_keys(v)
+strip_keys(t)
+pd = t["pageData"]
+defs = {e["key"]: e["value"] for e in pd["componentDefinitions"]["localComponentDefinitions"]}
+page = pd["tabs"][0].get("componentDefinition") or defs[pd["tabs"][0]["componentName"]]
+page["componentsData"].append({"version": 2, "componentData": {"version": 1, "name": "No bounds", "type": "Label", "data": {}},
+                               "handle remapping": {"version": 1, "map": []}})   # can't be gated at all: must be left out
+json.dump(t, open(tp, "w"))
+vst2(drive, "Poli - VST - Poli-Ess", pj("Poli-Ess"))
+rc, o, skins, names, valid = run(root, [drive])
+check(rc == 0 and "runtime error" not in o and "AddressSanitizer" not in o and "LeakSanitizer" not in o,
+      "no crash, no leak (1.5.2 leaked one array per ungated component)")
+check(sorted(names) == ["Poli-Ess", "Vocoder"], "both listed: %s" % sorted(names))
+def rack_of(p):
+    q = json.load(open(p))["pageData"]
+    ds = {e["key"]: e["value"] for e in q["componentDefinitions"]["localComponentDefinitions"]}
+    return ds[q["tabs"][0]["componentName"]]["componentsData"]
+# gated the way MPC obeys it: the handle in a version-2 bounds (Akai: "Version 2 adds additionalInvalidatingHandles")
+gated = lambda c: c.get("bounds", {}).get("version", 0) >= 2 and any(re.match(r"IndexedEnabling/\d+/\d+/Parameter \d+$", h)
+                      for h in c.get("bounds", {}).get("additionalInvalidatingHandles", []))
+base = rack_of(os.path.join(BASE, "pp_base.json"))
+merged = rack_of(os.path.join(root, "plug", "Plugin Skins", "TUI.json"))
+extra = sum(not gated(c) for c in merged) - sum(not gated(c) for c in base)
+check(extra == 0, "every hosted component is limited to its own page (%d drawn on every page)" % extra)
+check(not any(c.get("componentData", {}).get("name") == "No bounds" for c in merged), "a component with no bounds is left out")
+check(len(merged) > len(base), "the vocoder's page was merged (%d -> %d components)" % (len(base), len(merged)))
+
 print("PASSED" if not fails else "FAILED (%d)" % fails)
 sys.exit(1 if fails else 0)

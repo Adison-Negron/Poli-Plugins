@@ -348,13 +348,30 @@ static void rewrite(cJSON *j, rw_t *w) {
     }
 }
 
-static void gate(cJSON *comp, const char *handle) {
+/* obj[key] = item, whether or not obj had that key (cJSON's Replace only works on a key that is already there) */
+static int set_item(cJSON *obj, const char *key, cJSON *item) {
+    if (!item) return 0;
+    if (cJSON_GetObjectItemCaseSensitive(obj, key)) return cJSON_ReplaceItemInObjectCaseSensitive(obj, key, item);
+    return cJSON_AddItemToObject(obj, key, item);
+}
+
+/* Show a hosted page's component only while "view" is at that page. Returns 0 when it can't be gated (no "bounds"
+ * object): the caller leaves such a component out, since an ungated one would be drawn on every page, the rack included.
+ * Skins made by other generators (Akai's SDK gen_ui, Stampman3000's, Argevox's) write version-1 bounds without
+ * "additionalInvalidatingHandles". Two things then left the component ungated, covering the rack (device, Live III,
+ * Argevox Gerät installed beside PoliPlug, 2026-11-26):
+ *  - up to 1.5.2: cJSON's Replace of the missing key failed silently, so no gate was written (and the array leaked);
+ *  - the gate also needs bounds "version" 2: MPC reads a version-1 bounds without additionalInvalidatingHandles
+ *    (Akai's ui-reference: "Version 2 adds additionalInvalidatingHandles"), so a gate added to it is ignored. */
+static int gate(cJSON *comp, const char *handle) {
     cJSON *b = cJSON_GetObjectItemCaseSensitive(comp, "bounds");
-    if (!b) return;
-    cJSON_ReplaceItemInObjectCaseSensitive(b, "showWhenDataModelInvalid", cJSON_CreateString("Show"));
+    if (!cJSON_IsObject(b)) return 0;
+    cJSON *ver = cJSON_GetObjectItemCaseSensitive(b, "version");
+    if ((!cJSON_IsNumber(ver) || ver->valuedouble < 2) && !set_item(b, "version", cJSON_CreateNumber(2))) return 0;
+    if (!set_item(b, "showWhenDataModelInvalid", cJSON_CreateString("Show"))) return 0;
     cJSON *h = cJSON_GetObjectItemCaseSensitive(b, "additionalInvalidatingHandles");
-    if (!cJSON_IsArray(h)) { h = cJSON_CreateArray(); cJSON_ReplaceItemInObjectCaseSensitive(b, "additionalInvalidatingHandles", h); }
-    cJSON_AddItemToArray(h, cJSON_CreateString(handle));
+    if (!cJSON_IsArray(h) && !set_item(b, "additionalInvalidatingHandles", h = cJSON_CreateArray())) return 0;
+    return cJSON_AddItemToArray(h, cJSON_CreateString(handle));
 }
 
 static cJSON *backdrop(void) {   /* a white picture under a hosted page, so no rack art shows through (pp_backdrop.png) */
@@ -499,14 +516,15 @@ static int merge(const char *skins, pp_rtype_t *t, int n, cJSON **tuis, char *no
             char handle[64];
             snprintf(handle, sizeof handle, "IndexedEnabling/%d/%d/Parameter %d", t[k].view0 + ti, PP_MAX_VIEWS, PI_VIEW);
             cJSON *bd = backdrop();
-            gate(bd, handle);
-            cJSON_AddItemToArray(add, bd);
+            if (bd && gate(bd, handle)) cJSON_AddItemToArray(add, bd);
+            else cJSON_Delete(bd);
             cJSON *comp;
             cJSON_ArrayForEach(comp, comps) {
                 cJSON *cp = cJSON_Duplicate(comp, 1);
+                if (!cp) continue;
                 rewrite(cp, &w);
-                gate(cp, handle);
-                cJSON_AddItemToArray(add, cp);
+                if (gate(cp, handle)) cJSON_AddItemToArray(add, cp);
+                else cJSON_Delete(cp);   /* can't be limited to its page: left out rather than drawn over every page */
             }
             ti++;
         }

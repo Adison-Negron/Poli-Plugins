@@ -2,7 +2,7 @@
   "name": "PoliPlug",
   "vendor": "Poli",
   "uid": "PlPg",
-  "version": 1520,
+  "version": 1530,
   "effect": true,
   "art": "html",
   "so": "poli_plug.so",

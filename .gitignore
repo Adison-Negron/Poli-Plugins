@@ -8,3 +8,4 @@ __pycache__/
 *.raw
 .usb_drive
 logs/
+PoliPlug/test/preview/
