@@ -1,0 +1,787 @@
+{
+ "name": "Poli-Juicebox",
+ "params": [
+  {
+   "key": "pitch",
+   "name": "Pitch",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "formant",
+   "name": "Formant",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "ftrack",
+   "name": "F-Track",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "thresh",
+   "name": "Threshold",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 1000.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "lowend",
+   "name": "Low end",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "attack",
+   "name": "Attack",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 486.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "release",
+   "name": "Release",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 463.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "odd",
+   "name": "Odd drive",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "even",
+   "name": "Even drive",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "color",
+   "name": "Color",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 537.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "f1c",
+   "name": "F1 Freq",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 569.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "f1q",
+   "name": "F1 Q",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "f2c",
+   "name": "F2 Freq",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 483.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "f2q",
+   "name": "F2 Q",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "f3c",
+   "name": "F3 Freq",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 473.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "f3q",
+   "name": "F3 Q",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "fsmooth",
+   "name": "F-Smooth",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 300.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "air",
+   "name": "Air",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "natural",
+   "name": "Natural",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 400.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "mix",
+   "name": "Mix",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 1000.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "hold",
+   "name": "Hold",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 400.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "rasp",
+   "name": "Rasp",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "glide",
+   "name": "Glide",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 400.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "guard",
+   "name": "Oct guard",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 600.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "morph",
+   "name": "Morph",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 486.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "floor",
+   "name": "Floor",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "ceil",
+   "name": "Ceiling",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 790.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "overlap",
+   "name": "Overlap",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 300.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "link",
+   "name": "P&F Link",
+   "options": [
+    "Off",
+    "Variable"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "page",
+   "name": "Page",
+   "options": [
+    "Shape",
+    "Tone",
+    "Filter",
+    "Tracking"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "tab1",
+   "name": "Tab 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "tab2",
+   "name": "Tab 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset",
+   "name": "Preset",
+   "options": [
+    "Init",
+    "MtF: Subtle Lift",
+    "MtF: Natural Speaker",
+    "MtF: Bright Speaker",
+    "MtF: Soft Alto",
+    "MtF: Full Transform",
+    "MtF: Light Soprano",
+    "MtF: Raspy Smooth",
+    "FtM: Subtle Drop",
+    "FtM: Natural Speaker",
+    "FtM: Deep Speaker",
+    "FtM: Full Transform",
+    "FtM: Warm Baritone",
+    "FtM: Raspy Smooth",
+    "Polish: Neutral Polish",
+    "Polish: De-Ess Only",
+    "Polish: Warm Vocal",
+    "Polish: Airy Pop",
+    "Polish: Broadcast Deep",
+    "Polish: Radio Voice",
+    "Polish: Vocal Presence",
+    "Polish: Bigger Voice",
+    "Polish: Smaller Voice",
+    "Char: Child",
+    "Char: Elder",
+    "Char: Announcer",
+    "Char: Giant",
+    "Char: Ogre",
+    "Char: Chipmunk",
+    "FX: Octave Up Blend",
+    "FX: Octave Down Blend",
+    "FX: Thin Voice",
+    "FX: Alien",
+    "FX: Old Telephone",
+    "FX: Breathy Air",
+    "FX: Dark Whisper"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 2
+  },
+  {
+   "key": "preset_prev",
+   "name": "Preset <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_next",
+   "name": "Preset >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_list",
+   "name": "Preset list",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "browsing",
+   "name": "Browsing",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "bview",
+   "name": "Browser view",
+   "options": [
+    "Closed",
+    "v1",
+    "v2",
+    "v3",
+    "v4",
+    "v5",
+    "v6",
+    "v7",
+    "v8"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pre_hl",
+   "name": "Preset shown",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "bpage_prev",
+   "name": "Page <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "bpage_next",
+   "name": "Page >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat1",
+   "name": "Category 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat2",
+   "name": "Category 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat3",
+   "name": "Category 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat4",
+   "name": "Category 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat5",
+   "name": "Category 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat6",
+   "name": "Category 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick1",
+   "name": "Pick 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick2",
+   "name": "Pick 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick3",
+   "name": "Pick 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick4",
+   "name": "Pick 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick5",
+   "name": "Pick 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick6",
+   "name": "Pick 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick7",
+   "name": "Pick 7",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick8",
+   "name": "Pick 8",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick9",
+   "name": "Pick 9",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick10",
+   "name": "Pick 10",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick11",
+   "name": "Pick 11",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick12",
+   "name": "Pick 12",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "help_btn",
+   "name": "Help",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "help_next",
+   "name": "Help page",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "hview",
+   "name": "Help view",
+   "options": [
+    "Closed",
+    "Help 1",
+    "Help 2"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "lat1",
+   "name": "Latency Fast",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "lat2",
+   "name": "Latency Balanced",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "lat3",
+   "name": "Latency Smooth",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "lview",
+   "name": "Latency view",
+   "options": [
+    "Hidden",
+    "Fast",
+    "Balanced",
+    "Smooth"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "learn",
+   "name": "Learn",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "live": true
+  },
+  {
+   "key": "learn_prog",
+   "name": "Learn progress",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "tab3",
+   "name": "Tab 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "tab4",
+   "name": "Tab 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "ql01",
+   "name": "Q-Link 1.1",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true,
+   "dynamic_name": true
+  },
+  {
+   "key": "ql02",
+   "name": "Q-Link 1.2",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true,
+   "dynamic_name": true
+  },
+  {
+   "key": "ql03",
+   "name": "Q-Link 1.3",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true,
+   "dynamic_name": true
+  },
+  {
+   "key": "ql04",
+   "name": "Q-Link 1.4",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true,
+   "dynamic_name": true
+  },
+  {
+   "key": "ql05",
+   "name": "Q-Link 2.1",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true,
+   "dynamic_name": true
+  },
+  {
+   "key": "ql06",
+   "name": "Q-Link 2.2",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true,
+   "dynamic_name": true
+  },
+  {
+   "key": "ql07",
+   "name": "Q-Link 2.3",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true,
+   "dynamic_name": true
+  },
+  {
+   "key": "ql08",
+   "name": "Q-Link 2.4",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true,
+   "dynamic_name": true
+  },
+  {
+   "key": "ql09",
+   "name": "Q-Link 3.1",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true,
+   "dynamic_name": true
+  },
+  {
+   "key": "ql10",
+   "name": "Q-Link 3.2",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true,
+   "dynamic_name": true
+  },
+  {
+   "key": "ql11",
+   "name": "Q-Link 3.3",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true,
+   "dynamic_name": true
+  },
+  {
+   "key": "ql12",
+   "name": "Q-Link 3.4",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true,
+   "dynamic_name": true
+  },
+  {
+   "key": "ql13",
+   "name": "Q-Link 4.1",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true,
+   "dynamic_name": true
+  },
+  {
+   "key": "ql14",
+   "name": "Q-Link 4.2",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true,
+   "dynamic_name": true
+  },
+  {
+   "key": "ql15",
+   "name": "Q-Link 4.3",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true,
+   "dynamic_name": true
+  },
+  {
+   "key": "ql16",
+   "name": "Q-Link 4.4",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true,
+   "dynamic_name": true
+  }
+ ]
+}

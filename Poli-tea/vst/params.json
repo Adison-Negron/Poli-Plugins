@@ -1,0 +1,463 @@
+{
+ "name": "Poli-tea",
+ "params": [
+  {
+   "key": "input",
+   "name": "Input",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "drive",
+   "name": "Drive",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 300.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "low",
+   "name": "Low",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "mid",
+   "name": "Mid",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "high",
+   "name": "High",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "amount",
+   "name": "Amount",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "ldrive",
+   "name": "Limiter Drive",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 200.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "lthresh",
+   "name": "Limiter Threshold",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 889.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "output",
+   "name": "Output",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 988.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "sc",
+   "name": "Sidechain",
+   "options": [
+    "Internal",
+    "External"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "preset",
+   "name": "Preset",
+   "options": [
+    "Init",
+    "Master: Green Tea",
+    "Master: Earl Grey",
+    "Master: Matcha Streaming",
+    "Master: Jasmine Clarity",
+    "Master: Oolong Balanced",
+    "Master: Chamomile Gentle",
+    "Master: Pu-erh Heavy",
+    "Master: White Tea Clear",
+    "Glue: Chai Glue",
+    "Glue: Rooibos Soft",
+    "Glue: Assam Tight",
+    "Glue: Hojicha Roasted",
+    "Glue: Darjeeling Light",
+    "Glue: Ceylon Cohesion",
+    "Glue: Raw Key Glue",
+    "Loud: Builder's Brew",
+    "Loud: Masala Max",
+    "Loud: Boba Bomb",
+    "Loud: Thai Tea Punch",
+    "Loud: Brick Tea Wall",
+    "Loud: Quick Steep",
+    "Loud: Kombucha Kick",
+    "Warm: Tape Tea",
+    "Warm: Tube Latte",
+    "Warm: Honey Tea",
+    "Warm: Roasted Barley",
+    "Warm: Cinnamon Cuppa",
+    "Warm: Vintage Pot",
+    "Warm: Smoky Lapsang",
+    "Air: Silver Needle",
+    "Air: Peach Oolong",
+    "Air: Mint Sparkle",
+    "Air: Dew Drop",
+    "Air: Lemon Zest",
+    "Air: Frosted Glass",
+    "Wide: Jasmine Pearl",
+    "Wide: Sakura Spread",
+    "Wide: Milk Tea Stereo",
+    "Wide: Ocean Mist",
+    "Wide: Mono-Safe Tea",
+    "Wide: Festival Wide",
+    "Beats: Boba Drums",
+    "Beats: Boom Bap Brew",
+    "Beats: Trap Tea",
+    "Beats: Punchy Pearls",
+    "Beats: Sample Smash",
+    "Beats: House Steep",
+    "Beats: Break Brew",
+    "Beats: MPC Master",
+    "Lo-Fi: Dusty Tea",
+    "Lo-Fi: Cassette Cup",
+    "Lo-Fi: Crunchy Boba",
+    "Lo-Fi: Telephone Tea",
+    "Lo-Fi: Mud Puddle",
+    "Lo-Fi: Radio Brew",
+    "Lo-Fi: Smash Tea Bag"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 2
+  },
+  {
+   "key": "preset_prev",
+   "name": "Preset <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_next",
+   "name": "Preset >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_list",
+   "name": "Preset list",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "browsing",
+   "name": "Browsing",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "bview",
+   "name": "Browser view",
+   "options": [
+    "Closed",
+    "v1",
+    "v2",
+    "v3",
+    "v4",
+    "v5",
+    "v6",
+    "v7",
+    "v8",
+    "v9",
+    "v10",
+    "v11",
+    "v12",
+    "v13"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pre_hl",
+   "name": "Preset shown",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "bpage_prev",
+   "name": "Page <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "bpage_next",
+   "name": "Page >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat1",
+   "name": "Category 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat2",
+   "name": "Category 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat3",
+   "name": "Category 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat4",
+   "name": "Category 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat5",
+   "name": "Category 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat6",
+   "name": "Category 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat7",
+   "name": "Category 7",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat8",
+   "name": "Category 8",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat9",
+   "name": "Category 9",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick1",
+   "name": "Pick 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick2",
+   "name": "Pick 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick3",
+   "name": "Pick 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick4",
+   "name": "Pick 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick5",
+   "name": "Pick 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick6",
+   "name": "Pick 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick7",
+   "name": "Pick 7",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick8",
+   "name": "Pick 8",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick9",
+   "name": "Pick 9",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick10",
+   "name": "Pick 10",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick11",
+   "name": "Pick 11",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick12",
+   "name": "Pick 12",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "m_pk",
+   "name": "Input Peak",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "m_rms",
+   "name": "Input RMS",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "m_gl",
+   "name": "GR Low",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "m_gm",
+   "name": "GR Mid",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "m_gh",
+   "name": "GR High",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "m_lim",
+   "name": "GR Limiter",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  }
+ ]
+}

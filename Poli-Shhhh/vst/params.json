@@ -1,0 +1,631 @@
+{
+ "name": "Shhhhh",
+ "params": [
+  {
+   "key": "threshold",
+   "name": "Threshold",
+   "min": -30.0,
+   "max": 30.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "reduction",
+   "name": "Reduction",
+   "min": 0.0,
+   "max": 100.0,
+   "default": 12.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "learn",
+   "name": "Learn",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4,
+   "live": true
+  },
+  {
+   "key": "bypass",
+   "name": "Pass",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "diff",
+   "name": "Diff",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "n1",
+   "name": "Node 1",
+   "min": -120.0,
+   "max": 0.0,
+   "default": -60.0,
+   "dynamic_display": true,
+   "live": true
+  },
+  {
+   "key": "n2",
+   "name": "Node 2",
+   "min": -120.0,
+   "max": 0.0,
+   "default": -60.0,
+   "dynamic_display": true,
+   "live": true
+  },
+  {
+   "key": "n3",
+   "name": "Node 3",
+   "min": -120.0,
+   "max": 0.0,
+   "default": -60.0,
+   "dynamic_display": true,
+   "live": true
+  },
+  {
+   "key": "n4",
+   "name": "Node 4",
+   "min": -120.0,
+   "max": 0.0,
+   "default": -60.0,
+   "dynamic_display": true,
+   "live": true
+  },
+  {
+   "key": "n5",
+   "name": "Node 5",
+   "min": -120.0,
+   "max": 0.0,
+   "default": -60.0,
+   "dynamic_display": true,
+   "live": true
+  },
+  {
+   "key": "n6",
+   "name": "Node 6",
+   "min": -120.0,
+   "max": 0.0,
+   "default": -60.0,
+   "dynamic_display": true,
+   "live": true
+  },
+  {
+   "key": "n1x",
+   "name": "Node 1 pos",
+   "options": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "default": 2,
+   "live": true
+  },
+  {
+   "key": "n2x",
+   "name": "Node 2 pos",
+   "options": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "default": 2,
+   "live": true
+  },
+  {
+   "key": "n3x",
+   "name": "Node 3 pos",
+   "options": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "default": 2,
+   "live": true
+  },
+  {
+   "key": "n4x",
+   "name": "Node 4 pos",
+   "options": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "default": 2,
+   "live": true
+  },
+  {
+   "key": "n5x",
+   "name": "Node 5 pos",
+   "options": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "default": 2,
+   "live": true
+  },
+  {
+   "key": "n6x",
+   "name": "Node 6 pos",
+   "options": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+   ],
+   "default": 2,
+   "live": true
+  },
+  {
+   "key": "learn_prog",
+   "name": "Learn progress",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp01",
+   "name": "Spectrum 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp02",
+   "name": "Spectrum 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp03",
+   "name": "Spectrum 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp04",
+   "name": "Spectrum 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp05",
+   "name": "Spectrum 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp06",
+   "name": "Spectrum 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp07",
+   "name": "Spectrum 7",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp08",
+   "name": "Spectrum 8",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp09",
+   "name": "Spectrum 9",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp10",
+   "name": "Spectrum 10",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp11",
+   "name": "Spectrum 11",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp12",
+   "name": "Spectrum 12",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp13",
+   "name": "Spectrum 13",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp14",
+   "name": "Spectrum 14",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp15",
+   "name": "Spectrum 15",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp16",
+   "name": "Spectrum 16",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp17",
+   "name": "Spectrum 17",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp18",
+   "name": "Spectrum 18",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp19",
+   "name": "Spectrum 19",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp20",
+   "name": "Spectrum 20",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp21",
+   "name": "Spectrum 21",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp22",
+   "name": "Spectrum 22",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp23",
+   "name": "Spectrum 23",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp24",
+   "name": "Spectrum 24",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp25",
+   "name": "Spectrum 25",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp26",
+   "name": "Spectrum 26",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp27",
+   "name": "Spectrum 27",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp28",
+   "name": "Spectrum 28",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp29",
+   "name": "Spectrum 29",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp30",
+   "name": "Spectrum 30",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp31",
+   "name": "Spectrum 31",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "sp32",
+   "name": "Spectrum 32",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "output",
+   "name": "Output",
+   "min": -24.0,
+   "max": 24.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "preset",
+   "name": "Preset",
+   "options": [
+    "Init",
+    "Light Touch",
+    "Gentle Vocal",
+    "Music Bed",
+    "Field Recording",
+    "Dialogue Clean",
+    "Podcast Voice",
+    "Hiss Remover",
+    "Old Tape",
+    "Room Tone Removal",
+    "Hum & Buzz",
+    "Heavy Noise"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 2
+  },
+  {
+   "key": "preset_prev",
+   "name": "Preset <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_next",
+   "name": "Preset >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_list",
+   "name": "Preset list",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "browsing",
+   "name": "Browsing",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pre_hl",
+   "name": "Preset shown",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pick1",
+   "name": "Pick 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick2",
+   "name": "Pick 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick3",
+   "name": "Pick 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick4",
+   "name": "Pick 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick5",
+   "name": "Pick 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick6",
+   "name": "Pick 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick7",
+   "name": "Pick 7",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick8",
+   "name": "Pick 8",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick9",
+   "name": "Pick 9",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick10",
+   "name": "Pick 10",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick11",
+   "name": "Pick 11",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick12",
+   "name": "Pick 12",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  }
+ ]
+}

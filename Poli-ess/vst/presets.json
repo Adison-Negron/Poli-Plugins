@@ -1,0 +1,172 @@
+{
+ "presets": [
+  {
+   "name": "Init",
+   "about": "the defaults (1.0.4's sound)",
+   "values": {
+    "intensity": 50,
+    "thresh": -20,
+    "freq": 5000,
+    "diff": "Off",
+    "attack": 45.1545,
+    "release": 42.2549,
+    "knee": 0,
+    "mix": 100
+   }
+  },
+  {
+   "name": "Male Ess",
+   "about": "Waves DeEsser 'Male Ess' 4500 Hz",
+   "values": {
+    "intensity": 55,
+    "thresh": -24,
+    "freq": 4500,
+    "diff": "Off",
+    "attack": 34.9485,
+    "release": 45.1545,
+    "knee": 3,
+    "mix": 100
+   }
+  },
+  {
+   "name": "Male Shh",
+   "about": "Waves 'Male Shh' 3385 Hz; 'sh' lasts longer -> slower release",
+   "values": {
+    "intensity": 50,
+    "thresh": -24,
+    "freq": 3400,
+    "diff": "Off",
+    "attack": 50.0,
+    "release": 57.3064,
+    "knee": 4,
+    "mix": 100
+   }
+  },
+  {
+   "name": "Female Ess",
+   "about": "Waves 'Female Ess' 6779 Hz",
+   "values": {
+    "intensity": 55,
+    "thresh": -24,
+    "freq": 6800,
+    "diff": "Off",
+    "attack": 34.9485,
+    "release": 45.1545,
+    "knee": 3,
+    "mix": 100
+   }
+  },
+  {
+   "name": "Female Shh",
+   "about": "Waves 'Female Shh' 5077 Hz",
+   "values": {
+    "intensity": 50,
+    "thresh": -24,
+    "freq": 5100,
+    "diff": "Off",
+    "attack": 50.0,
+    "release": 57.3064,
+    "knee": 4,
+    "mix": 100
+   }
+  },
+  {
+   "name": "Bright Vocal 8k",
+   "about": "Pro-DS: a typical 's' around 8-10 kHz (airy, close-miked vocals)",
+   "values": {
+    "intensity": 55,
+    "thresh": -26,
+    "freq": 8000,
+    "diff": "Off",
+    "attack": 34.9485,
+    "release": 45.1545,
+    "knee": 3,
+    "mix": 100
+   }
+  },
+  {
+   "name": "Gentle Vocal",
+   "about": "transparent: low strength, wide soft knee, slower times",
+   "values": {
+    "intensity": 30,
+    "thresh": -18,
+    "freq": 6000,
+    "diff": "Off",
+    "attack": 58.8046,
+    "release": 53.9591,
+    "knee": 8,
+    "mix": 100
+   }
+  },
+  {
+   "name": "Heavy Sibilance",
+   "about": "harsh / spitty vocals: deep, fast, hard knee",
+   "values": {
+    "intensity": 85,
+    "thresh": -30,
+    "freq": 5500,
+    "diff": "Off",
+    "attack": 15.0515,
+    "release": 38.9076,
+    "knee": 0,
+    "mix": 100
+   }
+  },
+  {
+   "name": "Parallel De-Ess",
+   "about": "strong reduction blended 50/50 (Weiss/Softube parallel mix)",
+   "values": {
+    "intensity": 75,
+    "thresh": -28,
+    "freq": 6000,
+    "diff": "Off",
+    "attack": 23.8561,
+    "release": 45.1545,
+    "knee": 4,
+    "mix": 50
+   }
+  },
+  {
+   "name": "Spoken Word",
+   "about": "dialogue / podcast: moderate, smooth",
+   "values": {
+    "intensity": 45,
+    "thresh": -22,
+    "freq": 5500,
+    "diff": "Off",
+    "attack": 50.0,
+    "release": 50.0,
+    "knee": 6,
+    "mix": 100
+   }
+  },
+  {
+   "name": "Hi-Hat Tamer",
+   "about": "hat sizzle ~10-12 kHz (iZotope); Freq tops out at 10 kHz",
+   "values": {
+    "intensity": 60,
+    "thresh": -26,
+    "freq": 9000,
+    "diff": "Off",
+    "attack": 15.0515,
+    "release": 34.9485,
+    "knee": 2,
+    "mix": 100
+   }
+  },
+  {
+   "name": "Cymbals in a Mix",
+   "about": "full mix / drum bus (Pro-DS Allround, Softube 'harsh cymbals'): gentle, blended",
+   "values": {
+    "intensity": 40,
+    "thresh": -22,
+    "freq": 7000,
+    "diff": "Off",
+    "attack": 34.9485,
+    "release": 60.206,
+    "knee": 8,
+    "mix": 70
+   }
+  }
+ ]
+}

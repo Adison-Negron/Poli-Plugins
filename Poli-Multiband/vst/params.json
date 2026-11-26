@@ -1,0 +1,490 @@
+{
+ "name": "Poli-Multiband",
+ "params": [
+  {
+   "key": "band",
+   "name": "Band",
+   "options": [
+    "Band 1",
+    "Band 2",
+    "Band 3"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "c_input",
+   "name": "Input",
+   "min": -24.0,
+   "max": 24.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "c_output",
+   "name": "Output",
+   "min": -24.0,
+   "max": 24.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "c_thresh",
+   "name": "Thresh",
+   "min": -60.0,
+   "max": 0.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "c_attack",
+   "name": "Attack",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 492.374,
+   "dynamic_display": true
+  },
+  {
+   "key": "c_release",
+   "name": "Release",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "c_knee",
+   "name": "Knee",
+   "min": 0.0,
+   "max": 24.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "c_ratio",
+   "name": "Ratio",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "x_freq",
+   "name": "Split",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 465.98,
+   "dynamic_display": true
+  },
+  {
+   "key": "u_thresh",
+   "name": "Up Thresh",
+   "min": -60.0,
+   "max": 0.0,
+   "default": -40.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "u_ratio",
+   "name": "Up Ratio",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "bypass",
+   "name": "Pass",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "sel1",
+   "name": "Band 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "sel2",
+   "name": "Band 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "sel3",
+   "name": "Band 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "m_out",
+   "name": "Band Out",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "m_in",
+   "name": "Band In",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "live": true
+  },
+  {
+   "key": "m_ct",
+   "name": "Comp Line",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 1.0,
+   "live": true
+  },
+  {
+   "key": "m_ut",
+   "name": "Up Line",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3448275862068966,
+   "live": true
+  },
+  {
+   "key": "range_text",
+   "name": "Band Range",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "preset",
+   "name": "Preset",
+   "options": [
+    "Init",
+    "Vox: Pop Lead",
+    "Vox: Rap Upfront",
+    "Vox: Trap Hook Dense",
+    "Vox: R&B Silk",
+    "Vox: Ballad Gentle",
+    "Vox: Rock Grit",
+    "Vox: NY Parallel Vox",
+    "Vox: Air & Presence",
+    "Vox: Backing Tuck",
+    "Vox: Podcast Leveler",
+    "Vox: De-Ess Male",
+    "Vox: De-Ess Female",
+    "Drm: NY Smash",
+    "Drm: Bus Glue",
+    "Drm: Kick Punch",
+    "Drm: Snare Crack",
+    "Drm: Dusty Break",
+    "Bass: 808 Control",
+    "Bass: Tight Low End",
+    "Bass: Growl Lift",
+    "Mix: Gentle Glue",
+    "Mst: Hip Hop Master",
+    "Mst: Clean Polish",
+    "Fx: OTT Full",
+    "Fx: OTT Lite",
+    "Fx: Lo-Fi Phone"
+   ],
+   "default": 0
+  },
+  {
+   "key": "preset_prev",
+   "name": "Preset <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_next",
+   "name": "Preset >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_list",
+   "name": "Preset list",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "browsing",
+   "name": "Browsing",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pre_hl",
+   "name": "Preset shown",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pick1",
+   "name": "Pick 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick2",
+   "name": "Pick 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick3",
+   "name": "Pick 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick4",
+   "name": "Pick 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick5",
+   "name": "Pick 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick6",
+   "name": "Pick 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick7",
+   "name": "Pick 7",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick8",
+   "name": "Pick 8",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick9",
+   "name": "Pick 9",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick10",
+   "name": "Pick 10",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick11",
+   "name": "Pick 11",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick12",
+   "name": "Pick 12",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick13",
+   "name": "Pick 13",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick14",
+   "name": "Pick 14",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick15",
+   "name": "Pick 15",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick16",
+   "name": "Pick 16",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick17",
+   "name": "Pick 17",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick18",
+   "name": "Pick 18",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick19",
+   "name": "Pick 19",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick20",
+   "name": "Pick 20",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick21",
+   "name": "Pick 21",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick22",
+   "name": "Pick 22",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick23",
+   "name": "Pick 23",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick24",
+   "name": "Pick 24",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick25",
+   "name": "Pick 25",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick26",
+   "name": "Pick 26",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick27",
+   "name": "Pick 27",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  }
+ ]
+}

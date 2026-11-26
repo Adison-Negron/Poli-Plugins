@@ -1,0 +1,21 @@
+{
+  "name": "Poli-tea",
+  "vendor": "Poli",
+  "uid": "PlTe",
+  "version": 1010,
+  "so": "poli_tea.so",
+  "effect": true,
+  "params": "params.json",
+  "layout": "layout.conf",
+  "art": "html",
+  "skin_post": "skin_post.py",
+  "targets": ["aarch64"],
+  "programs": {"param": "preset"},
+  "defines": {"HAS_DISPLAY_REV": 1, "DISPLAY_REV_NO_UPDATE": 1},
+  "build": {
+    "root": "..",
+    "sources": ["src/TeaDSP.cpp", "src/engine.cpp"],
+    "cflags": ["-Isrc", "-O3", "-ffast-math", "-U__FAST_MATH__"],
+    "libs": ["-lm"]
+  }
+}

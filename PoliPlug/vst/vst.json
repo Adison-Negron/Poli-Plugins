@@ -1,0 +1,43 @@
+{
+  "name": "PoliPlug",
+  "vendor": "Poli",
+  "uid": "PlPg",
+  "version": 1520,
+  "effect": true,
+  "art": "html",
+  "so": "poli_plug.so",
+  "params": "params.json",
+  "layout": "layout.conf",
+  "programs": {
+    "param": "hpreset"
+  },
+  "skin_post": "skin_post.py",
+  "targets": [
+    "aarch64"
+  ],
+  "defines": {
+    "MODULE_SUBDIR": "\".\"",
+    "HAS_SONG_POS": 1,
+    "PARAM_TEXT_MAX": 128,
+    "PROG_DYNAMIC": 1
+  },
+  "build": {
+    "root": "..",
+    "sources": [
+      "src/poliplug.c",
+      "src/discover.c",
+      "src/scan.c",
+      "src/cJSON.c"
+    ],
+    "cflags": [
+      "-Isrc",
+      "-O2",
+      "-Wno-format-truncation"
+    ],
+    "libs": [
+      "-lm",
+      "-ldl",
+      "-lpthread"
+    ]
+  }
+}

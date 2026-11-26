@@ -1,0 +1,616 @@
+{
+  "name": "Poliwow",
+  "params": [
+    {
+      "key": "wow",
+      "name": "Wow",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_display": true
+    },
+    {
+      "key": "mix",
+      "name": "Mix",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 100.0,
+      "dynamic_display": true
+    },
+    {
+      "key": "style",
+      "name": "Preset",
+      "options": [
+        "Glass Rise",
+        "Sparkle Sweep",
+        "Bloom",
+        "Crystal Rush",
+        "Aurora",
+        "Prism Lift",
+        "Shimmer Veil",
+        "Starlight Rise",
+        "Heaven Lift",
+        "Soft Smile",
+        "Cloud Nine",
+        "Halo",
+        "Angel Dust",
+        "Rising Echoes",
+        "Grain Storm",
+        "Room Bounce",
+        "Shatter",
+        "Snow Globe",
+        "Confetti",
+        "Swarm",
+        "Time Slip",
+        "Rewind",
+        "Echo Back",
+        "Backspin Rise",
+        "Deja Vu",
+        "Pulse Cloud",
+        "Ticker",
+        "Stutter Rise",
+        "Loose Grid",
+        "Half Time Haze",
+        "Sunrise",
+        "Big Smile",
+        "Bouncy Smile",
+        "Tape Rise",
+        "Hard Grin",
+        "Barber Pole",
+        "Face Melter",
+        "Liftoff",
+        "Endless Wow"
+      ],
+      "default": 0,
+      "refresh_display": true,
+      "qlink_ticks": 2
+    },
+    {
+      "key": "style_prev",
+      "name": "Preset <",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "style_next",
+      "name": "Preset >",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "page",
+      "name": "Page",
+      "options": [
+        "Wow",
+        "Granules"
+      ],
+      "default": 0,
+      "refresh_display": true,
+      "qlink_ticks": 2
+    },
+    {
+      "key": "tab1",
+      "name": "Wow page",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "tab2",
+      "name": "Settings",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "g_level",
+      "name": "Level",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 50.0,
+      "dynamic_display": true
+    },
+    {
+      "key": "g_size",
+      "name": "Size",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 50.0,
+      "dynamic_display": true
+    },
+    {
+      "key": "g_density",
+      "name": "Density",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 50.0,
+      "dynamic_display": true
+    },
+    {
+      "key": "g_speed",
+      "name": "Speed",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_display": true
+    },
+    {
+      "key": "g_split",
+      "name": "Split",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_display": true
+    },
+    {
+      "key": "g_retrace",
+      "name": "Retrace",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_display": true
+    },
+    {
+      "key": "g_rettime",
+      "name": "Time",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 50.0,
+      "dynamic_display": true
+    },
+    {
+      "key": "g_retlen",
+      "name": "Length",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 50.0,
+      "dynamic_display": true
+    },
+    {
+      "key": "g_var",
+      "name": "Variation",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_display": true
+    },
+    {
+      "key": "g_retmode",
+      "name": "Retrace mode",
+      "options": [
+        "Jump",
+        "Reverse"
+      ],
+      "default": 0,
+      "refresh_display": true,
+      "qlink_ticks": 2
+    },
+    {
+      "key": "g_sync",
+      "name": "Sync",
+      "options": [
+        "Off",
+        "On"
+      ],
+      "default": 0,
+      "refresh_display": true,
+      "qlink_ticks": 2
+    },
+    {
+      "key": "q1",
+      "name": "Q-Link 1",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_name": true,
+      "dynamic_display": true
+    },
+    {
+      "key": "q2",
+      "name": "Q-Link 2",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_name": true,
+      "dynamic_display": true
+    },
+    {
+      "key": "q3",
+      "name": "Q-Link 3",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_name": true,
+      "dynamic_display": true
+    },
+    {
+      "key": "q4",
+      "name": "Q-Link 4",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_name": true,
+      "dynamic_display": true
+    },
+    {
+      "key": "q5",
+      "name": "Q-Link 5",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_name": true,
+      "dynamic_display": true
+    },
+    {
+      "key": "q6",
+      "name": "Q-Link 6",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_name": true,
+      "dynamic_display": true
+    },
+    {
+      "key": "q7",
+      "name": "Q-Link 7",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_name": true,
+      "dynamic_display": true
+    },
+    {
+      "key": "q8",
+      "name": "Q-Link 8",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_name": true,
+      "dynamic_display": true
+    },
+    {
+      "key": "q9",
+      "name": "Q-Link 9",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_name": true,
+      "dynamic_display": true
+    },
+    {
+      "key": "q10",
+      "name": "Q-Link 10",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_name": true,
+      "dynamic_display": true
+    },
+    {
+      "key": "q11",
+      "name": "Q-Link 11",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_name": true,
+      "dynamic_display": true
+    },
+    {
+      "key": "q12",
+      "name": "Q-Link 12",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_name": true,
+      "dynamic_display": true
+    },
+    {
+      "key": "help_btn",
+      "name": "Help",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "help_next",
+      "name": "Help page",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "hview",
+      "name": "Help view",
+      "options": [
+        "Closed",
+        "Help 1",
+        "Help 2"
+      ],
+      "default": 0,
+      "live": true
+    },
+    {
+      "key": "cat",
+      "name": "Category",
+      "options": [
+        "Bright",
+        "Soft",
+        "Granular",
+        "Retrace",
+        "Synced",
+        "Medium",
+        "Hard"
+      ],
+      "default": 0,
+      "refresh_display": true,
+      "qlink_ticks": 2
+    },
+    {
+      "key": "cat_prev",
+      "name": "Category <",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "cat_next",
+      "name": "Category >",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "g_amount",
+      "name": "Amount",
+      "min": 0.0,
+      "max": 100.0,
+      "default": 0.0,
+      "dynamic_display": true
+    },
+    {
+      "key": "style_list",
+      "name": "Preset list",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "browsing",
+      "name": "Browsing",
+      "options": [
+        "Off",
+        "On"
+      ],
+      "default": 0,
+      "live": true
+    },
+    {
+      "key": "bview",
+      "name": "Browser view",
+      "options": [
+        "Closed",
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9",
+        "v10",
+        "v11"
+      ],
+      "default": 0,
+      "live": true
+    },
+    {
+      "key": "pre_hl",
+      "name": "Preset shown",
+      "options": [
+        "-",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "default": 0,
+      "live": true
+    },
+    {
+      "key": "bpage_prev",
+      "name": "Page <",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "bpage_next",
+      "name": "Page >",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "cat1",
+      "name": "Category 1",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "cat2",
+      "name": "Category 2",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "cat3",
+      "name": "Category 3",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "cat4",
+      "name": "Category 4",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "cat5",
+      "name": "Category 5",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "cat6",
+      "name": "Category 6",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "cat7",
+      "name": "Category 7",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "cat8",
+      "name": "Category 8",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "pick1",
+      "name": "Pick 1",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "pick2",
+      "name": "Pick 2",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "pick3",
+      "name": "Pick 3",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "pick4",
+      "name": "Pick 4",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "pick5",
+      "name": "Pick 5",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "pick6",
+      "name": "Pick 6",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "pick7",
+      "name": "Pick 7",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "pick8",
+      "name": "Pick 8",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "pick9",
+      "name": "Pick 9",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "pick10",
+      "name": "Pick 10",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "pick11",
+      "name": "Pick 11",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    },
+    {
+      "key": "pick12",
+      "name": "Pick 12",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "momentary": true
+    }
+  ]
+}

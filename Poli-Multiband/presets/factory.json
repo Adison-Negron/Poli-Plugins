@@ -1,0 +1,2332 @@
+{
+ "presets": [
+  {
+   "name": "Init",
+   "cat": "Init",
+   "about": "Every band at 1:1: the plugin does nothing. Start here to build your own.",
+   "x1": 500,
+   "x2": 4000,
+   "bands": [
+    {
+     "input": 0,
+     "out": 0,
+     "thr": 0,
+     "att": 3,
+     "rel": 100,
+     "knee": 0,
+     "ratio": 1,
+     "uthr": -40,
+     "uratio": 1
+    },
+    {
+     "input": 0,
+     "out": 0,
+     "thr": 0,
+     "att": 3,
+     "rel": 100,
+     "knee": 0,
+     "ratio": 1,
+     "uthr": -40,
+     "uratio": 1
+    },
+    {
+     "input": 0,
+     "out": 0,
+     "thr": 0,
+     "att": 3,
+     "rel": 100,
+     "knee": 0,
+     "ratio": 1,
+     "uthr": -40,
+     "uratio": 1
+    }
+   ]
+  },
+  {
+   "name": "Vox: Pop Lead",
+   "cat": "Vocal",
+   "about": "Modern pop lead: steady and forward. The body is held firmly (4:1, about 6 dB), the low end below 150 hz is kept from booming, and the top is lightly controlled with a little air added.",
+   "x1": 150,
+   "x2": 6000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 3.0,
+     "thr": -25.5,
+     "att": 8,
+     "rel": 120,
+     "knee": 6,
+     "ratio": 3,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 4.0,
+     "thr": -23.0,
+     "att": 5,
+     "rel": 70,
+     "knee": 6,
+     "ratio": 4,
+     "uthr": -41.0,
+     "uratio": 1.5
+    },
+    {
+     "input": 0.0,
+     "out": 5.5,
+     "thr": -37.5,
+     "att": 1,
+     "rel": 60,
+     "knee": 6,
+     "ratio": 4,
+     "uthr": -40.0,
+     "uratio": 1.0
+    }
+   ],
+   "measured_on": "vocal",
+   "measured": {
+    "rms_in": -21.58,
+    "rms_out": -21.72,
+    "peak_in": -2.96,
+    "peak_out": -0.1,
+    "lim_max": 0.84,
+    "lim_frac": 0.00087,
+    "bands": [
+     {
+      "active": 0.93,
+      "down_mean": 1.25,
+      "down_p90": 4.15,
+      "down_p97": 5.03,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.876,
+      "down_mean": 2.01,
+      "down_p90": 6.05,
+      "down_p97": 7.34,
+      "up_mean": 0.47,
+      "up_p90": 1.94
+     },
+     {
+      "active": 0.212,
+      "down_mean": 1.08,
+      "down_p90": 3.98,
+      "down_p97": 7.55,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 4
+    },
+    {
+     "dn": 6,
+     "up": 2
+    },
+    {
+     "dn": 4
+    }
+   ]
+  },
+  {
+   "name": "Vox: Rap Upfront",
+   "cat": "Vocal",
+   "about": "Hip hop lead: fast attack and release keep every word locked in front of the beat, and the upward stage brings the ends of words up.",
+   "x1": 120,
+   "x2": 5500,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 4.0,
+     "thr": -27.5,
+     "att": 5,
+     "rel": 80,
+     "knee": 3,
+     "ratio": 4,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 5.5,
+     "thr": -23.5,
+     "att": 2,
+     "rel": 40,
+     "knee": 3,
+     "ratio": 5,
+     "uthr": -44.0,
+     "uratio": 2
+    },
+    {
+     "input": 0.0,
+     "out": 6.5,
+     "thr": -37.5,
+     "att": 0.5,
+     "rel": 40,
+     "knee": 3,
+     "ratio": 5,
+     "uthr": -40.0,
+     "uratio": 1.0
+    }
+   ],
+   "measured_on": "vocal",
+   "measured": {
+    "rms_in": -21.58,
+    "rms_out": -21.67,
+    "peak_in": -2.96,
+    "peak_out": -0.1,
+    "lim_max": 0.18,
+    "lim_frac": 0.0,
+    "bands": [
+     {
+      "active": 0.885,
+      "down_mean": 1.41,
+      "down_p90": 4.81,
+      "down_p97": 5.62,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.855,
+      "down_mean": 2.92,
+      "down_p90": 8.04,
+      "down_p97": 9.46,
+      "up_mean": 0.65,
+      "up_p90": 3.03
+     },
+     {
+      "active": 0.244,
+      "down_mean": 1.3,
+      "down_p90": 4.8,
+      "down_p97": 9.3,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 5
+    },
+    {
+     "dn": 8,
+     "up": 3
+    },
+    {
+     "dn": 5
+    }
+   ]
+  },
+  {
+   "name": "Vox: Trap Hook Dense",
+   "cat": "Vocal",
+   "about": "Melodic trap and hooks: very dense, almost OTT on the voice. Heavy downward plus strong upward compression in the mids and highs, so breaths and tails sit as loud as the words.",
+   "x1": 150,
+   "x2": 5000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 4.5,
+     "thr": -26.5,
+     "att": 3,
+     "rel": 80,
+     "knee": 6,
+     "ratio": 4,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 6.5,
+     "thr": -24.0,
+     "att": 1.5,
+     "rel": 50,
+     "knee": 6,
+     "ratio": 6,
+     "uthr": -39.5,
+     "uratio": 2.5
+    },
+    {
+     "input": 0.0,
+     "out": 7.5,
+     "thr": -37.5,
+     "att": 0.5,
+     "rel": 40,
+     "knee": 6,
+     "ratio": 4,
+     "uthr": -49.0,
+     "uratio": 2
+    }
+   ],
+   "measured_on": "vocal",
+   "measured": {
+    "rms_in": -21.58,
+    "rms_out": -21.63,
+    "peak_in": -2.96,
+    "peak_out": -0.1,
+    "lim_max": -0.0,
+    "lim_frac": 0.0,
+    "bands": [
+     {
+      "active": 0.921,
+      "down_mean": 1.84,
+      "down_p90": 6.0,
+      "down_p97": 7.03,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.866,
+      "down_mean": 3.41,
+      "down_p90": 8.99,
+      "down_p97": 10.53,
+      "up_mean": 1.13,
+      "up_p90": 5.87
+     },
+     {
+      "active": 0.295,
+      "down_mean": 1.48,
+      "down_p90": 4.98,
+      "down_p97": 9.33,
+      "up_mean": 1.16,
+      "up_p90": 4.09
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 6
+    },
+    {
+     "dn": 9,
+     "up": 6
+    },
+    {
+     "dn": 5,
+     "up": 4
+    }
+   ]
+  },
+  {
+   "name": "Vox: R&B Silk",
+   "cat": "Vocal",
+   "about": "Smooth R&B / soul: soft knees and slower times so the voice is even without sounding squeezed. A gentle upward lift brings out breathy detail and air.",
+   "x1": 180,
+   "x2": 7000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 2.5,
+     "thr": -23.5,
+     "att": 15,
+     "rel": 150,
+     "knee": 12,
+     "ratio": 2.5,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 3.0,
+     "thr": -24.0,
+     "att": 10,
+     "rel": 100,
+     "knee": 12,
+     "ratio": 3,
+     "uthr": -36.0,
+     "uratio": 1.8
+    },
+    {
+     "input": 0.0,
+     "out": 4.0,
+     "thr": -38.0,
+     "att": 2,
+     "rel": 80,
+     "knee": 12,
+     "ratio": 3,
+     "uthr": -51.5,
+     "uratio": 1.5
+    }
+   ],
+   "measured_on": "vocal",
+   "measured": {
+    "rms_in": -21.58,
+    "rms_out": -21.79,
+    "peak_in": -2.96,
+    "peak_out": -0.21,
+    "lim_max": -0.0,
+    "lim_frac": 0.0,
+    "bands": [
+     {
+      "active": 0.945,
+      "down_mean": 0.93,
+      "down_p90": 2.93,
+      "down_p97": 3.73,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.894,
+      "down_mean": 1.84,
+      "down_p90": 4.97,
+      "down_p97": 6.16,
+      "up_mean": 0.7,
+      "up_p90": 2.96
+     },
+     {
+      "active": 0.127,
+      "down_mean": 0.94,
+      "down_p90": 3.11,
+      "down_p97": 5.66,
+      "up_mean": 0.69,
+      "up_p90": 2.06
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 3
+    },
+    {
+     "dn": 5,
+     "up": 3
+    },
+    {
+     "dn": 3,
+     "up": 2
+    }
+   ]
+  },
+  {
+   "name": "Vox: Ballad Gentle",
+   "cat": "Vocal",
+   "about": "Soft vocals in a sparse mix (acoustic, ballads): 2:1, slow attack and long release, a few dB at most, so the performance keeps its dynamics.",
+   "x1": 150,
+   "x2": 6000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 2.0,
+     "thr": -24.0,
+     "att": 20,
+     "rel": 200,
+     "knee": 12,
+     "ratio": 2,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 2.0,
+     "thr": -22.5,
+     "att": 20,
+     "rel": 200,
+     "knee": 12,
+     "ratio": 2,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 2.0,
+     "thr": -38.0,
+     "att": 10,
+     "rel": 150,
+     "knee": 12,
+     "ratio": 2,
+     "uthr": -40.0,
+     "uratio": 1.0
+    }
+   ],
+   "measured_on": "vocal",
+   "measured": {
+    "rms_in": -21.58,
+    "rms_out": -21.52,
+    "peak_in": -2.96,
+    "peak_out": -0.95,
+    "lim_max": -0.0,
+    "lim_frac": 0.0,
+    "bands": [
+     {
+      "active": 0.952,
+      "down_mean": 0.66,
+      "down_p90": 2.04,
+      "down_p97": 2.59,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.956,
+      "down_mean": 1.17,
+      "down_p90": 2.99,
+      "down_p97": 3.72,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.184,
+      "down_mean": 0.65,
+      "down_p90": 2.09,
+      "down_p97": 3.6,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 2
+    },
+    {
+     "dn": 3
+    },
+    {
+     "dn": 2
+    }
+   ]
+  },
+  {
+   "name": "Vox: Rock Grit",
+   "cat": "Vocal",
+   "about": "Rock / metal vocals: fast attack and release with the mids pushed into about 10 dB of reduction at 6:1. Brings out the rasp and keeps a screamed line as loud as a sung one.",
+   "x1": 250,
+   "x2": 4000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 4.5,
+     "thr": -22.5,
+     "att": 3,
+     "rel": 60,
+     "knee": 3,
+     "ratio": 4,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 6.5,
+     "thr": -26.5,
+     "att": 1,
+     "rel": 50,
+     "knee": 0,
+     "ratio": 6,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 5.5,
+     "thr": -36.5,
+     "att": 1,
+     "rel": 50,
+     "knee": 3,
+     "ratio": 4,
+     "uthr": -40.0,
+     "uratio": 1.0
+    }
+   ],
+   "measured_on": "vocal",
+   "measured": {
+    "rms_in": -21.58,
+    "rms_out": -21.72,
+    "peak_in": -2.96,
+    "peak_out": -2.44,
+    "lim_max": -0.0,
+    "lim_frac": 0.0,
+    "bands": [
+     {
+      "active": 0.917,
+      "down_mean": 1.45,
+      "down_p90": 5.16,
+      "down_p97": 6.58,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.856,
+      "down_mean": 3.84,
+      "down_p90": 10.12,
+      "down_p97": 12.3,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.412,
+      "down_mean": 1.51,
+      "down_p90": 5.1,
+      "down_p97": 8.96,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 5
+    },
+    {
+     "dn": 10
+    },
+    {
+     "dn": 5
+    }
+   ]
+  },
+  {
+   "name": "Vox: NY Parallel Vox",
+   "cat": "Vocal",
+   "about": "New York (parallel) compression for vocals. Parallel compression lifts the quiet parts and leaves the peaks alone, which is exactly what upward compression does: thick and present, with the transients intact.",
+   "x1": 150,
+   "x2": 6000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 1.0,
+     "thr": -23.0,
+     "att": 10,
+     "rel": 100,
+     "knee": 6,
+     "ratio": 1.5,
+     "uthr": -39.0,
+     "uratio": 2
+    },
+    {
+     "input": 0.0,
+     "out": 1.0,
+     "thr": -20.0,
+     "att": 10,
+     "rel": 100,
+     "knee": 6,
+     "ratio": 2,
+     "uthr": -34.0,
+     "uratio": 3
+    },
+    {
+     "input": 0.0,
+     "out": 1.0,
+     "thr": -36.0,
+     "att": 5,
+     "rel": 80,
+     "knee": 6,
+     "ratio": 1.5,
+     "uthr": -50.0,
+     "uratio": 2.5
+    }
+   ],
+   "measured_on": "vocal",
+   "measured": {
+    "rms_in": -21.58,
+    "rms_out": -21.73,
+    "peak_in": -2.96,
+    "peak_out": -1.83,
+    "lim_max": -0.0,
+    "lim_frac": 0.0,
+    "bands": [
+     {
+      "active": 0.902,
+      "down_mean": 0.28,
+      "down_p90": 1.06,
+      "down_p97": 1.51,
+      "up_mean": 0.73,
+      "up_p90": 2.92
+     },
+     {
+      "active": 0.898,
+      "down_mean": 0.51,
+      "down_p90": 2.02,
+      "down_p97": 2.88,
+      "up_mean": 1.28,
+      "up_p90": 5.92
+     },
+     {
+      "active": 0.156,
+      "down_mean": 0.25,
+      "down_p90": 1.05,
+      "down_p97": 2.19,
+      "up_mean": 1.49,
+      "up_p90": 4.87
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 1,
+     "up": 3
+    },
+    {
+     "dn": 2,
+     "up": 6
+    },
+    {
+     "dn": 1,
+     "up": 5
+    }
+   ]
+  },
+  {
+   "name": "Vox: Air & Presence",
+   "cat": "Vocal",
+   "about": "Brings a dull vocal forward: upward compression on the top band (above 8k) lifts the air and breath, the mids are evened out gently and the lows are trimmed.",
+   "x1": 200,
+   "x2": 8000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 1.5,
+     "thr": -21.5,
+     "att": 10,
+     "rel": 120,
+     "knee": 6,
+     "ratio": 2,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 2.5,
+     "thr": -22.0,
+     "att": 8,
+     "rel": 80,
+     "knee": 6,
+     "ratio": 2.5,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 4.5,
+     "thr": -39.0,
+     "att": 2,
+     "rel": 80,
+     "knee": 6,
+     "ratio": 2,
+     "uthr": -49.5,
+     "uratio": 3
+    }
+   ],
+   "measured_on": "vocal",
+   "measured": {
+    "rms_in": -21.58,
+    "rms_out": -21.37,
+    "peak_in": -2.96,
+    "peak_out": -0.64,
+    "lim_max": -0.0,
+    "lim_frac": 0.0,
+    "bands": [
+     {
+      "active": 0.94,
+      "down_mean": 0.52,
+      "down_p90": 1.93,
+      "down_p97": 2.69,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.875,
+      "down_mean": 0.85,
+      "down_p90": 3.1,
+      "down_p97": 4.39,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.068,
+      "down_mean": 0.53,
+      "down_p90": 1.88,
+      "down_p97": 3.62,
+      "up_mean": 2.52,
+      "up_p90": 5.98
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 2
+    },
+    {
+     "dn": 3
+    },
+    {
+     "dn": 2,
+     "up": 6
+    }
+   ]
+  },
+  {
+   "name": "Vox: Backing Tuck",
+   "cat": "Vocal",
+   "about": "Backing vocals and doubles: compressed harder than the lead so they stay at one level behind it, with the low end thinned out and the esses pulled back so they don't fight the lead.",
+   "x1": 250,
+   "x2": 5000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 0.5,
+     "thr": -25.5,
+     "att": 8,
+     "rel": 100,
+     "knee": 6,
+     "ratio": 3,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 5.5,
+     "thr": -24.5,
+     "att": 3,
+     "rel": 60,
+     "knee": 6,
+     "ratio": 5,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 3.5,
+     "thr": -38.5,
+     "att": 0.5,
+     "rel": 50,
+     "knee": 6,
+     "ratio": 4,
+     "uthr": -40.0,
+     "uratio": 1.0
+    }
+   ],
+   "measured_on": "vocal",
+   "measured": {
+    "rms_in": -21.58,
+    "rms_out": -22.99,
+    "peak_in": -2.96,
+    "peak_out": -0.1,
+    "lim_max": 1.57,
+    "lim_frac": 0.00189,
+    "bands": [
+     {
+      "active": 0.935,
+      "down_mean": 1.95,
+      "down_p90": 6.0,
+      "down_p97": 7.15,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.859,
+      "down_mean": 2.22,
+      "down_p90": 6.86,
+      "down_p97": 8.99,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.328,
+      "down_mean": 1.86,
+      "down_p90": 5.84,
+      "down_p97": 10.17,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 6
+    },
+    {
+     "dn": 7
+    },
+    {
+     "dn": 6
+    }
+   ]
+  },
+  {
+   "name": "Vox: Podcast Leveler",
+   "cat": "Vocal",
+   "about": "Spoken word, skits and podcasts: evens out loud and quiet words (downward and upward together), and controls proximity boom when the talker leans in.",
+   "x1": 200,
+   "x2": 6000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 1.0,
+     "thr": -25.0,
+     "att": 10,
+     "rel": 150,
+     "knee": 6,
+     "ratio": 3,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 2.0,
+     "thr": -25.0,
+     "att": 10,
+     "rel": 150,
+     "knee": 9,
+     "ratio": 3,
+     "uthr": -26.0,
+     "uratio": 2
+    },
+    {
+     "input": 0.0,
+     "out": 2.0,
+     "thr": -38.0,
+     "att": 1,
+     "rel": 60,
+     "knee": 6,
+     "ratio": 3,
+     "uthr": -40.0,
+     "uratio": 1.0
+    }
+   ],
+   "measured_on": "vocal",
+   "measured": {
+    "rms_in": -21.58,
+    "rms_out": -23.97,
+    "peak_in": -2.96,
+    "peak_out": -0.1,
+    "lim_max": 1.53,
+    "lim_frac": 0.00185,
+    "bands": [
+     {
+      "active": 0.96,
+      "down_mean": 1.64,
+      "down_p90": 5.1,
+      "down_p97": 6.09,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.934,
+      "down_mean": 2.34,
+      "down_p90": 5.88,
+      "down_p97": 7.07,
+      "up_mean": 1.47,
+      "up_p90": 6.0
+     },
+     {
+      "active": 0.212,
+      "down_mean": 1.07,
+      "down_p90": 3.87,
+      "down_p97": 7.04,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 5
+    },
+    {
+     "dn": 6,
+     "up": 6
+    },
+    {
+     "dn": 4
+    }
+   ]
+  },
+  {
+   "name": "Vox: De-Ess Male",
+   "cat": "Vocal",
+   "about": "De-esser for lower voices: only the band above 5k works, fast (0.1 ms) at 8:1, so only the esses and harsh t's are pulled down. The rest of the voice is untouched.",
+   "x1": 1000,
+   "x2": 5000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 0.0,
+     "thr": 0.0,
+     "att": 3.0,
+     "rel": 100.0,
+     "knee": 0.0,
+     "ratio": 1,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 0.0,
+     "thr": 0.0,
+     "att": 3.0,
+     "rel": 100.0,
+     "knee": 0.0,
+     "ratio": 1,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 0.0,
+     "thr": -33.5,
+     "att": 0.1,
+     "rel": 50,
+     "knee": 3,
+     "ratio": 8,
+     "uthr": -40.0,
+     "uratio": 1.0
+    }
+   ],
+   "measured_on": "vocal",
+   "measured": {
+    "rms_in": -21.58,
+    "rms_out": -21.6,
+    "peak_in": -2.96,
+    "peak_out": -2.73,
+    "lim_max": -0.0,
+    "lim_frac": 0.0,
+    "bands": [
+     {
+      "active": 0.968,
+      "down_mean": 0.0,
+      "down_p90": -0.0,
+      "down_p97": -0.0,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.847,
+      "down_mean": 0.0,
+      "down_p90": -0.0,
+      "down_p97": -0.0,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.402,
+      "down_mean": 0.89,
+      "down_p90": 3.3,
+      "down_p97": 8.16,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     }
+    ]
+   },
+   "targets": [
+    {},
+    {},
+    {
+     "dn97": 8
+    }
+   ]
+  },
+  {
+   "name": "Vox: De-Ess Female",
+   "cat": "Vocal",
+   "about": "De-esser for higher voices: the same as De-Ess Male with the split at 7k, where higher voices' sibilance sits.",
+   "x1": 1000,
+   "x2": 7000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 0.0,
+     "thr": 0.0,
+     "att": 3.0,
+     "rel": 100.0,
+     "knee": 0.0,
+     "ratio": 1,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 0.0,
+     "thr": 0.0,
+     "att": 3.0,
+     "rel": 100.0,
+     "knee": 0.0,
+     "ratio": 1,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 0.0,
+     "thr": -37.0,
+     "att": 0.1,
+     "rel": 50,
+     "knee": 3,
+     "ratio": 8,
+     "uthr": -40.0,
+     "uratio": 1.0
+    }
+   ],
+   "measured_on": "vocal",
+   "measured": {
+    "rms_in": -21.58,
+    "rms_out": -21.59,
+    "peak_in": -2.96,
+    "peak_out": -2.74,
+    "lim_max": -0.0,
+    "lim_frac": 0.0,
+    "bands": [
+     {
+      "active": 0.968,
+      "down_mean": 0.0,
+      "down_p90": -0.0,
+      "down_p97": -0.0,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.851,
+      "down_mean": 0.0,
+      "down_p90": -0.0,
+      "down_p97": -0.0,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.194,
+      "down_mean": 0.93,
+      "down_p90": 3.48,
+      "down_p97": 8.07,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     }
+    ]
+   },
+   "targets": [
+    {},
+    {},
+    {
+     "dn97": 8
+    }
+   ]
+  },
+  {
+   "name": "Drm: NY Smash",
+   "cat": "Drums",
+   "about": "New York drum compression in one plugin: strong upward compression on every band lifts the room, ghost notes and tails (the parallel 'smash'), while a 10 ms attack lets the hits through untouched.",
+   "x1": 100,
+   "x2": 5000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 2.0,
+     "thr": -21.5,
+     "att": 10,
+     "rel": 120,
+     "knee": 6,
+     "ratio": 4,
+     "uthr": -27.5,
+     "uratio": 3
+    },
+    {
+     "input": 0.0,
+     "out": 2.0,
+     "thr": -21.0,
+     "att": 10,
+     "rel": 120,
+     "knee": 6,
+     "ratio": 4,
+     "uthr": -27.0,
+     "uratio": 3
+    },
+    {
+     "input": 0.0,
+     "out": 2.0,
+     "thr": -29.0,
+     "att": 10,
+     "rel": 120,
+     "knee": 6,
+     "ratio": 4,
+     "uthr": -45.0,
+     "uratio": 3
+    }
+   ],
+   "measured_on": "drums",
+   "measured": {
+    "rms_in": -20.2,
+    "rms_out": -19.96,
+    "peak_in": -1.03,
+    "peak_out": -0.48,
+    "lim_max": -0.0,
+    "lim_frac": 0.0,
+    "bands": [
+     {
+      "active": 0.952,
+      "down_mean": 0.86,
+      "down_p90": 2.89,
+      "down_p97": 5.83,
+      "up_mean": 2.04,
+      "up_p90": 7.86
+     },
+     {
+      "active": 0.983,
+      "down_mean": 0.86,
+      "down_p90": 3.04,
+      "down_p97": 4.39,
+      "up_mean": 1.96,
+      "up_p90": 7.95
+     },
+     {
+      "active": 0.638,
+      "down_mean": 0.68,
+      "down_p90": 3.0,
+      "down_p97": 4.11,
+      "up_mean": 1.49,
+      "up_p90": 5.98
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 3,
+     "up": 8
+    },
+    {
+     "dn": 3,
+     "up": 8
+    },
+    {
+     "dn": 3,
+     "up": 6
+    }
+   ]
+  },
+  {
+   "name": "Drm: Bus Glue",
+   "cat": "Drums",
+   "about": "Classic bus-compressor glue (SSL-style 4:1, 10 ms attack, 250 ms release, 2-3 dB) on each band, so the kick can't pull the hats down.",
+   "x1": 120,
+   "x2": 6000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 1.5,
+     "thr": -18.5,
+     "att": 10,
+     "rel": 250,
+     "knee": 6,
+     "ratio": 4,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 1.5,
+     "thr": -20.5,
+     "att": 10,
+     "rel": 250,
+     "knee": 6,
+     "ratio": 4,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 1.5,
+     "thr": -29.0,
+     "att": 10,
+     "rel": 250,
+     "knee": 6,
+     "ratio": 4,
+     "uthr": -40.0,
+     "uratio": 1.0
+    }
+   ],
+   "measured_on": "drums",
+   "measured": {
+    "rms_in": -20.2,
+    "rms_out": -20.32,
+    "peak_in": -1.03,
+    "peak_out": -0.64,
+    "lim_max": -0.0,
+    "lim_frac": 0.0,
+    "bands": [
+     {
+      "active": 0.999,
+      "down_mean": 0.82,
+      "down_p90": 3.02,
+      "down_p97": 4.9,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.999,
+      "down_mean": 0.8,
+      "down_p90": 3.06,
+      "down_p97": 4.3,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.901,
+      "down_mean": 0.74,
+      "down_p90": 3.03,
+      "down_p97": 4.01,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 3
+    },
+    {
+     "dn": 3
+    },
+    {
+     "dn": 3
+    }
+   ]
+  },
+  {
+   "name": "Drm: Kick Punch",
+   "cat": "Drums",
+   "about": "Punch: a 25 ms attack on the low band lets the kick's front through and clamps the body, so the hit stands out. Boxiness is held back and a little click is lifted.",
+   "x1": 120,
+   "x2": 3000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 3.5,
+     "thr": -26.5,
+     "att": 25,
+     "rel": 80,
+     "knee": 3,
+     "ratio": 4,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 1.0,
+     "thr": -23.0,
+     "att": 10,
+     "rel": 80,
+     "knee": 6,
+     "ratio": 3,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 2.5,
+     "thr": -26.5,
+     "att": 5,
+     "rel": 60,
+     "knee": 6,
+     "ratio": 2,
+     "uthr": -52.0,
+     "uratio": 2
+    }
+   ],
+   "measured_on": "drums",
+   "measured": {
+    "rms_in": -20.2,
+    "rms_out": -20.66,
+    "peak_in": -1.03,
+    "peak_out": -0.1,
+    "lim_max": 1.18,
+    "lim_frac": 0.00169,
+    "bands": [
+     {
+      "active": 0.89,
+      "down_mean": 2.35,
+      "down_p90": 5.14,
+      "down_p97": 7.6,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.898,
+      "down_mean": 0.8,
+      "down_p90": 2.84,
+      "down_p97": 4.25,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.488,
+      "down_mean": 0.42,
+      "down_p90": 1.92,
+      "down_p97": 2.86,
+      "up_mean": 0.68,
+      "up_p90": 2.9
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 5
+    },
+    {
+     "dn": 3
+    },
+    {
+     "dn": 2,
+     "up": 3
+    }
+   ]
+  },
+  {
+   "name": "Drm: Snare Crack",
+   "cat": "Drums",
+   "about": "Snare and claps: the body band (180 hz-4.5k) gets a slow-ish attack for crack, and the top band lifts the ring and air between hits.",
+   "x1": 180,
+   "x2": 4500,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 1.5,
+     "thr": -19.5,
+     "att": 10,
+     "rel": 100,
+     "knee": 6,
+     "ratio": 2,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 3.5,
+     "thr": -30.0,
+     "att": 15,
+     "rel": 100,
+     "knee": 3,
+     "ratio": 4,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 3.5,
+     "thr": -25.5,
+     "att": 2,
+     "rel": 80,
+     "knee": 6,
+     "ratio": 3,
+     "uthr": -49.5,
+     "uratio": 2.5
+    }
+   ],
+   "measured_on": "drums",
+   "measured": {
+    "rms_in": -20.2,
+    "rms_out": -20.37,
+    "peak_in": -1.03,
+    "peak_out": -0.1,
+    "lim_max": 0.47,
+    "lim_frac": 0.0,
+    "bands": [
+     {
+      "active": 0.954,
+      "down_mean": 0.75,
+      "down_p90": 1.98,
+      "down_p97": 3.72,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.882,
+      "down_mean": 2.1,
+      "down_p90": 6.08,
+      "down_p97": 8.0,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.585,
+      "down_mean": 0.62,
+      "down_p90": 2.87,
+      "down_p97": 4.35,
+      "up_mean": 0.89,
+      "up_p90": 3.85
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 2
+    },
+    {
+     "dn": 6
+    },
+    {
+     "dn": 3,
+     "up": 4
+    }
+   ]
+  },
+  {
+   "name": "Drm: Dusty Break",
+   "cat": "Drums",
+   "about": "Chopped breaks the boom bap way: hard, fast compression that pumps, the quiet ghost notes pulled up, and a darker, dusty top.",
+   "x1": 150,
+   "x2": 3500,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 5.5,
+     "thr": -23.0,
+     "att": 5,
+     "rel": 60,
+     "knee": 3,
+     "ratio": 6,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 4.5,
+     "thr": -28.5,
+     "att": 1,
+     "rel": 40,
+     "knee": 3,
+     "ratio": 8,
+     "uthr": -40.5,
+     "uratio": 2
+    },
+    {
+     "input": 0.0,
+     "out": 0.5,
+     "thr": -28.0,
+     "att": 0.5,
+     "rel": 40,
+     "knee": 3,
+     "ratio": 6,
+     "uthr": -40.0,
+     "uratio": 1.0
+    }
+   ],
+   "measured_on": "drums",
+   "measured": {
+    "rms_in": -20.2,
+    "rms_out": -20.35,
+    "peak_in": -1.03,
+    "peak_out": -4.6,
+    "lim_max": -0.0,
+    "lim_frac": 0.0,
+    "bands": [
+     {
+      "active": 0.879,
+      "down_mean": 2.69,
+      "down_p90": 5.83,
+      "down_p97": 9.52,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.833,
+      "down_mean": 3.81,
+      "down_p90": 8.97,
+      "down_p97": 12.49,
+      "up_mean": 0.88,
+      "up_p90": 3.89
+     },
+     {
+      "active": 0.443,
+      "down_mean": 1.92,
+      "down_p90": 7.94,
+      "down_p97": 9.77,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 6
+    },
+    {
+     "dn": 9,
+     "up": 4
+    },
+    {
+     "dn": 8
+    }
+   ]
+  },
+  {
+   "name": "Bass: 808 Control",
+   "cat": "Bass",
+   "about": "808s: the sub (below 100 hz) is held even with a long release, so it doesn't distort, and the harmonics and knock (100 hz-1.2k) are lifted so the 808 is heard on phones and laptops.",
+   "x1": 100,
+   "x2": 1200,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 0.5,
+     "thr": -11.0,
+     "att": 10,
+     "rel": 200,
+     "knee": 6,
+     "ratio": 4,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 1.5,
+     "thr": -21.5,
+     "att": 5,
+     "rel": 120,
+     "knee": 6,
+     "ratio": 3,
+     "uthr": -21.5,
+     "uratio": 2.5
+    },
+    {
+     "input": 0.0,
+     "out": 0.5,
+     "thr": -30,
+     "att": 1,
+     "rel": 60,
+     "knee": 6,
+     "ratio": 2,
+     "uthr": -40.0,
+     "uratio": 1.0
+    }
+   ],
+   "measured_on": "808",
+   "measured": {
+    "rms_in": -9.73,
+    "rms_out": -12.02,
+    "peak_in": -1.0,
+    "peak_out": -0.1,
+    "lim_max": 0.61,
+    "lim_frac": 0.0006,
+    "bands": [
+     {
+      "active": 1.0,
+      "down_mean": 1.89,
+      "down_p90": 4.94,
+      "down_p97": 5.8,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 1.0,
+      "down_mean": 0.85,
+      "down_p90": 2.94,
+      "down_p97": 4.26,
+      "up_mean": 1.77,
+      "up_p90": 4.5
+     },
+     {
+      "active": 0.013,
+      "down_mean": 0.0,
+      "down_p90": -0.0,
+      "down_p97": -0.0,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 5
+    },
+    {
+     "dn": 3,
+     "up": 6
+    },
+    {}
+   ]
+  },
+  {
+   "name": "Bass: Tight Low End",
+   "cat": "Bass",
+   "about": "Bass guitar and synth bass: the deep end (below 60 hz) is held tightly and the body (60-800 hz) evened out. The low band releases at about twice the mid band's time, so it doesn't pump.",
+   "x1": 60,
+   "x2": 800,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 2.0,
+     "thr": -28.0,
+     "att": 10,
+     "rel": 160,
+     "knee": 6,
+     "ratio": 4,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 2.0,
+     "thr": -21.0,
+     "att": 15,
+     "rel": 80,
+     "knee": 6,
+     "ratio": 3,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 2.0,
+     "thr": -27.0,
+     "att": 10,
+     "rel": 80,
+     "knee": 6,
+     "ratio": 2,
+     "uthr": -40.0,
+     "uratio": 1.0
+    }
+   ],
+   "measured_on": "drums",
+   "measured": {
+    "rms_in": -20.2,
+    "rms_out": -20.32,
+    "peak_in": -1.03,
+    "peak_out": -0.17,
+    "lim_max": -0.0,
+    "lim_frac": 0.0,
+    "bands": [
+     {
+      "active": 0.936,
+      "down_mean": 1.2,
+      "down_p90": 4.17,
+      "down_p97": 6.78,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.936,
+      "down_mean": 1.1,
+      "down_p90": 3.16,
+      "down_p97": 3.95,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.696,
+      "down_mean": 0.34,
+      "down_p90": 1.51,
+      "down_p97": 2.69,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 4
+    },
+    {
+     "dn": 3
+    },
+    {
+     "dn": 1.5
+    }
+   ]
+  },
+  {
+   "name": "Bass: Growl Lift",
+   "cat": "Bass",
+   "about": "Reese, growl and distorted bass: upward compression on the mid and top bands brings the grit and movement forward, and the sub stays steady.",
+   "x1": 100,
+   "x2": 2500,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 0.5,
+     "thr": -9.0,
+     "att": 10,
+     "rel": 150,
+     "knee": 6,
+     "ratio": 3,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 2.0,
+     "thr": -23.0,
+     "att": 5,
+     "rel": 80,
+     "knee": 6,
+     "ratio": 4,
+     "uthr": -23.0,
+     "uratio": 3
+    },
+    {
+     "input": 0.0,
+     "out": 0.5,
+     "thr": -30,
+     "att": 2,
+     "rel": 60,
+     "knee": 6,
+     "ratio": 3,
+     "uthr": -42,
+     "uratio": 2
+    }
+   ],
+   "measured_on": "808",
+   "measured": {
+    "rms_in": -9.73,
+    "rms_out": -10.87,
+    "peak_in": -1.0,
+    "peak_out": -0.1,
+    "lim_max": 0.79,
+    "lim_frac": 0.0014,
+    "bands": [
+     {
+      "active": 1.0,
+      "down_mean": 0.91,
+      "down_p90": 2.93,
+      "down_p97": 3.72,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 1.0,
+      "down_mean": 1.26,
+      "down_p90": 4.04,
+      "down_p97": 5.51,
+      "up_mean": 1.65,
+      "up_p90": 4.46
+     },
+     {
+      "active": 0.0,
+      "down_mean": 0.0,
+      "down_p90": 0.0,
+      "down_p97": 0.0,
+      "up_mean": 7.18,
+      "up_p90": 8.68
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 3
+    },
+    {
+     "dn": 4,
+     "up": 6
+    },
+    {}
+   ]
+  },
+  {
+   "name": "Mix: Gentle Glue",
+   "cat": "Mix",
+   "about": "Mix bus glue: 2:1 with slow attack and a soft knee, about 2 dB per band. Holds a beat together without changing its sound.",
+   "x1": 120,
+   "x2": 5000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 1.5,
+     "thr": -18.0,
+     "att": 30,
+     "rel": 200,
+     "knee": 12,
+     "ratio": 2,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 1.5,
+     "thr": -17.0,
+     "att": 30,
+     "rel": 200,
+     "knee": 12,
+     "ratio": 2,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 1.5,
+     "thr": -32.5,
+     "att": 30,
+     "rel": 200,
+     "knee": 12,
+     "ratio": 2,
+     "uthr": -40.0,
+     "uratio": 1.0
+    }
+   ],
+   "measured_on": "mix",
+   "measured": {
+    "rms_in": -17.04,
+    "rms_out": -16.91,
+    "peak_in": -0.29,
+    "peak_out": -0.1,
+    "lim_max": 1.3,
+    "lim_frac": 0.00083,
+    "bands": [
+     {
+      "active": 0.998,
+      "down_mean": 0.75,
+      "down_p90": 1.9,
+      "down_p97": 3.38,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.998,
+      "down_mean": 0.78,
+      "down_p90": 2.02,
+      "down_p97": 2.28,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.567,
+      "down_mean": 0.75,
+      "down_p90": 2.08,
+      "down_p97": 3.94,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 2
+    },
+    {
+     "dn": 2
+    },
+    {
+     "dn": 2
+    }
+   ]
+  },
+  {
+   "name": "Mst: Hip Hop Master",
+   "cat": "Master",
+   "about": "Mastering for hip hop and trap: a tighter low end, gently held mids with a touch of upward density, and smooth highs.",
+   "x1": 120,
+   "x2": 5000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 2.0,
+     "thr": -20.0,
+     "att": 30,
+     "rel": 150,
+     "knee": 9,
+     "ratio": 2.5,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 1.5,
+     "thr": -17.5,
+     "att": 20,
+     "rel": 120,
+     "knee": 12,
+     "ratio": 1.8,
+     "uthr": -19.5,
+     "uratio": 1.3
+    },
+    {
+     "input": 0.0,
+     "out": 1.5,
+     "thr": -31.5,
+     "att": 10,
+     "rel": 100,
+     "knee": 12,
+     "ratio": 2,
+     "uthr": -40.0,
+     "uratio": 1.0
+    }
+   ],
+   "measured_on": "mix",
+   "measured": {
+    "rms_in": -17.04,
+    "rms_out": -16.86,
+    "peak_in": -0.29,
+    "peak_out": -0.1,
+    "lim_max": 1.39,
+    "lim_frac": 0.00098,
+    "bands": [
+     {
+      "active": 0.998,
+      "down_mean": 1.13,
+      "down_p90": 2.98,
+      "down_p97": 4.91,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.998,
+      "down_mean": 0.75,
+      "down_p90": 1.96,
+      "down_p97": 2.21,
+      "up_mean": 0.52,
+      "up_p90": 1.52
+     },
+     {
+      "active": 0.548,
+      "down_mean": 0.72,
+      "down_p90": 1.94,
+      "down_p97": 4.17,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 3
+    },
+    {
+     "dn": 2,
+     "up": 1.5
+    },
+    {
+     "dn": 2
+    }
+   ]
+  },
+  {
+   "name": "Mst: Clean Polish",
+   "cat": "Master",
+   "about": "Transparent mastering: low ratios (1.6 / 1.5 / 1.2:1) with very soft knees, 1-1.5 dB per band, attack slow enough to keep the transients.",
+   "x1": 120,
+   "x2": 6000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": 1.0,
+     "thr": -18.0,
+     "att": 30,
+     "rel": 150,
+     "knee": 18,
+     "ratio": 1.6,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 1.0,
+     "thr": -16.0,
+     "att": 25,
+     "rel": 150,
+     "knee": 24,
+     "ratio": 1.5,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 1.0,
+     "thr": -33.0,
+     "att": 10,
+     "rel": 120,
+     "knee": 24,
+     "ratio": 1.2,
+     "uthr": -40.0,
+     "uratio": 1.0
+    }
+   ],
+   "measured_on": "mix",
+   "measured": {
+    "rms_in": -17.04,
+    "rms_out": -17.19,
+    "peak_in": -0.29,
+    "peak_out": -0.1,
+    "lim_max": 0.71,
+    "lim_frac": 0.00014,
+    "bands": [
+     {
+      "active": 0.998,
+      "down_mean": 0.65,
+      "down_p90": 1.49,
+      "down_p97": 2.4,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.998,
+      "down_mean": 0.72,
+      "down_p90": 1.51,
+      "down_p97": 1.65,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.541,
+      "down_mean": 0.47,
+      "down_p90": 0.98,
+      "down_p97": 1.63,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 1.5
+    },
+    {
+     "dn": 1.5
+    },
+    {
+     "dn": 1
+    }
+   ]
+  },
+  {
+   "name": "Fx: OTT Full",
+   "cat": "Creative",
+   "about": "Ableton's OTT preset at 100 % depth: extreme upward and downward compression on all three bands. Huge, bright and loud; for sound design, risers, synths and EDM drums.",
+   "x1": 88.3,
+   "x2": 2500,
+   "bands": [
+    {
+     "input": 5.2,
+     "out": 2.3000000000000007,
+     "thr": -33.8,
+     "att": 47.8,
+     "rel": 282,
+     "knee": 0,
+     "ratio": 20,
+     "uthr": -40.8,
+     "uratio": 4.17
+    },
+    {
+     "input": 5.2,
+     "out": -2.3,
+     "thr": -30.2,
+     "att": 22.4,
+     "rel": 282,
+     "knee": 0,
+     "ratio": 20,
+     "uthr": -41.8,
+     "uratio": 4.17
+    },
+    {
+     "input": 5.2,
+     "out": 2.3000000000000007,
+     "thr": -35.5,
+     "att": 13.5,
+     "rel": 132,
+     "knee": 0,
+     "ratio": 20,
+     "uthr": -40.8,
+     "uratio": 4.17
+    }
+   ],
+   "trim": -8.0,
+   "measured_on": "drums",
+   "measured": {
+    "rms_in": -20.2,
+    "rms_out": -28.31,
+    "peak_in": -1.03,
+    "peak_out": -0.1,
+    "lim_max": 1.91,
+    "lim_frac": 0.00978,
+    "bands": [
+     {
+      "active": 0.999,
+      "down_mean": 12.11,
+      "down_p90": 17.02,
+      "down_p97": 18.85,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.999,
+      "down_mean": 12.51,
+      "down_p90": 17.82,
+      "down_p97": 18.75,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.871,
+      "down_mean": 5.32,
+      "down_p90": 14.6,
+      "down_p97": 16.29,
+      "up_mean": 0.9,
+      "up_p90": 4.1
+     }
+    ]
+   }
+  },
+  {
+   "name": "Fx: OTT Lite",
+   "cat": "Creative",
+   "about": "OTT the way most producers use it (Depth around 30-40 %): the same splits and times as OTT Full, with milder ratios, for extra energy without wrecking the sound.",
+   "x1": 88.3,
+   "x2": 2500,
+   "bands": [
+    {
+     "input": 5.2,
+     "out": -4.5,
+     "thr": -22.0,
+     "att": 47.8,
+     "rel": 282,
+     "knee": 3,
+     "ratio": 3,
+     "uthr": -22.0,
+     "uratio": 1.6
+    },
+    {
+     "input": 5.2,
+     "out": -4.5,
+     "thr": -17.5,
+     "att": 22.4,
+     "rel": 282,
+     "knee": 3,
+     "ratio": 3,
+     "uthr": -17.5,
+     "uratio": 1.6
+    },
+    {
+     "input": 5.2,
+     "out": -3.5,
+     "thr": -26.0,
+     "att": 13.5,
+     "rel": 132,
+     "knee": 3,
+     "ratio": 3,
+     "uthr": -35.5,
+     "uratio": 1.6
+    }
+   ],
+   "measured_on": "drums",
+   "measured": {
+    "rms_in": -20.2,
+    "rms_out": -21.77,
+    "peak_in": -1.03,
+    "peak_out": -0.1,
+    "lim_max": 0.83,
+    "lim_frac": 0.00193,
+    "bands": [
+     {
+      "active": 0.999,
+      "down_mean": 1.69,
+      "down_p90": 4.08,
+      "down_p97": 5.36,
+      "up_mean": 0.6,
+      "up_p90": 2.49
+     },
+     {
+      "active": 0.999,
+      "down_mean": 1.53,
+      "down_p90": 4.04,
+      "down_p97": 4.69,
+      "up_mean": 0.69,
+      "up_p90": 2.55
+     },
+     {
+      "active": 0.871,
+      "down_mean": 0.86,
+      "down_p90": 3.91,
+      "down_p97": 5.1,
+      "up_mean": 1.12,
+      "up_p90": 4.01
+     }
+    ]
+   },
+   "targets": [
+    {
+     "dn": 4,
+     "up": 4
+    },
+    {
+     "dn": 4,
+     "up": 4
+    },
+    {
+     "dn": 4,
+     "up": 4
+    }
+   ]
+  },
+  {
+   "name": "Fx: Lo-Fi Phone",
+   "cat": "Creative",
+   "about": "Telephone / radio voice: the lows and highs are turned way down with the band outputs, and the mid band is squashed flat (10:1). Good for intros, ad-libs and skits.",
+   "x1": 400,
+   "x2": 3000,
+   "bands": [
+    {
+     "input": 0.0,
+     "out": -10.5,
+     "thr": 0.0,
+     "att": 3.0,
+     "rel": 100.0,
+     "knee": 0.0,
+     "ratio": 1,
+     "uthr": -40.0,
+     "uratio": 1.0
+    },
+    {
+     "input": 0.0,
+     "out": 13.5,
+     "thr": -27.5,
+     "att": 1,
+     "rel": 50,
+     "knee": 3,
+     "ratio": 10,
+     "uthr": -38.5,
+     "uratio": 2
+    },
+    {
+     "input": 0.0,
+     "out": -4.5,
+     "thr": 0.0,
+     "att": 3.0,
+     "rel": 100.0,
+     "knee": 0.0,
+     "ratio": 1,
+     "uthr": -40.0,
+     "uratio": 1.0
+    }
+   ],
+   "measured_on": "vocal",
+   "measured": {
+    "rms_in": -21.58,
+    "rms_out": -21.71,
+    "peak_in": -2.96,
+    "peak_out": -0.1,
+    "lim_max": 1.66,
+    "lim_frac": 0.00197,
+    "bands": [
+     {
+      "active": 0.963,
+      "down_mean": 0.0,
+      "down_p90": -0.0,
+      "down_p97": -0.0,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     },
+     {
+      "active": 0.836,
+      "down_mean": 3.37,
+      "down_p90": 9.98,
+      "down_p97": 12.93,
+      "up_mean": 0.92,
+      "up_p90": 4.09
+     },
+     {
+      "active": 0.632,
+      "down_mean": 0.0,
+      "down_p90": -0.0,
+      "down_p97": -0.0,
+      "up_mean": 0.0,
+      "up_p90": 0.0
+     }
+    ]
+   },
+   "targets": [
+    {},
+    {
+     "dn": 10,
+     "up": 4
+    },
+    {}
+   ]
+  }
+ ]
+}

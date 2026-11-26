@@ -1,0 +1,106 @@
+diff --git a/tools/shadow_skin.py b/tools/shadow_skin.py
+index 3fcf8990..3255e764 100644
+--- a/tools/shadow_skin.py
++++ b/tools/shadow_skin.py
+@@ -250,7 +250,7 @@ def expand_pictures(widgets):
+         for i, f in enumerate(x.strip() for x in w.get("files", "").split(",")):
+             if f:
+                 out.append({"kind": "art", "file": f, "x": w["x"], "y": w["y"], "w": w["w"], "h": w["h"],
+-                            "fit": w.get("fit", "contain"), "when": "%s:%d" % (w["key"], i)})
++                            "fit": w.get("fit", "contain"), "when": "%s:@%d" % (w["key"], i)})
+     return out
+ 
+ 
+@@ -754,7 +754,10 @@ def build(layout_path, params, skin_dir, art_bin, png_from_ppm):
+         opts = [str(x).lower() for x in (params[index[k]].get("options") or [])] if k in index else []
+         if len(opts) < 2:
+             raise SystemExit("layout: when=%s: %r is not an option parameter" % (w["when"], k))
+-        oi = opts.index(o.lower()) if o.lower() in opts else int(o) if o.isdigit() and int(o) < len(opts) else None
++        if o.startswith("@") and o[1:].isdigit():   # picture lines: always the option's index, even when names are digits
++            oi = int(o[1:]) if int(o[1:]) < len(opts) else None
++        else:
++            oi = opts.index(o.lower()) if o.lower() in opts else int(o) if o.isdigit() and int(o) < len(opts) else None
+         if oi is None:
+             raise SystemExit("layout: when=%s: %r is not one of %s" % (w["when"], o, ",".join(opts)))
+         return "IndexedEnabling/%d/%d/Parameter %d" % (oi, len(opts), index[k])
+diff --git a/wrapper/vst2_wrap.c b/wrapper/vst2_wrap.c
+index 55374a52..8ce57703 100644
+--- a/wrapper/vst2_wrap.c
++++ b/wrapper/vst2_wrap.c
+@@ -174,6 +174,7 @@ static const mpc_engine_t *g_api;
+ static void eng_set(wrap_t *w, const char *k, const char *v) {
+     pthread_mutex_lock(&w->lock); g_api->set_param(w->dsp, k, v); pthread_mutex_unlock(&w->lock);
+ }
++static int prog_count(wrap_t *w);   /* VST programs, below */
+ static int eng_get(wrap_t *w, const char *k, char *buf, int n) {
+     pthread_mutex_lock(&w->lock); int r = g_api->get_param(w->dsp, k, buf, n); pthread_mutex_unlock(&w->lock); return r;
+ }
+@@ -595,6 +596,9 @@ static void housekeeping(AEffect *e, int32_t n) {
+     if (w->need_update_display && w->update_wait <= 0) {
+         w->need_update_display = 0;
+         w->update_wait = 2205;
++#if defined(PROG_DYNAMIC) && defined(PROG_PARAM)
++        w->fx.numPrograms = prog_count(w);   /* MPC re-lists the programs on this UpdateDisplay */
++#endif
+         w->master(&w->fx, audioMasterUpdateDisplay, 0, 0, 0, 0.0f);
+     }
+ }
+@@ -700,6 +704,22 @@ static void copy_str(void *dst, const char *src, size_t max) {
+ #define NUM_PROGRAMS 0
+ #endif
+ 
++/* PROG_DYNAMIC (vst.json "defines", with "programs" on a whole-number param): how many programs there are right now is
++ * the engine's answer to "<key>_count" (1..NPROGRAMS). For a plugin whose program list changes while it runs (PoliPlug:
++ * the presets of whichever hosted effect is open). numPrograms is refreshed before every UpdateDisplay, which MPC answers
++ * by re-listing the programs (DISPLAY_REV_NO_UPDATE above). */
++static int prog_count(wrap_t *w) {
++#if defined(PROG_DYNAMIC) && defined(PROG_PARAM)
++    char k2[96], buf[32];
++    snprintf(k2, sizeof k2, "%s_count", PARAMS[PROG_PARAM].key);
++    int n = eng_get(w, k2, buf, sizeof buf) > 0 ? atoi(buf) : NUM_PROGRAMS;
++    return n < 1 ? 1 : n > NUM_PROGRAMS ? NUM_PROGRAMS : n;
++#else
++    (void)w;
++    return NUM_PROGRAMS;
++#endif
++}
++
+ static int get_program(wrap_t *w) {
+ #if defined(PROG_PARAM)
+     const param_t *pp = &PARAMS[PROG_PARAM];
+@@ -711,7 +731,7 @@ static int get_program(wrap_t *w) {
+ }
+ 
+ static void set_program(wrap_t *w, int idx) {
+-    if (idx < 0 || idx >= NUM_PROGRAMS || idx == get_program(w)) return;   /* a host re-selecting the current one
++    if (idx < 0 || idx >= prog_count(w) || idx == get_program(w)) return;   /* a host re-selecting the current one
+                                                                               * (JUCE does at load) keeps any edits */
+ #if defined(NPRESETS)
+     for (int i = 0; i < PRESETS[idx].n; i++) {
+@@ -731,7 +751,7 @@ static void set_program(wrap_t *w, int idx) {
+ 
+ static void program_name(wrap_t *w, int idx, char *out) {
+     out[0] = 0;
+-    if (idx < 0 || idx >= NUM_PROGRAMS) return;
++    if (idx < 0 || idx >= prog_count(w)) return;
+ #if defined(NPRESETS)
+     (void)w;
+     copy_str(out, PRESETS[idx].name, 24);
+@@ -827,7 +847,7 @@ static intptr_t dispatcher(AEffect *e, int32_t op, int32_t idx, intptr_t v, void
+     case effSetProgram: flush_pend0(e); set_program(w, (int)v); return 1;
+     case effGetProgram: return NUM_PROGRAMS ? get_program(w) : 0;
+     case effGetProgramName: program_name(w, NUM_PROGRAMS ? get_program(w) : -1, p); return 1;
+-    case effGetProgramNameIndexed: program_name(w, idx, p); return idx >= 0 && idx < NUM_PROGRAMS;
++    case effGetProgramNameIndexed: program_name(w, idx, p); return idx >= 0 && idx < prog_count(w);
+     case effCanDo:
+         return (!strcmp(p, "receiveVstEvents") || !strcmp(p, "receiveVstMidiEvent") ||
+                 !strcmp(p, "receiveVstTimeInfo")) ? 1 : -1;
+@@ -892,7 +912,7 @@ __attribute__((visibility("default"))) AEffect *VSTPluginMain(audioMasterCallbac
+     e->getParameter = getParameter;
+     e->processReplacing = processReplacing;
+     e->numParams = NPARAMS;
+-    e->numPrograms = NUM_PROGRAMS;
++    e->numPrograms = prog_count(w);
+ #ifdef PLUG_EFFECT
+     e->numInputs = 2;
+     e->numOutputs = 2;

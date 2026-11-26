@@ -1,0 +1,12 @@
+{
+  "_comment": [
+    "The plugins PoliPlug can host. Each one is BUNDLED into PoliPlug's own folder at build time: its .so is copied to",
+    "hosted/<id>/ and its built skin is merged into PoliPlug's skin (MPC only ever draws the skin of the plugin it loaded,",
+    "so a hosted plugin's own skin folder is never shown; the merged copy is). Paths are relative to this file.",
+    "id: stable, lowercase; saved projects refer to hosted plugins by it, so never change it once released.",
+    "plugin: the plugin's own folder (with vst/vst.json and its built vst/build/). Build that plugin first."
+  ],
+  "plugins": [
+    {"id": "poli-ess", "plugin": "../Poli-ess"}
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Poli-q",
+  "vendor": "Poli",
+  "uid": "PlEq",
+  "version": 1120,
+  "effect": true,
+  "art": "html",
+  "so": "poli_q.so",
+  "params": "params.json",
+  "layout": "layout.conf",
+  "programs": {
+    "param": "preset"
+  },
+  "skin_post": "skin_post.py",
+  "targets": [
+    "aarch64"
+  ],
+  "defines": {
+    "HAS_DISPLAY_REV": 1,
+    "DISPLAY_REV_NO_UPDATE": 1
+  },
+  "build": {
+    "root": "..",
+    "sources": [
+      "src/PoliQ.cpp",
+      "src/Learn.cpp",
+      "src/engine.cpp"
+    ],
+    "cflags": [
+      "-Isrc",
+      "-O3",
+      "-ffast-math",
+      "-U__FAST_MATH__"
+    ],
+    "libs": [
+      "-lm",
+      "-lstdc++"
+    ]
+  }
+}

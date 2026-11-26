@@ -1,0 +1,473 @@
+{
+ "name": "Poli-delay",
+ "params": [
+  {
+   "key": "time",
+   "name": "Time",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 683.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "offset_amt",
+   "name": "Offset",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "feedback",
+   "name": "Feedback",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 350.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "hp",
+   "name": "High Pass",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 200.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "lp",
+   "name": "Low Pass",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 850.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "mix",
+   "name": "Mix",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 300.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "rate",
+   "name": "Mod Rate",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 450.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "depth",
+   "name": "Mod Depth",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "drive",
+   "name": "Drive",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "tone",
+   "name": "Tone",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "spread",
+   "name": "Spread",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "sync",
+   "name": "Sync",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "offset",
+   "name": "Offset On",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "pingpong",
+   "name": "Ping-Pong",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "preset",
+   "name": "Preset",
+   "options": [
+    "Init",
+    "Classic: Slapback",
+    "Classic: Rockabilly Slap",
+    "Classic: Quarter Echo",
+    "Classic: Dotted Eighth",
+    "Classic: Eighth Echo",
+    "Classic: Triplet Echo",
+    "Classic: Digital Clean",
+    "Classic: Double Tap",
+    "Classic: Long Echo",
+    "Classic: Half Note Echo",
+    "Tape: Tape Echo",
+    "Tape: Worn Tape",
+    "Tape: Tape Dub",
+    "Tape: Space Tape",
+    "Tape: Warble Tape",
+    "Tape: Cassette Delay",
+    "Tape: Reel Slap",
+    "Tape: Dusty Echo",
+    "Tape: Bright Tape",
+    "Tape: Wow & Flutter",
+    "Ping: Classic Ping-Pong",
+    "Ping: Wide Bounce",
+    "Ping: Triplet Ping",
+    "Ping: Dotted Ping",
+    "Ping: Fast Bounce",
+    "Ping: Slow Bounce",
+    "Ping: Soft Ping",
+    "Ping: Ping Offset",
+    "Ping: Tape Ping-Pong",
+    "Ping: Ping Cloud",
+    "Stereo: Haas Widener",
+    "Stereo: Dot vs Straight",
+    "Stereo: Straight/Triplet",
+    "Stereo: Stereo Slap",
+    "Stereo: Wide Offset",
+    "Stereo: Left Heavy",
+    "Stereo: Stereo Dub",
+    "Stereo: Offset Haze",
+    "Stereo: Stagger",
+    "Stereo: Narrow Offset",
+    "Amb: Cloud Echo",
+    "Amb: Glass Tail",
+    "Amb: Dream Wash",
+    "Amb: Infinite Drift",
+    "Amb: Frozen Pad",
+    "Amb: Slow Motion",
+    "Amb: Dark Space",
+    "Amb: Airy Repeats",
+    "Vox: Vocal Slap",
+    "Vox: Vocal Eighth",
+    "Vox: Vocal Dotted",
+    "Vox: Vocal Throw",
+    "Vox: Whisper Echo",
+    "Vox: Wide Double",
+    "Vox: Plate-ish Echo",
+    "Vox: Ballad Echo",
+    "Drum: Snare Echo",
+    "Drum: Snare Dotted",
+    "Drum: Hat Ticks",
+    "Drum: Tom Roll",
+    "Drum: Clap Wide",
+    "Drum: Dub Snare",
+    "Drum: Percussion Air",
+    "Drum: Room Doubler",
+    "FX: Dub Siren",
+    "FX: Lo-Fi Crunch",
+    "FX: Chorus Echo",
+    "FX: Flange Echo",
+    "FX: Pitch Warble",
+    "FX: Radio Echo",
+    "FX: Robot Comb",
+    "FX: Runaway",
+    "FX: Bouncy Castle",
+    "FX: Vibrato Echo"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 2
+  },
+  {
+   "key": "preset_prev",
+   "name": "Preset <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_next",
+   "name": "Preset >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_list",
+   "name": "Preset list",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "browsing",
+   "name": "Browsing",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "bview",
+   "name": "Browser view",
+   "options": [
+    "Closed",
+    "v1",
+    "v2",
+    "v3",
+    "v4",
+    "v5",
+    "v6",
+    "v7",
+    "v8",
+    "v9",
+    "v10",
+    "v11",
+    "v12",
+    "v13",
+    "v14",
+    "v15"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pre_hl",
+   "name": "Preset shown",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "bpage_prev",
+   "name": "Page <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "bpage_next",
+   "name": "Page >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat1",
+   "name": "Category 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat2",
+   "name": "Category 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat3",
+   "name": "Category 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat4",
+   "name": "Category 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat5",
+   "name": "Category 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat6",
+   "name": "Category 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat7",
+   "name": "Category 7",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat8",
+   "name": "Category 8",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat9",
+   "name": "Category 9",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick1",
+   "name": "Pick 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick2",
+   "name": "Pick 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick3",
+   "name": "Pick 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick4",
+   "name": "Pick 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick5",
+   "name": "Pick 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick6",
+   "name": "Pick 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick7",
+   "name": "Pick 7",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick8",
+   "name": "Pick 8",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick9",
+   "name": "Pick 9",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick10",
+   "name": "Pick 10",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick11",
+   "name": "Pick 11",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick12",
+   "name": "Pick 12",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  }
+ ]
+}

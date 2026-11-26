@@ -1,0 +1,21 @@
+{
+  "name": "Poli-delay",
+  "vendor": "Poli",
+  "uid": "PlDl",
+  "version": 1020,
+  "so": "poli_delay.so",
+  "effect": true,
+  "params": "params.json",
+  "layout": "layout.conf",
+  "art": "html",
+  "skin_post": "skin_post.py",
+  "targets": ["aarch64"],
+  "programs": {"param": "preset"},
+  "defines": {"HAS_DISPLAY_REV": 1, "HAS_SONG_POS": 1},
+  "build": {
+    "root": "..",
+    "sources": ["src/DelayDSP.cpp", "src/engine.cpp"],
+    "cflags": ["-Isrc", "-O3", "-ffast-math", "-U__FAST_MATH__"],
+    "libs": ["-lm"]
+  }
+}

@@ -1,0 +1,5131 @@
+{
+ "name": "PoliPlug",
+ "params": [
+  {
+   "key": "page",
+   "name": "Page",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "default": 0
+  },
+  {
+   "key": "page_prev",
+   "name": "Page <",
+   "momentary": true
+  },
+  {
+   "key": "page_next",
+   "name": "Page >",
+   "momentary": true
+  },
+  {
+   "key": "page_text",
+   "name": "Page",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "add_open",
+   "name": "Add plugin",
+   "momentary": true
+  },
+  {
+   "key": "picking",
+   "name": "Picking",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "status",
+   "name": "Status",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "row1",
+   "name": "Row 1",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "row1_used",
+   "name": "Row 1 used",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row1_up",
+   "name": "Row 1 up",
+   "options": [
+    "Hidden",
+    "Dim",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row1_down",
+   "name": "Row 1 down",
+   "options": [
+    "Hidden",
+    "Dim",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row1_open",
+   "name": "Open 1",
+   "momentary": true
+  },
+  {
+   "key": "row1_mvup",
+   "name": "Move up 1",
+   "momentary": true
+  },
+  {
+   "key": "row1_mvdn",
+   "name": "Move down 1",
+   "momentary": true
+  },
+  {
+   "key": "row1_bye",
+   "name": "Remove 1",
+   "momentary": true
+  },
+  {
+   "key": "row2",
+   "name": "Row 2",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "row2_used",
+   "name": "Row 2 used",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row2_up",
+   "name": "Row 2 up",
+   "options": [
+    "Hidden",
+    "Dim",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row2_down",
+   "name": "Row 2 down",
+   "options": [
+    "Hidden",
+    "Dim",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row2_open",
+   "name": "Open 2",
+   "momentary": true
+  },
+  {
+   "key": "row2_mvup",
+   "name": "Move up 2",
+   "momentary": true
+  },
+  {
+   "key": "row2_mvdn",
+   "name": "Move down 2",
+   "momentary": true
+  },
+  {
+   "key": "row2_bye",
+   "name": "Remove 2",
+   "momentary": true
+  },
+  {
+   "key": "row3",
+   "name": "Row 3",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "row3_used",
+   "name": "Row 3 used",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row3_up",
+   "name": "Row 3 up",
+   "options": [
+    "Hidden",
+    "Dim",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row3_down",
+   "name": "Row 3 down",
+   "options": [
+    "Hidden",
+    "Dim",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row3_open",
+   "name": "Open 3",
+   "momentary": true
+  },
+  {
+   "key": "row3_mvup",
+   "name": "Move up 3",
+   "momentary": true
+  },
+  {
+   "key": "row3_mvdn",
+   "name": "Move down 3",
+   "momentary": true
+  },
+  {
+   "key": "row3_bye",
+   "name": "Remove 3",
+   "momentary": true
+  },
+  {
+   "key": "row4",
+   "name": "Row 4",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "row4_used",
+   "name": "Row 4 used",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row4_up",
+   "name": "Row 4 up",
+   "options": [
+    "Hidden",
+    "Dim",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row4_down",
+   "name": "Row 4 down",
+   "options": [
+    "Hidden",
+    "Dim",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row4_open",
+   "name": "Open 4",
+   "momentary": true
+  },
+  {
+   "key": "row4_mvup",
+   "name": "Move up 4",
+   "momentary": true
+  },
+  {
+   "key": "row4_mvdn",
+   "name": "Move down 4",
+   "momentary": true
+  },
+  {
+   "key": "row4_bye",
+   "name": "Remove 4",
+   "momentary": true
+  },
+  {
+   "key": "view",
+   "name": "View",
+   "options": [
+    "Rack",
+    "Page 1",
+    "Page 2",
+    "Page 3",
+    "Page 4",
+    "Page 5",
+    "Page 6",
+    "Page 7",
+    "Page 8",
+    "Page 9",
+    "Page 10",
+    "Page 11",
+    "Page 12",
+    "Page 13",
+    "Page 14",
+    "Page 15",
+    "Page 16",
+    "Page 17",
+    "Page 18",
+    "Page 19",
+    "Page 20",
+    "Page 21",
+    "Page 22",
+    "Page 23",
+    "Page 24",
+    "Page 25",
+    "Page 26",
+    "Page 27",
+    "Page 28",
+    "Page 29",
+    "Page 30",
+    "Page 31",
+    "Page 32",
+    "Page 33",
+    "Page 34",
+    "Page 35",
+    "Page 36",
+    "Page 37",
+    "Page 38",
+    "Page 39",
+    "Page 40",
+    "Page 41",
+    "Page 42",
+    "Page 43",
+    "Page 44",
+    "Page 45",
+    "Page 46",
+    "Page 47",
+    "Page 48",
+    "Page 49",
+    "Page 50",
+    "Page 51",
+    "Page 52",
+    "Page 53",
+    "Page 54",
+    "Page 55",
+    "Page 56",
+    "Page 57",
+    "Page 58",
+    "Page 59",
+    "Page 60",
+    "Page 61",
+    "Page 62",
+    "Page 63",
+    "Page 64",
+    "Page 65",
+    "Page 66",
+    "Page 67",
+    "Page 68",
+    "Page 69",
+    "Page 70",
+    "Page 71",
+    "Page 72",
+    "Page 73",
+    "Page 74",
+    "Page 75",
+    "Page 76",
+    "Page 77",
+    "Page 78",
+    "Page 79",
+    "Page 80",
+    "Page 81",
+    "Page 82",
+    "Page 83",
+    "Page 84",
+    "Page 85",
+    "Page 86",
+    "Page 87",
+    "Page 88",
+    "Page 89",
+    "Page 90",
+    "Page 91",
+    "Page 92",
+    "Page 93",
+    "Page 94",
+    "Page 95"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "editing",
+   "name": "Editing",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pages",
+   "name": "Pages",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "view_back",
+   "name": "Back",
+   "momentary": true
+  },
+  {
+   "key": "view_prev",
+   "name": "Prev page",
+   "momentary": true
+  },
+  {
+   "key": "view_next",
+   "name": "Next page",
+   "momentary": true
+  },
+  {
+   "key": "pick1",
+   "name": "Pick 1",
+   "momentary": true
+  },
+  {
+   "key": "pick1_name",
+   "name": "Effect 1",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "pick1_shown",
+   "name": "Effect 1 shown",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pick2",
+   "name": "Pick 2",
+   "momentary": true
+  },
+  {
+   "key": "pick2_name",
+   "name": "Effect 2",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "pick2_shown",
+   "name": "Effect 2 shown",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pick3",
+   "name": "Pick 3",
+   "momentary": true
+  },
+  {
+   "key": "pick3_name",
+   "name": "Effect 3",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "pick3_shown",
+   "name": "Effect 3 shown",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pick4",
+   "name": "Pick 4",
+   "momentary": true
+  },
+  {
+   "key": "pick4_name",
+   "name": "Effect 4",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "pick4_shown",
+   "name": "Effect 4 shown",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pick5",
+   "name": "Pick 5",
+   "momentary": true
+  },
+  {
+   "key": "pick5_name",
+   "name": "Effect 5",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "pick5_shown",
+   "name": "Effect 5 shown",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pick6",
+   "name": "Pick 6",
+   "momentary": true
+  },
+  {
+   "key": "pick6_name",
+   "name": "Effect 6",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "pick6_shown",
+   "name": "Effect 6 shown",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pick7",
+   "name": "Pick 7",
+   "momentary": true
+  },
+  {
+   "key": "pick7_name",
+   "name": "Effect 7",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "pick7_shown",
+   "name": "Effect 7 shown",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pick8",
+   "name": "Pick 8",
+   "momentary": true
+  },
+  {
+   "key": "pick8_name",
+   "name": "Effect 8",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "pick8_shown",
+   "name": "Effect 8 shown",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "q1",
+   "name": "Q-Link 1",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q2",
+   "name": "Q-Link 2",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q3",
+   "name": "Q-Link 3",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q4",
+   "name": "Q-Link 4",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q5",
+   "name": "Q-Link 5",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q6",
+   "name": "Q-Link 6",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q7",
+   "name": "Q-Link 7",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q8",
+   "name": "Q-Link 8",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q9",
+   "name": "Q-Link 9",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q10",
+   "name": "Q-Link 10",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q11",
+   "name": "Q-Link 11",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q12",
+   "name": "Q-Link 12",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q13",
+   "name": "Q-Link 13",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q14",
+   "name": "Q-Link 14",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q15",
+   "name": "Q-Link 15",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q16",
+   "name": "Q-Link 16",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e0",
+   "name": "Edit 0",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e1",
+   "name": "Edit 1",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e2",
+   "name": "Edit 2",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e3",
+   "name": "Edit 3",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e4",
+   "name": "Edit 4",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e5",
+   "name": "Edit 5",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e6",
+   "name": "Edit 6",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e7",
+   "name": "Edit 7",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e8",
+   "name": "Edit 8",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e9",
+   "name": "Edit 9",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e10",
+   "name": "Edit 10",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e11",
+   "name": "Edit 11",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e12",
+   "name": "Edit 12",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e13",
+   "name": "Edit 13",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e14",
+   "name": "Edit 14",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e15",
+   "name": "Edit 15",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e16",
+   "name": "Edit 16",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e17",
+   "name": "Edit 17",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e18",
+   "name": "Edit 18",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e19",
+   "name": "Edit 19",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e20",
+   "name": "Edit 20",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e21",
+   "name": "Edit 21",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e22",
+   "name": "Edit 22",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e23",
+   "name": "Edit 23",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e24",
+   "name": "Edit 24",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e25",
+   "name": "Edit 25",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e26",
+   "name": "Edit 26",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e27",
+   "name": "Edit 27",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e28",
+   "name": "Edit 28",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e29",
+   "name": "Edit 29",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e30",
+   "name": "Edit 30",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e31",
+   "name": "Edit 31",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e32",
+   "name": "Edit 32",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e33",
+   "name": "Edit 33",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e34",
+   "name": "Edit 34",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e35",
+   "name": "Edit 35",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e36",
+   "name": "Edit 36",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e37",
+   "name": "Edit 37",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e38",
+   "name": "Edit 38",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e39",
+   "name": "Edit 39",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e40",
+   "name": "Edit 40",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e41",
+   "name": "Edit 41",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e42",
+   "name": "Edit 42",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e43",
+   "name": "Edit 43",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e44",
+   "name": "Edit 44",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e45",
+   "name": "Edit 45",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e46",
+   "name": "Edit 46",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e47",
+   "name": "Edit 47",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e48",
+   "name": "Edit 48",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e49",
+   "name": "Edit 49",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e50",
+   "name": "Edit 50",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e51",
+   "name": "Edit 51",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e52",
+   "name": "Edit 52",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e53",
+   "name": "Edit 53",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e54",
+   "name": "Edit 54",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e55",
+   "name": "Edit 55",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e56",
+   "name": "Edit 56",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e57",
+   "name": "Edit 57",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e58",
+   "name": "Edit 58",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e59",
+   "name": "Edit 59",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e60",
+   "name": "Edit 60",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e61",
+   "name": "Edit 61",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e62",
+   "name": "Edit 62",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e63",
+   "name": "Edit 63",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e64",
+   "name": "Edit 64",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e65",
+   "name": "Edit 65",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e66",
+   "name": "Edit 66",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e67",
+   "name": "Edit 67",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e68",
+   "name": "Edit 68",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e69",
+   "name": "Edit 69",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e70",
+   "name": "Edit 70",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e71",
+   "name": "Edit 71",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e72",
+   "name": "Edit 72",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e73",
+   "name": "Edit 73",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e74",
+   "name": "Edit 74",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e75",
+   "name": "Edit 75",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e76",
+   "name": "Edit 76",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e77",
+   "name": "Edit 77",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e78",
+   "name": "Edit 78",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e79",
+   "name": "Edit 79",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e80",
+   "name": "Edit 80",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e81",
+   "name": "Edit 81",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e82",
+   "name": "Edit 82",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e83",
+   "name": "Edit 83",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e84",
+   "name": "Edit 84",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e85",
+   "name": "Edit 85",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e86",
+   "name": "Edit 86",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e87",
+   "name": "Edit 87",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e88",
+   "name": "Edit 88",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e89",
+   "name": "Edit 89",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e90",
+   "name": "Edit 90",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e91",
+   "name": "Edit 91",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e92",
+   "name": "Edit 92",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e93",
+   "name": "Edit 93",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e94",
+   "name": "Edit 94",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e95",
+   "name": "Edit 95",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e96",
+   "name": "Edit 96",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e97",
+   "name": "Edit 97",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e98",
+   "name": "Edit 98",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e99",
+   "name": "Edit 99",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e100",
+   "name": "Edit 100",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e101",
+   "name": "Edit 101",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e102",
+   "name": "Edit 102",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e103",
+   "name": "Edit 103",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e104",
+   "name": "Edit 104",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e105",
+   "name": "Edit 105",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e106",
+   "name": "Edit 106",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e107",
+   "name": "Edit 107",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e108",
+   "name": "Edit 108",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e109",
+   "name": "Edit 109",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e110",
+   "name": "Edit 110",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e111",
+   "name": "Edit 111",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e112",
+   "name": "Edit 112",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e113",
+   "name": "Edit 113",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e114",
+   "name": "Edit 114",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e115",
+   "name": "Edit 115",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e116",
+   "name": "Edit 116",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e117",
+   "name": "Edit 117",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e118",
+   "name": "Edit 118",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e119",
+   "name": "Edit 119",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e120",
+   "name": "Edit 120",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e121",
+   "name": "Edit 121",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e122",
+   "name": "Edit 122",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e123",
+   "name": "Edit 123",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e124",
+   "name": "Edit 124",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e125",
+   "name": "Edit 125",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e126",
+   "name": "Edit 126",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e127",
+   "name": "Edit 127",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e128",
+   "name": "Edit 128",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e129",
+   "name": "Edit 129",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e130",
+   "name": "Edit 130",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e131",
+   "name": "Edit 131",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e132",
+   "name": "Edit 132",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e133",
+   "name": "Edit 133",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e134",
+   "name": "Edit 134",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e135",
+   "name": "Edit 135",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e136",
+   "name": "Edit 136",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e137",
+   "name": "Edit 137",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e138",
+   "name": "Edit 138",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e139",
+   "name": "Edit 139",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e140",
+   "name": "Edit 140",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e141",
+   "name": "Edit 141",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e142",
+   "name": "Edit 142",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e143",
+   "name": "Edit 143",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e144",
+   "name": "Edit 144",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e145",
+   "name": "Edit 145",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e146",
+   "name": "Edit 146",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e147",
+   "name": "Edit 147",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e148",
+   "name": "Edit 148",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e149",
+   "name": "Edit 149",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e150",
+   "name": "Edit 150",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e151",
+   "name": "Edit 151",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e152",
+   "name": "Edit 152",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e153",
+   "name": "Edit 153",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e154",
+   "name": "Edit 154",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e155",
+   "name": "Edit 155",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e156",
+   "name": "Edit 156",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e157",
+   "name": "Edit 157",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e158",
+   "name": "Edit 158",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e159",
+   "name": "Edit 159",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e160",
+   "name": "Edit 160",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e161",
+   "name": "Edit 161",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e162",
+   "name": "Edit 162",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e163",
+   "name": "Edit 163",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e164",
+   "name": "Edit 164",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e165",
+   "name": "Edit 165",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e166",
+   "name": "Edit 166",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e167",
+   "name": "Edit 167",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e168",
+   "name": "Edit 168",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e169",
+   "name": "Edit 169",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e170",
+   "name": "Edit 170",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e171",
+   "name": "Edit 171",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e172",
+   "name": "Edit 172",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e173",
+   "name": "Edit 173",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e174",
+   "name": "Edit 174",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e175",
+   "name": "Edit 175",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e176",
+   "name": "Edit 176",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e177",
+   "name": "Edit 177",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e178",
+   "name": "Edit 178",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e179",
+   "name": "Edit 179",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e180",
+   "name": "Edit 180",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e181",
+   "name": "Edit 181",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e182",
+   "name": "Edit 182",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e183",
+   "name": "Edit 183",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e184",
+   "name": "Edit 184",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e185",
+   "name": "Edit 185",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e186",
+   "name": "Edit 186",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e187",
+   "name": "Edit 187",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e188",
+   "name": "Edit 188",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e189",
+   "name": "Edit 189",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e190",
+   "name": "Edit 190",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e191",
+   "name": "Edit 191",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e192",
+   "name": "Edit 192",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e193",
+   "name": "Edit 193",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e194",
+   "name": "Edit 194",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e195",
+   "name": "Edit 195",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e196",
+   "name": "Edit 196",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e197",
+   "name": "Edit 197",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e198",
+   "name": "Edit 198",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e199",
+   "name": "Edit 199",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e200",
+   "name": "Edit 200",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e201",
+   "name": "Edit 201",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e202",
+   "name": "Edit 202",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e203",
+   "name": "Edit 203",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e204",
+   "name": "Edit 204",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e205",
+   "name": "Edit 205",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e206",
+   "name": "Edit 206",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e207",
+   "name": "Edit 207",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e208",
+   "name": "Edit 208",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e209",
+   "name": "Edit 209",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e210",
+   "name": "Edit 210",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e211",
+   "name": "Edit 211",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e212",
+   "name": "Edit 212",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e213",
+   "name": "Edit 213",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e214",
+   "name": "Edit 214",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e215",
+   "name": "Edit 215",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e216",
+   "name": "Edit 216",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e217",
+   "name": "Edit 217",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e218",
+   "name": "Edit 218",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e219",
+   "name": "Edit 219",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e220",
+   "name": "Edit 220",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e221",
+   "name": "Edit 221",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e222",
+   "name": "Edit 222",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e223",
+   "name": "Edit 223",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e224",
+   "name": "Edit 224",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e225",
+   "name": "Edit 225",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e226",
+   "name": "Edit 226",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e227",
+   "name": "Edit 227",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e228",
+   "name": "Edit 228",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e229",
+   "name": "Edit 229",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e230",
+   "name": "Edit 230",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e231",
+   "name": "Edit 231",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e232",
+   "name": "Edit 232",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e233",
+   "name": "Edit 233",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e234",
+   "name": "Edit 234",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e235",
+   "name": "Edit 235",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e236",
+   "name": "Edit 236",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e237",
+   "name": "Edit 237",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e238",
+   "name": "Edit 238",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e239",
+   "name": "Edit 239",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e240",
+   "name": "Edit 240",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e241",
+   "name": "Edit 241",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e242",
+   "name": "Edit 242",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e243",
+   "name": "Edit 243",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e244",
+   "name": "Edit 244",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e245",
+   "name": "Edit 245",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e246",
+   "name": "Edit 246",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e247",
+   "name": "Edit 247",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e248",
+   "name": "Edit 248",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e249",
+   "name": "Edit 249",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e250",
+   "name": "Edit 250",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e251",
+   "name": "Edit 251",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e252",
+   "name": "Edit 252",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e253",
+   "name": "Edit 253",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e254",
+   "name": "Edit 254",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e255",
+   "name": "Edit 255",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "hpreset",
+   "name": "Effect preset",
+   "min": 0,
+   "max": 127,
+   "default": 0,
+   "display": "int",
+   "legacy": true
+  },
+  {
+   "key": "hpre_name",
+   "name": "Effect preset name",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpre_shown",
+   "name": "Preset bar",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "hpre_prev",
+   "name": "Effect preset <",
+   "momentary": true
+  },
+  {
+   "key": "hpre_next",
+   "name": "Effect preset >",
+   "momentary": true
+  },
+  {
+   "key": "hpre_list",
+   "name": "Effect presets",
+   "momentary": true
+  },
+  {
+   "key": "hbrowsing",
+   "name": "Preset browser",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "hpre_pprev",
+   "name": "Preset page <",
+   "momentary": true
+  },
+  {
+   "key": "hpre_pnext",
+   "name": "Preset page >",
+   "momentary": true
+  },
+  {
+   "key": "hpre_page",
+   "name": "Preset page",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpick1",
+   "name": "Preset pick 1",
+   "momentary": true
+  },
+  {
+   "key": "hpre1_name",
+   "name": "Preset 1",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpre1_state",
+   "name": "Preset 1 shown",
+   "options": [
+    "Hidden",
+    "Shown",
+    "Current"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "hpick2",
+   "name": "Preset pick 2",
+   "momentary": true
+  },
+  {
+   "key": "hpre2_name",
+   "name": "Preset 2",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpre2_state",
+   "name": "Preset 2 shown",
+   "options": [
+    "Hidden",
+    "Shown",
+    "Current"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "hpick3",
+   "name": "Preset pick 3",
+   "momentary": true
+  },
+  {
+   "key": "hpre3_name",
+   "name": "Preset 3",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpre3_state",
+   "name": "Preset 3 shown",
+   "options": [
+    "Hidden",
+    "Shown",
+    "Current"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "hpick4",
+   "name": "Preset pick 4",
+   "momentary": true
+  },
+  {
+   "key": "hpre4_name",
+   "name": "Preset 4",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpre4_state",
+   "name": "Preset 4 shown",
+   "options": [
+    "Hidden",
+    "Shown",
+    "Current"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "hpick5",
+   "name": "Preset pick 5",
+   "momentary": true
+  },
+  {
+   "key": "hpre5_name",
+   "name": "Preset 5",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpre5_state",
+   "name": "Preset 5 shown",
+   "options": [
+    "Hidden",
+    "Shown",
+    "Current"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "hpick6",
+   "name": "Preset pick 6",
+   "momentary": true
+  },
+  {
+   "key": "hpre6_name",
+   "name": "Preset 6",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpre6_state",
+   "name": "Preset 6 shown",
+   "options": [
+    "Hidden",
+    "Shown",
+    "Current"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "hpick7",
+   "name": "Preset pick 7",
+   "momentary": true
+  },
+  {
+   "key": "hpre7_name",
+   "name": "Preset 7",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpre7_state",
+   "name": "Preset 7 shown",
+   "options": [
+    "Hidden",
+    "Shown",
+    "Current"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "hpick8",
+   "name": "Preset pick 8",
+   "momentary": true
+  },
+  {
+   "key": "hpre8_name",
+   "name": "Preset 8",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpre8_state",
+   "name": "Preset 8 shown",
+   "options": [
+    "Hidden",
+    "Shown",
+    "Current"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "hpick9",
+   "name": "Preset pick 9",
+   "momentary": true
+  },
+  {
+   "key": "hpre9_name",
+   "name": "Preset 9",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpre9_state",
+   "name": "Preset 9 shown",
+   "options": [
+    "Hidden",
+    "Shown",
+    "Current"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "hpick10",
+   "name": "Preset pick 10",
+   "momentary": true
+  },
+  {
+   "key": "hpre10_name",
+   "name": "Preset 10",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpre10_state",
+   "name": "Preset 10 shown",
+   "options": [
+    "Hidden",
+    "Shown",
+    "Current"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "hpick11",
+   "name": "Preset pick 11",
+   "momentary": true
+  },
+  {
+   "key": "hpre11_name",
+   "name": "Preset 11",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpre11_state",
+   "name": "Preset 11 shown",
+   "options": [
+    "Hidden",
+    "Shown",
+    "Current"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "hpick12",
+   "name": "Preset pick 12",
+   "momentary": true
+  },
+  {
+   "key": "hpre12_name",
+   "name": "Preset 12",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpre12_state",
+   "name": "Preset 12 shown",
+   "options": [
+    "Hidden",
+    "Shown",
+    "Current"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "hpick13",
+   "name": "Preset pick 13",
+   "momentary": true
+  },
+  {
+   "key": "hpre13_name",
+   "name": "Preset 13",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpre13_state",
+   "name": "Preset 13 shown",
+   "options": [
+    "Hidden",
+    "Shown",
+    "Current"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "hpick14",
+   "name": "Preset pick 14",
+   "momentary": true
+  },
+  {
+   "key": "hpre14_name",
+   "name": "Preset 14",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpre14_state",
+   "name": "Preset 14 shown",
+   "options": [
+    "Hidden",
+    "Shown",
+    "Current"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "hpick15",
+   "name": "Preset pick 15",
+   "momentary": true
+  },
+  {
+   "key": "hpre15_name",
+   "name": "Preset 15",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpre15_state",
+   "name": "Preset 15 shown",
+   "options": [
+    "Hidden",
+    "Shown",
+    "Current"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "hpick16",
+   "name": "Preset pick 16",
+   "momentary": true
+  },
+  {
+   "key": "hpre16_name",
+   "name": "Preset 16",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "hpre16_state",
+   "name": "Preset 16 shown",
+   "options": [
+    "Hidden",
+    "Shown",
+    "Current"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "section",
+   "name": "Section",
+   "options": [
+    "Inserts",
+    "Parallel"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "sec_ins",
+   "name": "Inserts",
+   "momentary": true
+  },
+  {
+   "key": "sec_par",
+   "name": "Parallel",
+   "momentary": true
+  },
+  {
+   "key": "send",
+   "name": "Parallel send",
+   "min": 0,
+   "max": 100,
+   "default": 50,
+   "dynamic_display": true,
+   "legacy": true
+  },
+  {
+   "key": "e256",
+   "name": "Edit 256",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e257",
+   "name": "Edit 257",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e258",
+   "name": "Edit 258",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e259",
+   "name": "Edit 259",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e260",
+   "name": "Edit 260",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e261",
+   "name": "Edit 261",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e262",
+   "name": "Edit 262",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e263",
+   "name": "Edit 263",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e264",
+   "name": "Edit 264",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e265",
+   "name": "Edit 265",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e266",
+   "name": "Edit 266",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e267",
+   "name": "Edit 267",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e268",
+   "name": "Edit 268",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e269",
+   "name": "Edit 269",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e270",
+   "name": "Edit 270",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e271",
+   "name": "Edit 271",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e272",
+   "name": "Edit 272",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e273",
+   "name": "Edit 273",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e274",
+   "name": "Edit 274",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e275",
+   "name": "Edit 275",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e276",
+   "name": "Edit 276",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e277",
+   "name": "Edit 277",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e278",
+   "name": "Edit 278",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e279",
+   "name": "Edit 279",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e280",
+   "name": "Edit 280",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e281",
+   "name": "Edit 281",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e282",
+   "name": "Edit 282",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e283",
+   "name": "Edit 283",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e284",
+   "name": "Edit 284",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e285",
+   "name": "Edit 285",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e286",
+   "name": "Edit 286",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e287",
+   "name": "Edit 287",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e288",
+   "name": "Edit 288",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e289",
+   "name": "Edit 289",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e290",
+   "name": "Edit 290",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e291",
+   "name": "Edit 291",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e292",
+   "name": "Edit 292",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e293",
+   "name": "Edit 293",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e294",
+   "name": "Edit 294",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e295",
+   "name": "Edit 295",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e296",
+   "name": "Edit 296",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e297",
+   "name": "Edit 297",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e298",
+   "name": "Edit 298",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e299",
+   "name": "Edit 299",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e300",
+   "name": "Edit 300",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e301",
+   "name": "Edit 301",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e302",
+   "name": "Edit 302",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e303",
+   "name": "Edit 303",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e304",
+   "name": "Edit 304",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e305",
+   "name": "Edit 305",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e306",
+   "name": "Edit 306",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e307",
+   "name": "Edit 307",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e308",
+   "name": "Edit 308",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e309",
+   "name": "Edit 309",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e310",
+   "name": "Edit 310",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e311",
+   "name": "Edit 311",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e312",
+   "name": "Edit 312",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e313",
+   "name": "Edit 313",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e314",
+   "name": "Edit 314",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e315",
+   "name": "Edit 315",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e316",
+   "name": "Edit 316",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e317",
+   "name": "Edit 317",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e318",
+   "name": "Edit 318",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e319",
+   "name": "Edit 319",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e320",
+   "name": "Edit 320",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e321",
+   "name": "Edit 321",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e322",
+   "name": "Edit 322",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e323",
+   "name": "Edit 323",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e324",
+   "name": "Edit 324",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e325",
+   "name": "Edit 325",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e326",
+   "name": "Edit 326",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e327",
+   "name": "Edit 327",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e328",
+   "name": "Edit 328",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e329",
+   "name": "Edit 329",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e330",
+   "name": "Edit 330",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e331",
+   "name": "Edit 331",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e332",
+   "name": "Edit 332",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e333",
+   "name": "Edit 333",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e334",
+   "name": "Edit 334",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e335",
+   "name": "Edit 335",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e336",
+   "name": "Edit 336",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e337",
+   "name": "Edit 337",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e338",
+   "name": "Edit 338",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e339",
+   "name": "Edit 339",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e340",
+   "name": "Edit 340",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e341",
+   "name": "Edit 341",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e342",
+   "name": "Edit 342",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e343",
+   "name": "Edit 343",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e344",
+   "name": "Edit 344",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e345",
+   "name": "Edit 345",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e346",
+   "name": "Edit 346",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e347",
+   "name": "Edit 347",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e348",
+   "name": "Edit 348",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e349",
+   "name": "Edit 349",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e350",
+   "name": "Edit 350",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e351",
+   "name": "Edit 351",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e352",
+   "name": "Edit 352",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e353",
+   "name": "Edit 353",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e354",
+   "name": "Edit 354",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e355",
+   "name": "Edit 355",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e356",
+   "name": "Edit 356",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e357",
+   "name": "Edit 357",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e358",
+   "name": "Edit 358",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e359",
+   "name": "Edit 359",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e360",
+   "name": "Edit 360",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e361",
+   "name": "Edit 361",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e362",
+   "name": "Edit 362",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e363",
+   "name": "Edit 363",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e364",
+   "name": "Edit 364",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e365",
+   "name": "Edit 365",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e366",
+   "name": "Edit 366",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e367",
+   "name": "Edit 367",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e368",
+   "name": "Edit 368",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e369",
+   "name": "Edit 369",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e370",
+   "name": "Edit 370",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e371",
+   "name": "Edit 371",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e372",
+   "name": "Edit 372",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e373",
+   "name": "Edit 373",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e374",
+   "name": "Edit 374",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e375",
+   "name": "Edit 375",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e376",
+   "name": "Edit 376",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e377",
+   "name": "Edit 377",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e378",
+   "name": "Edit 378",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e379",
+   "name": "Edit 379",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e380",
+   "name": "Edit 380",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e381",
+   "name": "Edit 381",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e382",
+   "name": "Edit 382",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "e383",
+   "name": "Edit 383",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "row1_onst",
+   "name": "Row 1 on",
+   "options": [
+    "Hidden",
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row1_tog",
+   "name": "On/Off 1",
+   "momentary": true
+  },
+  {
+   "key": "row1_par",
+   "name": "Row 1 parallel",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row1_send",
+   "name": "Send 1",
+   "min": 0,
+   "max": 100,
+   "default": 50,
+   "dynamic_display": true
+  },
+  {
+   "key": "row1_scst",
+   "name": "Row 1 sidechain",
+   "options": [
+    "Hidden",
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row1_sc",
+   "name": "Sidechain 1",
+   "momentary": true
+  },
+  {
+   "key": "row2_onst",
+   "name": "Row 2 on",
+   "options": [
+    "Hidden",
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row2_tog",
+   "name": "On/Off 2",
+   "momentary": true
+  },
+  {
+   "key": "row2_par",
+   "name": "Row 2 parallel",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row2_send",
+   "name": "Send 2",
+   "min": 0,
+   "max": 100,
+   "default": 50,
+   "dynamic_display": true
+  },
+  {
+   "key": "row2_scst",
+   "name": "Row 2 sidechain",
+   "options": [
+    "Hidden",
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row2_sc",
+   "name": "Sidechain 2",
+   "momentary": true
+  },
+  {
+   "key": "row3_onst",
+   "name": "Row 3 on",
+   "options": [
+    "Hidden",
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row3_tog",
+   "name": "On/Off 3",
+   "momentary": true
+  },
+  {
+   "key": "row3_par",
+   "name": "Row 3 parallel",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row3_send",
+   "name": "Send 3",
+   "min": 0,
+   "max": 100,
+   "default": 50,
+   "dynamic_display": true
+  },
+  {
+   "key": "row3_scst",
+   "name": "Row 3 sidechain",
+   "options": [
+    "Hidden",
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row3_sc",
+   "name": "Sidechain 3",
+   "momentary": true
+  },
+  {
+   "key": "row4_onst",
+   "name": "Row 4 on",
+   "options": [
+    "Hidden",
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row4_tog",
+   "name": "On/Off 4",
+   "momentary": true
+  },
+  {
+   "key": "row4_par",
+   "name": "Row 4 parallel",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row4_send",
+   "name": "Send 4",
+   "min": 0,
+   "max": 100,
+   "default": 50,
+   "dynamic_display": true
+  },
+  {
+   "key": "row4_scst",
+   "name": "Row 4 sidechain",
+   "options": [
+    "Hidden",
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "row4_sc",
+   "name": "Sidechain 4",
+   "momentary": true
+  },
+  {
+   "key": "scing",
+   "name": "Sidechain panel",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "sc_close",
+   "name": "Close sidechain",
+   "momentary": true
+  },
+  {
+   "key": "sc_panel",
+   "name": "Sidechain panel tap",
+   "momentary": true
+  },
+  {
+   "key": "sc_tog",
+   "name": "Sidechain on/off",
+   "momentary": true
+  },
+  {
+   "key": "sc_onst",
+   "name": "Sidechain on",
+   "options": [
+    "Hidden",
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "sc_name",
+   "name": "Sidechain track",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "sc_thr",
+   "name": "SC Threshold",
+   "min": -60,
+   "max": 0,
+   "default": -24,
+   "dynamic_display": true
+  },
+  {
+   "key": "sc_att",
+   "name": "SC Attack",
+   "min": 0,
+   "max": 100,
+   "default": 56.632,
+   "dynamic_display": true
+  },
+  {
+   "key": "sc_rel",
+   "name": "SC Release",
+   "min": 0,
+   "max": 100,
+   "default": 60.753,
+   "dynamic_display": true
+  },
+  {
+   "key": "sc_knee",
+   "name": "SC Knee",
+   "min": 0,
+   "max": 24,
+   "default": 6,
+   "dynamic_display": true
+  },
+  {
+   "key": "sc_ratio",
+   "name": "SC Ratio",
+   "min": 0,
+   "max": 100,
+   "default": 46.276,
+   "dynamic_display": true
+  },
+  {
+   "key": "sc_gr",
+   "name": "SC Ducking",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "mk_shown",
+   "name": "Macros shown",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "mk_page",
+   "name": "Macro page",
+   "options": [
+    "Hidden",
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "mk_pg1",
+   "name": "Macro page 1",
+   "momentary": true
+  },
+  {
+   "key": "mk_pg2",
+   "name": "Macro page 2",
+   "momentary": true
+  },
+  {
+   "key": "mk_pg3",
+   "name": "Macro page 3",
+   "momentary": true
+  },
+  {
+   "key": "mk_pg4",
+   "name": "Macro page 4",
+   "momentary": true
+  },
+  {
+   "key": "mk_map",
+   "name": "Map",
+   "momentary": true
+  },
+  {
+   "key": "mk_mapst",
+   "name": "Map state",
+   "options": [
+    "Hidden",
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "mk_clear",
+   "name": "Clear macro",
+   "momentary": true
+  },
+  {
+   "key": "mk_clrst",
+   "name": "Clear shown",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "mk1",
+   "name": "Macro 1",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_display": true
+  },
+  {
+   "key": "mk1_st",
+   "name": "Macro 1 state",
+   "options": [
+    "Hidden",
+    "Empty",
+    "Mapped",
+    "Armed"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "mk1_name",
+   "name": "Macro 1 name",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "mk1_fx",
+   "name": "Macro 1 effect",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "mk2",
+   "name": "Macro 2",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_display": true
+  },
+  {
+   "key": "mk2_st",
+   "name": "Macro 2 state",
+   "options": [
+    "Hidden",
+    "Empty",
+    "Mapped",
+    "Armed"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "mk2_name",
+   "name": "Macro 2 name",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "mk2_fx",
+   "name": "Macro 2 effect",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "mk3",
+   "name": "Macro 3",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_display": true
+  },
+  {
+   "key": "mk3_st",
+   "name": "Macro 3 state",
+   "options": [
+    "Hidden",
+    "Empty",
+    "Mapped",
+    "Armed"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "mk3_name",
+   "name": "Macro 3 name",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "mk3_fx",
+   "name": "Macro 3 effect",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "mk4",
+   "name": "Macro 4",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "dynamic_display": true
+  },
+  {
+   "key": "mk4_st",
+   "name": "Macro 4 state",
+   "options": [
+    "Hidden",
+    "Empty",
+    "Mapped",
+    "Armed"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "mk4_name",
+   "name": "Macro 4 name",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "mk4_fx",
+   "name": "Macro 4 effect",
+   "display": "string",
+   "live": true
+  }
+ ]
+}

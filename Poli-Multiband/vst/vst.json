@@ -1,0 +1,38 @@
+{
+  "name": "Poli-Multiband",
+  "vendor": "Poli",
+  "uid": "PlMb",
+  "version": 1240,
+  "effect": true,
+  "art": "html",
+  "so": "poli_multiband.so",
+  "params": "params.json",
+  "layout": "layout.conf",
+  "skin_post": "skin_post.py",
+  "targets": [
+    "aarch64"
+  ],
+  "defines": {
+    "HAS_DISPLAY_REV": 1,
+    "DISPLAY_REV_NO_UPDATE": 1
+  },
+  "build": {
+    "root": "..",
+    "sources": [
+      "src/MultibandDSP.cpp",
+      "src/engine.cpp"
+    ],
+    "cflags": [
+      "-Isrc",
+      "-O3",
+      "-ffast-math"
+    ],
+    "libs": [
+      "-lm",
+      "-lstdc++"
+    ]
+  },
+  "programs": {
+    "param": "preset"
+  }
+}

@@ -1,0 +1,827 @@
+{
+ "name": "Poli-verb",
+ "params": [
+  {
+   "key": "page",
+   "name": "Page",
+   "options": [
+    "General",
+    "Space",
+    "Tail"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "mix",
+   "name": "Mix",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 300.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "input",
+   "name": "Input",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "output",
+   "name": "Output",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "drive",
+   "name": "Drive",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "low",
+   "name": "Low",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "tilt",
+   "name": "Tilt",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "high",
+   "name": "High",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "size",
+   "name": "Size",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "predelay",
+   "name": "Pre-Delay",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 120.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "width",
+   "name": "Width",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "er_level",
+   "name": "Lvl",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 600.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "er_prob",
+   "name": "Probability",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 1000.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "diffusion",
+   "name": "Diffusion",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 800.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "damping",
+   "name": "Damping",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "modulation",
+   "name": "Modulation",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 300.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "density",
+   "name": "Density",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 600.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "spread",
+   "name": "Spread",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 700.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "bassmult",
+   "name": "Bass Mult",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "attack",
+   "name": "Attack",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "release",
+   "name": "Release",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 1000.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "decay",
+   "name": "Decay",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "freeze",
+   "name": "Freeze",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "sync",
+   "name": "Sync",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "wet_l",
+   "name": "L",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 1,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "wet_r",
+   "name": "R",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 1,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "type",
+   "name": "Space",
+   "options": [
+    "Hall",
+    "Room",
+    "Chamber",
+    "Plate",
+    "Spring",
+    "Cathedral",
+    "Arena",
+    "Booth",
+    "Canyon",
+    "Ambience",
+    "Cave",
+    "Tunnel",
+    "Garage",
+    "Stairwell"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 2
+  },
+  {
+   "key": "type_prev",
+   "name": "Space <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "type_next",
+   "name": "Space >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "tab1",
+   "name": "General",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "tab2",
+   "name": "Space tab",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "tab3",
+   "name": "Tail",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "type_view",
+   "name": "Space picture",
+   "options": [
+    "General",
+    "Tail S",
+    "Tail M",
+    "Tail L",
+    "Tail XL",
+    "Tail XXL",
+    "Hall",
+    "Room",
+    "Chamber",
+    "Plate",
+    "Spring",
+    "Cathedral",
+    "Arena",
+    "Booth",
+    "Canyon",
+    "Ambience",
+    "Cave",
+    "Tunnel",
+    "Garage",
+    "Stairwell"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "room_view",
+   "name": "Room size",
+   "options": [
+    "Hidden",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "q1",
+   "name": "Q-Link 1",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q2",
+   "name": "Q-Link 2",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q3",
+   "name": "Q-Link 3",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q4",
+   "name": "Q-Link 4",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q5",
+   "name": "Q-Link 5",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q6",
+   "name": "Q-Link 6",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q7",
+   "name": "Q-Link 7",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q8",
+   "name": "Q-Link 8",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "q9",
+   "name": "Q-Link 9",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "preset",
+   "name": "Preset",
+   "options": [
+    "Init",
+    "Room: Small Room",
+    "Room: Wood Room",
+    "Room: Tiled Room",
+    "Room: Live Room",
+    "Room: Dead Booth",
+    "Room: Vocal Booth",
+    "Room: Warm Chamber",
+    "Room: Echo Chamber",
+    "Room: Garage",
+    "Room: Concrete Garage",
+    "Hall: Small Hall",
+    "Hall: Medium Hall",
+    "Hall: Large Hall",
+    "Hall: Concert Hall",
+    "Hall: Bright Hall",
+    "Hall: Warm Hall",
+    "Hall: Dark Hall",
+    "Hall: Gothic Hall",
+    "Hall: Tight Hall",
+    "Hall: Wide Hall",
+    "Hall: Piano Hall",
+    "Hall: String Hall",
+    "Hall: Orchestra Stage",
+    "Hall: Ambient Hall",
+    "Plate: Classic Plate",
+    "Plate: Bright Plate",
+    "Plate: Warm Plate",
+    "Plate: Short Plate",
+    "Plate: Long Plate",
+    "Plate: Vocal Plate",
+    "Plate: Snare Plate",
+    "Plate: Dense Plate",
+    "Plate: Silk Plate",
+    "Plate: Huge Plate",
+    "Spring: Twang",
+    "Spring: Surf Spring",
+    "Spring: Boingy",
+    "Spring: Amp Spring",
+    "Spring: Dub Spring",
+    "Spring: Soft Spring",
+    "Church: Small Chapel",
+    "Church: Stone Chapel",
+    "Church: Village Church",
+    "Church: Cathedral",
+    "Church: Grand Cathedral",
+    "Church: Cloister",
+    "Church: Choir Loft",
+    "Church: Basilica",
+    "Arena: Arena",
+    "Arena: Stadium",
+    "Arena: Coliseum",
+    "Arena: Slap Hall",
+    "Arena: Canyon Call",
+    "Arena: Valley Echo",
+    "Amb: Air",
+    "Amb: Studio Air",
+    "Amb: Tight Ambience",
+    "Amb: Drum Room",
+    "Amb: Bright Ambience",
+    "Amb: Natural Space",
+    "Amb: Close Mic Room",
+    "Amb: Wide Ambience",
+    "Amb: Subtle Glue",
+    "Amb: Snap Early",
+    "Vox: Pop Vocal",
+    "Vox: Intimate Vocal",
+    "Vox: Ballad Hall",
+    "Vox: Rap Slap",
+    "Vox: R&B Silk",
+    "Vox: Rock Chamber",
+    "Vox: Choral Air",
+    "Vox: Dream Vocal",
+    "Vox: Whisper Room",
+    "Vox: Backing Wash",
+    "Vox: Lead Slap Hall",
+    "Vox: Spoken Word",
+    "Vox: Harmony Plate",
+    "Vox: Shout Chamber",
+    "Drum: Snare Room",
+    "Drum: Big Snare",
+    "Drum: Gated Snare",
+    "Drum: Tom Hall",
+    "Drum: Kick Air",
+    "Drum: Drum Bus Room",
+    "Drum: Overhead Air",
+    "Drum: Stadium Hits",
+    "Drum: Snap Plate",
+    "Drum: Reverse-ish Swell",
+    "FX: Long Wash",
+    "FX: Swell Wash",
+    "FX: Gated Verb",
+    "FX: Tunnel Flutter",
+    "FX: Tunnel Sync",
+    "FX: Cave Dark",
+    "FX: Stairwell Echo",
+    "FX: Space Drone",
+    "FX: Lo-Fi Tank",
+    "FX: Metal Hall",
+    "FX: Ghost Canyon",
+    "FX: Frozen Air"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 2
+  },
+  {
+   "key": "preset_prev",
+   "name": "Preset <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_next",
+   "name": "Preset >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_list",
+   "name": "Preset list",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "browsing",
+   "name": "Browsing",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "bview",
+   "name": "Browser view",
+   "options": [
+    "Closed",
+    "v1",
+    "v2",
+    "v3",
+    "v4",
+    "v5",
+    "v6",
+    "v7",
+    "v8",
+    "v9",
+    "v10",
+    "v11",
+    "v12",
+    "v13",
+    "v14",
+    "v15",
+    "v16",
+    "v17",
+    "v18",
+    "v19",
+    "v20",
+    "v21"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pre_hl",
+   "name": "Preset shown",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "bpage_prev",
+   "name": "Page <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "bpage_next",
+   "name": "Page >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat1",
+   "name": "Category 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat2",
+   "name": "Category 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat3",
+   "name": "Category 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat4",
+   "name": "Category 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat5",
+   "name": "Category 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat6",
+   "name": "Category 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat7",
+   "name": "Category 7",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat8",
+   "name": "Category 8",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat9",
+   "name": "Category 9",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat10",
+   "name": "Category 10",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat11",
+   "name": "Category 11",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick1",
+   "name": "Pick 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick2",
+   "name": "Pick 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick3",
+   "name": "Pick 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick4",
+   "name": "Pick 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick5",
+   "name": "Pick 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick6",
+   "name": "Pick 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick7",
+   "name": "Pick 7",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick8",
+   "name": "Pick 8",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick9",
+   "name": "Pick 9",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick10",
+   "name": "Pick 10",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick11",
+   "name": "Pick 11",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick12",
+   "name": "Pick 12",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "room_step",
+   "name": "Room size step",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "q10",
+   "name": "Q-Link 10",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_name": true,
+   "dynamic_display": true
+  }
+ ]
+}

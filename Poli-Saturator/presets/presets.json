@@ -1,0 +1,1053 @@
+{
+ "cats": [
+  "All",
+  "Drums",
+  "Vocals",
+  "Bass",
+  "Keys & Synth",
+  "Bus & Master",
+  "Creative"
+ ],
+ "presets": [
+  {
+   "name": "Init",
+   "short": "Init",
+   "cat": "Init",
+   "catIndex": 0,
+   "type": "Tube",
+   "pos": [
+    500,
+    0,
+    400,
+    250,
+    500,
+    500,
+    500
+   ]
+  },
+  {
+   "name": "Drum: Kick Warmth",
+   "short": "Kick Warmth",
+   "cat": "Drums",
+   "catIndex": 1,
+   "type": "Tube",
+   "pos": [
+    350,
+    100,
+    300,
+    400,
+    625,
+    375,
+    0
+   ]
+  },
+  {
+   "name": "Drum: Kick Punch",
+   "short": "Kick Punch",
+   "cat": "Drums",
+   "catIndex": 1,
+   "type": "Clip",
+   "pos": [
+    450,
+    350,
+    600,
+    350,
+    583,
+    500,
+    250
+   ]
+  },
+  {
+   "name": "Drum: Kick Sub Thump",
+   "short": "Kick Sub Thump",
+   "cat": "Drums",
+   "catIndex": 1,
+   "type": "Tube",
+   "pos": [
+    300,
+    0,
+    200,
+    600,
+    750,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "Drum: Snare Crack",
+   "short": "Snare Crack",
+   "cat": "Drums",
+   "catIndex": 1,
+   "type": "Clip",
+   "pos": [
+    500,
+    250,
+    700,
+    250,
+    375,
+    625,
+    625
+   ]
+  },
+  {
+   "name": "Drum: Snare Body",
+   "short": "Snare Body",
+   "cat": "Drums",
+   "catIndex": 1,
+   "type": "Tube",
+   "pos": [
+    400,
+    300,
+    400,
+    300,
+    500,
+    625,
+    375
+   ]
+  },
+  {
+   "name": "Drum: Hat Grit",
+   "short": "Hat Grit",
+   "cat": "Drums",
+   "catIndex": 1,
+   "type": "Tube",
+   "pos": [
+    300,
+    0,
+    600,
+    200,
+    0,
+    250,
+    625
+   ]
+  },
+  {
+   "name": "Drum: Drum Bus Tape",
+   "short": "Drum Bus Tape",
+   "cat": "Drums",
+   "catIndex": 1,
+   "type": "Tape",
+   "pos": [
+    400,
+    350,
+    400,
+    300,
+    500,
+    500,
+    500
+   ]
+  },
+  {
+   "name": "Drum: Drum Bus Glue",
+   "short": "Drum Bus Glue",
+   "cat": "Drums",
+   "catIndex": 1,
+   "type": "Tape",
+   "pos": [
+    250,
+    550,
+    200,
+    400,
+    500,
+    438,
+    500
+   ]
+  },
+  {
+   "name": "Drum: Break Crunch",
+   "short": "Break Crunch",
+   "cat": "Drums",
+   "catIndex": 1,
+   "type": "Clip",
+   "pos": [
+    650,
+    450,
+    750,
+    200,
+    500,
+    625,
+    500
+   ]
+  },
+  {
+   "name": "Drum: Loop Smash",
+   "short": "Loop Smash",
+   "cat": "Drums",
+   "catIndex": 1,
+   "type": "Tube",
+   "pos": [
+    550,
+    800,
+    500,
+    300,
+    583,
+    500,
+    500
+   ]
+  },
+  {
+   "name": "Drum: 808 Harmonics",
+   "short": "808 Harmonics",
+   "cat": "Drums",
+   "catIndex": 1,
+   "type": "Tube",
+   "pos": [
+    450,
+    150,
+    200,
+    650,
+    500,
+    750,
+    0
+   ]
+  },
+  {
+   "name": "Drum: Room Crush",
+   "short": "Room Crush",
+   "cat": "Drums",
+   "catIndex": 1,
+   "type": "Tape",
+   "pos": [
+    700,
+    900,
+    450,
+    500,
+    500,
+    500,
+    438
+   ]
+  },
+  {
+   "name": "Vox: Warm Vocal",
+   "short": "Warm Vocal",
+   "cat": "Vocals",
+   "catIndex": 2,
+   "type": "Tube",
+   "pos": [
+    250,
+    200,
+    300,
+    450,
+    438,
+    500,
+    500
+   ]
+  },
+  {
+   "name": "Vox: Presence",
+   "short": "Presence",
+   "cat": "Vocals",
+   "catIndex": 2,
+   "type": "Tube",
+   "pos": [
+    350,
+    250,
+    500,
+    300,
+    250,
+    625,
+    625
+   ]
+  },
+  {
+   "name": "Vox: Smooth Lead",
+   "short": "Smooth Lead",
+   "cat": "Vocals",
+   "catIndex": 2,
+   "type": "Tape",
+   "pos": [
+    300,
+    350,
+    250,
+    500,
+    438,
+    500,
+    438
+   ]
+  },
+  {
+   "name": "Vox: Gritty Vocal",
+   "short": "Gritty Vocal",
+   "cat": "Vocals",
+   "catIndex": 2,
+   "type": "Clip",
+   "pos": [
+    450,
+    300,
+    650,
+    250,
+    312,
+    625,
+    500
+   ]
+  },
+  {
+   "name": "Vox: Radio Voice",
+   "short": "Radio Voice",
+   "cat": "Vocals",
+   "catIndex": 2,
+   "type": "Clip",
+   "pos": [
+    600,
+    400,
+    800,
+    600,
+    0,
+    750,
+    0
+   ]
+  },
+  {
+   "name": "Vox: Tape Vocal",
+   "short": "Tape Vocal",
+   "cat": "Vocals",
+   "catIndex": 2,
+   "type": "Tape",
+   "pos": [
+    400,
+    250,
+    400,
+    400,
+    438,
+    500,
+    500
+   ]
+  },
+  {
+   "name": "Vox: Airy Vocal",
+   "short": "Airy Vocal",
+   "cat": "Vocals",
+   "catIndex": 2,
+   "type": "Tube",
+   "pos": [
+    250,
+    150,
+    600,
+    100,
+    0,
+    375,
+    667
+   ]
+  },
+  {
+   "name": "Vox: Backing Fat",
+   "short": "Backing Fat",
+   "cat": "Vocals",
+   "catIndex": 2,
+   "type": "Tape",
+   "pos": [
+    350,
+    400,
+    200,
+    550,
+    583,
+    500,
+    375
+   ]
+  },
+  {
+   "name": "Vox: Rap Punch",
+   "short": "Rap Punch",
+   "cat": "Vocals",
+   "catIndex": 2,
+   "type": "Clip",
+   "pos": [
+    400,
+    450,
+    550,
+    350,
+    375,
+    625,
+    583
+   ]
+  },
+  {
+   "name": "Vox: Dark Vocal",
+   "short": "Dark Vocal",
+   "cat": "Vocals",
+   "catIndex": 2,
+   "type": "Tape",
+   "pos": [
+    450,
+    300,
+    300,
+    700,
+    500,
+    500,
+    250
+   ]
+  },
+  {
+   "name": "Vox: Whisper Glue",
+   "short": "Whisper Glue",
+   "cat": "Vocals",
+   "catIndex": 2,
+   "type": "Tube",
+   "pos": [
+    150,
+    500,
+    200,
+    400,
+    500,
+    500,
+    500
+   ]
+  },
+  {
+   "name": "Bass: Warm Bass",
+   "short": "Warm Bass",
+   "cat": "Bass",
+   "catIndex": 3,
+   "type": "Tube",
+   "pos": [
+    350,
+    100,
+    300,
+    500,
+    583,
+    500,
+    0
+   ]
+  },
+  {
+   "name": "Bass: Bass Grind",
+   "short": "Bass Grind",
+   "cat": "Bass",
+   "catIndex": 3,
+   "type": "Clip",
+   "pos": [
+    600,
+    250,
+    750,
+    400,
+    500,
+    625,
+    0
+   ]
+  },
+  {
+   "name": "Bass: Sub Harmonics",
+   "short": "Sub Harmonics",
+   "cat": "Bass",
+   "catIndex": 3,
+   "type": "Tube",
+   "pos": [
+    400,
+    0,
+    150,
+    750,
+    750,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "Bass: Tape Bass",
+   "short": "Tape Bass",
+   "cat": "Bass",
+   "catIndex": 3,
+   "type": "Tape",
+   "pos": [
+    450,
+    300,
+    350,
+    550,
+    583,
+    500,
+    250
+   ]
+  },
+  {
+   "name": "Bass: Fold Bass",
+   "short": "Fold Bass",
+   "cat": "Bass",
+   "catIndex": 3,
+   "type": "Fold",
+   "pos": [
+    350,
+    200,
+    400,
+    550,
+    500,
+    625,
+    0
+   ]
+  },
+  {
+   "name": "Bass: Bass Presence",
+   "short": "Bass Presence",
+   "cat": "Bass",
+   "catIndex": 3,
+   "type": "Tube",
+   "pos": [
+    400,
+    350,
+    500,
+    400,
+    375,
+    750,
+    500
+   ]
+  },
+  {
+   "name": "Bass: Pluck Crunch",
+   "short": "Pluck Crunch",
+   "cat": "Bass",
+   "catIndex": 3,
+   "type": "Clip",
+   "pos": [
+    550,
+    400,
+    650,
+    300,
+    500,
+    625,
+    438
+   ]
+  },
+  {
+   "name": "Bass: Bass Glue",
+   "short": "Bass Glue",
+   "cat": "Bass",
+   "catIndex": 3,
+   "type": "Tape",
+   "pos": [
+    250,
+    600,
+    200,
+    500,
+    500,
+    500,
+    0
+   ]
+  },
+  {
+   "name": "Bass: Rumble",
+   "short": "Rumble",
+   "cat": "Bass",
+   "catIndex": 3,
+   "type": "Tape",
+   "pos": [
+    700,
+    400,
+    350,
+    700,
+    750,
+    375,
+    0
+   ]
+  },
+  {
+   "name": "Keys: Electric Piano",
+   "short": "Electric Piano",
+   "cat": "Keys & Synth",
+   "catIndex": 4,
+   "type": "Tube",
+   "pos": [
+    300,
+    100,
+    300,
+    400,
+    500,
+    500,
+    438
+   ]
+  },
+  {
+   "name": "Keys: Piano Tape",
+   "short": "Piano Tape",
+   "cat": "Keys & Synth",
+   "catIndex": 4,
+   "type": "Tape",
+   "pos": [
+    250,
+    250,
+    200,
+    450,
+    500,
+    500,
+    500
+   ]
+  },
+  {
+   "name": "Keys: Organ Drive",
+   "short": "Organ Drive",
+   "cat": "Keys & Synth",
+   "catIndex": 4,
+   "type": "Tube",
+   "pos": [
+    550,
+    200,
+    700,
+    250,
+    500,
+    625,
+    500
+   ]
+  },
+  {
+   "name": "Keys: Warm Pad",
+   "short": "Warm Pad",
+   "cat": "Keys & Synth",
+   "catIndex": 4,
+   "type": "Tape",
+   "pos": [
+    300,
+    0,
+    250,
+    600,
+    500,
+    500,
+    375
+   ]
+  },
+  {
+   "name": "Keys: Lead Bite",
+   "short": "Lead Bite",
+   "cat": "Keys & Synth",
+   "catIndex": 4,
+   "type": "Clip",
+   "pos": [
+    500,
+    250,
+    700,
+    200,
+    375,
+    625,
+    625
+   ]
+  },
+  {
+   "name": "Keys: Synth Fold",
+   "short": "Synth Fold",
+   "cat": "Keys & Synth",
+   "catIndex": 4,
+   "type": "Fold",
+   "pos": [
+    400,
+    0,
+    500,
+    300,
+    375,
+    500,
+    625
+   ]
+  },
+  {
+   "name": "Keys: Saw Smash",
+   "short": "Saw Smash",
+   "cat": "Keys & Synth",
+   "catIndex": 4,
+   "type": "Tube",
+   "pos": [
+    600,
+    550,
+    600,
+    250,
+    500,
+    500,
+    500
+   ]
+  },
+  {
+   "name": "Keys: Arp Sizzle",
+   "short": "Arp Sizzle",
+   "cat": "Keys & Synth",
+   "catIndex": 4,
+   "type": "Fold",
+   "pos": [
+    300,
+    100,
+    600,
+    350,
+    0,
+    500,
+    750
+   ]
+  },
+  {
+   "name": "Keys: Chord Tape",
+   "short": "Chord Tape",
+   "cat": "Keys & Synth",
+   "catIndex": 4,
+   "type": "Tape",
+   "pos": [
+    350,
+    200,
+    300,
+    500,
+    500,
+    500,
+    438
+   ]
+  },
+  {
+   "name": "Bus: Master Glue",
+   "short": "Master Glue",
+   "cat": "Bus & Master",
+   "catIndex": 5,
+   "type": "Tape",
+   "pos": [
+    150,
+    350,
+    150,
+    550,
+    500,
+    500,
+    500
+   ]
+  },
+  {
+   "name": "Bus: Gentle Tape",
+   "short": "Gentle Tape",
+   "cat": "Bus & Master",
+   "catIndex": 5,
+   "type": "Tape",
+   "pos": [
+    200,
+    100,
+    200,
+    500,
+    500,
+    500,
+    438
+   ]
+  },
+  {
+   "name": "Bus: Mix Bus Warm",
+   "short": "Mix Bus Warm",
+   "cat": "Bus & Master",
+   "catIndex": 5,
+   "type": "Tube",
+   "pos": [
+    150,
+    250,
+    200,
+    500,
+    500,
+    500,
+    500
+   ]
+  },
+  {
+   "name": "Bus: Mix Bus Drive",
+   "short": "Mix Bus Drive",
+   "cat": "Bus & Master",
+   "catIndex": 5,
+   "type": "Tape",
+   "pos": [
+    300,
+    400,
+    400,
+    400,
+    500,
+    500,
+    500
+   ]
+  },
+  {
+   "name": "Bus: Master Polish",
+   "short": "Master Polish",
+   "cat": "Bus & Master",
+   "catIndex": 5,
+   "type": "Tube",
+   "pos": [
+    100,
+    200,
+    200,
+    300,
+    438,
+    500,
+    583
+   ]
+  },
+  {
+   "name": "Bus: Loud Master",
+   "short": "Loud Master",
+   "cat": "Bus & Master",
+   "catIndex": 5,
+   "type": "Clip",
+   "pos": [
+    250,
+    600,
+    300,
+    400,
+    500,
+    500,
+    500
+   ]
+  },
+  {
+   "name": "Bus: Subtle Heat",
+   "short": "Subtle Heat",
+   "cat": "Bus & Master",
+   "catIndex": 5,
+   "type": "Tube",
+   "pos": [
+    100,
+    0,
+    250,
+    400,
+    500,
+    500,
+    500
+   ]
+  },
+  {
+   "name": "Bus: Open Air",
+   "short": "Open Air",
+   "cat": "Bus & Master",
+   "catIndex": 5,
+   "type": "Tube",
+   "pos": [
+    200,
+    100,
+    500,
+    200,
+    250,
+    438,
+    667
+   ]
+  },
+  {
+   "name": "Bus: Parallel Smash",
+   "short": "Parallel Smash",
+   "cat": "Bus & Master",
+   "catIndex": 5,
+   "type": "Tape",
+   "pos": [
+    600,
+    850,
+    350,
+    500,
+    500,
+    500,
+    500
+   ]
+  },
+  {
+   "name": "Bus: Vinyl Warmth",
+   "short": "Vinyl Warmth",
+   "cat": "Bus & Master",
+   "catIndex": 5,
+   "type": "Tape",
+   "pos": [
+    350,
+    150,
+    300,
+    800,
+    583,
+    500,
+    250
+   ]
+  },
+  {
+   "name": "Bus: Radio Ready",
+   "short": "Radio Ready",
+   "cat": "Bus & Master",
+   "catIndex": 5,
+   "type": "Clip",
+   "pos": [
+    350,
+    500,
+    500,
+    350,
+    500,
+    583,
+    583
+   ]
+  },
+  {
+   "name": "FX: Lo-Fi Crunch",
+   "short": "Lo-Fi Crunch",
+   "cat": "Creative",
+   "catIndex": 6,
+   "type": "Clip",
+   "pos": [
+    750,
+    300,
+    900,
+    700,
+    500,
+    500,
+    250
+   ]
+  },
+  {
+   "name": "FX: Tape Destroyer",
+   "short": "Tape Destroyer",
+   "cat": "Creative",
+   "catIndex": 6,
+   "type": "Tape",
+   "pos": [
+    900,
+    600,
+    700,
+    400,
+    500,
+    500,
+    500
+   ]
+  },
+  {
+   "name": "FX: Fold Madness",
+   "short": "Fold Madness",
+   "cat": "Creative",
+   "catIndex": 6,
+   "type": "Fold",
+   "pos": [
+    800,
+    0,
+    800,
+    100,
+    500,
+    500,
+    500
+   ]
+  },
+  {
+   "name": "FX: Metal Fold",
+   "short": "Metal Fold",
+   "cat": "Creative",
+   "catIndex": 6,
+   "type": "Fold",
+   "pos": [
+    600,
+    200,
+    1000,
+    50,
+    250,
+    750,
+    750
+   ]
+  },
+  {
+   "name": "FX: Broken Radio",
+   "short": "Broken Radio",
+   "cat": "Creative",
+   "catIndex": 6,
+   "type": "Clip",
+   "pos": [
+    850,
+    500,
+    1000,
+    750,
+    0,
+    875,
+    0
+   ]
+  },
+  {
+   "name": "FX: Warm Mud",
+   "short": "Warm Mud",
+   "cat": "Creative",
+   "catIndex": 6,
+   "type": "Tube",
+   "pos": [
+    850,
+    400,
+    200,
+    800,
+    750,
+    500,
+    250
+   ]
+  },
+  {
+   "name": "FX: Screamer",
+   "short": "Screamer",
+   "cat": "Creative",
+   "catIndex": 6,
+   "type": "Clip",
+   "pos": [
+    1000,
+    400,
+    1000,
+    0,
+    375,
+    625,
+    500
+   ]
+  },
+  {
+   "name": "FX: Soft Squash",
+   "short": "Soft Squash",
+   "cat": "Creative",
+   "catIndex": 6,
+   "type": "Tape",
+   "pos": [
+    500,
+    1000,
+    200,
+    600,
+    500,
+    500,
+    500
+   ]
+  },
+  {
+   "name": "FX: Glitch Fold",
+   "short": "Glitch Fold",
+   "cat": "Creative",
+   "catIndex": 6,
+   "type": "Fold",
+   "pos": [
+    500,
+    400,
+    700,
+    200,
+    250,
+    625,
+    500
+   ]
+  },
+  {
+   "name": "FX: Bit Grit",
+   "short": "Bit Grit",
+   "cat": "Creative",
+   "catIndex": 6,
+   "type": "Clip",
+   "pos": [
+    550,
+    0,
+    1000,
+    0,
+    375,
+    500,
+    625
+   ]
+  },
+  {
+   "name": "FX: Heavy Low End",
+   "short": "Heavy Low End",
+   "cat": "Creative",
+   "catIndex": 6,
+   "type": "Tube",
+   "pos": [
+    900,
+    300,
+    600,
+    450,
+    833,
+    375,
+    1
+   ]
+  },
+  {
+   "name": "FX: Silk Fold",
+   "short": "Silk Fold",
+   "cat": "Creative",
+   "catIndex": 6,
+   "type": "Fold",
+   "pos": [
+    250,
+    100,
+    150,
+    600,
+    500,
+    438,
+    500
+   ]
+  }
+ ]
+}

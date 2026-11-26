@@ -1,0 +1,2712 @@
+{
+ "name": "Poli-Chorus",
+ "params": [
+  {
+   "key": "rate",
+   "name": "Rate",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 523.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "amount",
+   "name": "Amount",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "feedback",
+   "name": "Feedback",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "width",
+   "name": "Width",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 600.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "lpf",
+   "name": "LP Filter",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 1000.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "warmth",
+   "name": "Warmth",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 250.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "output",
+   "name": "Output",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 667.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "mix",
+   "name": "Mix",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "mode",
+   "name": "Mode",
+   "options": [
+    "Classic",
+    "Ensemble",
+    "Vibrato"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "mode_classic",
+   "name": "Mode Classic",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "mode_ensemble",
+   "name": "Mode Ensemble",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "mode_vibrato",
+   "name": "Mode Vibrato",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset",
+   "name": "Preset",
+   "options": [
+    "Init",
+    "Cls: Silver Shimmer",
+    "Cls: Juno Lush",
+    "Cls: Subtle Thickener",
+    "Cls: Wide Dimension",
+    "Cls: Slow Swirl",
+    "Cls: Bright Sparkle",
+    "Cls: Studio Sweet",
+    "Cls: Mono Safe",
+    "Cls: Rotor Glide",
+    "Ens: String Machine",
+    "Ens: Solina Dream",
+    "Ens: Big Ensemble",
+    "Ens: Choir Pad",
+    "Ens: Subtle Strings",
+    "Ens: Detuned Cloud",
+    "Ens: Lush Wash",
+    "Ens: Silky Pad",
+    "Ens: Wide Hall",
+    "Vib: Gentle Vibrato",
+    "Vib: Tape Wobble",
+    "Vib: Fast Flutter",
+    "Vib: Slow Pitch Sway",
+    "Vib: Rotary Spin",
+    "Vib: Seasick",
+    "Vib: Lo-Fi Warble",
+    "Vib: Stereo Vibrato",
+    "Vib: Half Wet Vibe",
+    "Gtr: Clean Guitar Shine",
+    "Gtr: Dreamy Guitar",
+    "Gtr: 80s Rhythm",
+    "Gtr: E-Piano Sheen",
+    "Gtr: Rhodes Wide",
+    "Gtr: Organ Shimmer",
+    "Gtr: Acoustic Sparkle",
+    "Gtr: Jangle",
+    "Vox: Vocal Thickener",
+    "Vox: Backing Wide",
+    "Vox: Airy Doubler",
+    "Vox: Soft Pad Bloom",
+    "Vox: Warm Choir",
+    "Vox: Dream Vox",
+    "Vox: Synth Pad Wide",
+    "FX: Underwater",
+    "FX: Metal Wash",
+    "FX: Robot Choir",
+    "FX: Warped Tape",
+    "FX: Jet Chorus",
+    "FX: Spring Boing",
+    "FX: Space Shimmer",
+    "FX: Broken Cassette"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 2
+  },
+  {
+   "key": "preset_prev",
+   "name": "Preset <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_next",
+   "name": "Preset >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_list",
+   "name": "Preset list",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "browsing",
+   "name": "Browsing",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "bview",
+   "name": "Browser view",
+   "options": [
+    "Closed",
+    "v1",
+    "v2",
+    "v3",
+    "v4",
+    "v5",
+    "v6",
+    "v7",
+    "v8",
+    "v9",
+    "v10",
+    "v11"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pre_hl",
+   "name": "Preset shown",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "bpage_prev",
+   "name": "Page <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "bpage_next",
+   "name": "Page >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat1",
+   "name": "Category 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat2",
+   "name": "Category 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat3",
+   "name": "Category 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat4",
+   "name": "Category 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat5",
+   "name": "Category 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat6",
+   "name": "Category 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat7",
+   "name": "Category 7",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick1",
+   "name": "Pick 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick2",
+   "name": "Pick 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick3",
+   "name": "Pick 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick4",
+   "name": "Pick 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick5",
+   "name": "Pick 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick6",
+   "name": "Pick 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick7",
+   "name": "Pick 7",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick8",
+   "name": "Pick 8",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick9",
+   "name": "Pick 9",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick10",
+   "name": "Pick 10",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick11",
+   "name": "Pick 11",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick12",
+   "name": "Pick 12",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "vl001",
+   "name": "Wave L 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl002",
+   "name": "Wave L 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl003",
+   "name": "Wave L 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl004",
+   "name": "Wave L 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl005",
+   "name": "Wave L 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl006",
+   "name": "Wave L 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl007",
+   "name": "Wave L 7",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl008",
+   "name": "Wave L 8",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl009",
+   "name": "Wave L 9",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl010",
+   "name": "Wave L 10",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl011",
+   "name": "Wave L 11",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl012",
+   "name": "Wave L 12",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl013",
+   "name": "Wave L 13",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl014",
+   "name": "Wave L 14",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl015",
+   "name": "Wave L 15",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.7,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl016",
+   "name": "Wave L 16",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.7,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl017",
+   "name": "Wave L 17",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.7,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl018",
+   "name": "Wave L 18",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl019",
+   "name": "Wave L 19",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl020",
+   "name": "Wave L 20",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl021",
+   "name": "Wave L 21",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl022",
+   "name": "Wave L 22",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl023",
+   "name": "Wave L 23",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl024",
+   "name": "Wave L 24",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl025",
+   "name": "Wave L 25",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl026",
+   "name": "Wave L 26",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl027",
+   "name": "Wave L 27",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl028",
+   "name": "Wave L 28",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl029",
+   "name": "Wave L 29",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl030",
+   "name": "Wave L 30",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl031",
+   "name": "Wave L 31",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl032",
+   "name": "Wave L 32",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl033",
+   "name": "Wave L 33",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl034",
+   "name": "Wave L 34",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl035",
+   "name": "Wave L 35",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl036",
+   "name": "Wave L 36",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl037",
+   "name": "Wave L 37",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl038",
+   "name": "Wave L 38",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl039",
+   "name": "Wave L 39",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl040",
+   "name": "Wave L 40",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl041",
+   "name": "Wave L 41",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl042",
+   "name": "Wave L 42",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl043",
+   "name": "Wave L 43",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl044",
+   "name": "Wave L 44",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl045",
+   "name": "Wave L 45",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl046",
+   "name": "Wave L 46",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl047",
+   "name": "Wave L 47",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl048",
+   "name": "Wave L 48",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl049",
+   "name": "Wave L 49",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl050",
+   "name": "Wave L 50",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl051",
+   "name": "Wave L 51",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl052",
+   "name": "Wave L 52",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl053",
+   "name": "Wave L 53",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl054",
+   "name": "Wave L 54",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl055",
+   "name": "Wave L 55",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl056",
+   "name": "Wave L 56",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl057",
+   "name": "Wave L 57",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl058",
+   "name": "Wave L 58",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl059",
+   "name": "Wave L 59",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl060",
+   "name": "Wave L 60",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl061",
+   "name": "Wave L 61",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl062",
+   "name": "Wave L 62",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl063",
+   "name": "Wave L 63",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl064",
+   "name": "Wave L 64",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl065",
+   "name": "Wave L 65",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl066",
+   "name": "Wave L 66",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl067",
+   "name": "Wave L 67",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl068",
+   "name": "Wave L 68",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl069",
+   "name": "Wave L 69",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl070",
+   "name": "Wave L 70",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl071",
+   "name": "Wave L 71",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl072",
+   "name": "Wave L 72",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl073",
+   "name": "Wave L 73",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl074",
+   "name": "Wave L 74",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl075",
+   "name": "Wave L 75",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl076",
+   "name": "Wave L 76",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl077",
+   "name": "Wave L 77",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.7,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl078",
+   "name": "Wave L 78",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.7,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl079",
+   "name": "Wave L 79",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.7,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl080",
+   "name": "Wave L 80",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl081",
+   "name": "Wave L 81",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl082",
+   "name": "Wave L 82",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl083",
+   "name": "Wave L 83",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl084",
+   "name": "Wave L 84",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl085",
+   "name": "Wave L 85",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl086",
+   "name": "Wave L 86",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl087",
+   "name": "Wave L 87",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl088",
+   "name": "Wave L 88",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl089",
+   "name": "Wave L 89",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl090",
+   "name": "Wave L 90",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl091",
+   "name": "Wave L 91",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl092",
+   "name": "Wave L 92",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl093",
+   "name": "Wave L 93",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl094",
+   "name": "Wave L 94",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl095",
+   "name": "Wave L 95",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl096",
+   "name": "Wave L 96",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl097",
+   "name": "Wave L 97",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl098",
+   "name": "Wave L 98",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl099",
+   "name": "Wave L 99",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl100",
+   "name": "Wave L 100",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl101",
+   "name": "Wave L 101",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl102",
+   "name": "Wave L 102",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl103",
+   "name": "Wave L 103",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl104",
+   "name": "Wave L 104",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl105",
+   "name": "Wave L 105",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl106",
+   "name": "Wave L 106",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl107",
+   "name": "Wave L 107",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl108",
+   "name": "Wave L 108",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl109",
+   "name": "Wave L 109",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl110",
+   "name": "Wave L 110",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl111",
+   "name": "Wave L 111",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl112",
+   "name": "Wave L 112",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl113",
+   "name": "Wave L 113",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl114",
+   "name": "Wave L 114",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl115",
+   "name": "Wave L 115",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl116",
+   "name": "Wave L 116",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl117",
+   "name": "Wave L 117",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl118",
+   "name": "Wave L 118",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl119",
+   "name": "Wave L 119",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl120",
+   "name": "Wave L 120",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl121",
+   "name": "Wave L 121",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl122",
+   "name": "Wave L 122",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl123",
+   "name": "Wave L 123",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl124",
+   "name": "Wave L 124",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl125",
+   "name": "Wave L 125",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl126",
+   "name": "Wave L 126",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl127",
+   "name": "Wave L 127",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vl128",
+   "name": "Wave L 128",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr001",
+   "name": "Wave R 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr002",
+   "name": "Wave R 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr003",
+   "name": "Wave R 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr004",
+   "name": "Wave R 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr005",
+   "name": "Wave R 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr006",
+   "name": "Wave R 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr007",
+   "name": "Wave R 7",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr008",
+   "name": "Wave R 8",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr009",
+   "name": "Wave R 9",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr010",
+   "name": "Wave R 10",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr011",
+   "name": "Wave R 11",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr012",
+   "name": "Wave R 12",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr013",
+   "name": "Wave R 13",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr014",
+   "name": "Wave R 14",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr015",
+   "name": "Wave R 15",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr016",
+   "name": "Wave R 16",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr017",
+   "name": "Wave R 17",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr018",
+   "name": "Wave R 18",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr019",
+   "name": "Wave R 19",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr020",
+   "name": "Wave R 20",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr021",
+   "name": "Wave R 21",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr022",
+   "name": "Wave R 22",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr023",
+   "name": "Wave R 23",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr024",
+   "name": "Wave R 24",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr025",
+   "name": "Wave R 25",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr026",
+   "name": "Wave R 26",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr027",
+   "name": "Wave R 27",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr028",
+   "name": "Wave R 28",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr029",
+   "name": "Wave R 29",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr030",
+   "name": "Wave R 30",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr031",
+   "name": "Wave R 31",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr032",
+   "name": "Wave R 32",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr033",
+   "name": "Wave R 33",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr034",
+   "name": "Wave R 34",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.7,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr035",
+   "name": "Wave R 35",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.7,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr036",
+   "name": "Wave R 36",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.7,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr037",
+   "name": "Wave R 37",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr038",
+   "name": "Wave R 38",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr039",
+   "name": "Wave R 39",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr040",
+   "name": "Wave R 40",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr041",
+   "name": "Wave R 41",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr042",
+   "name": "Wave R 42",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr043",
+   "name": "Wave R 43",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr044",
+   "name": "Wave R 44",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr045",
+   "name": "Wave R 45",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr046",
+   "name": "Wave R 46",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr047",
+   "name": "Wave R 47",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr048",
+   "name": "Wave R 48",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr049",
+   "name": "Wave R 49",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr050",
+   "name": "Wave R 50",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr051",
+   "name": "Wave R 51",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr052",
+   "name": "Wave R 52",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr053",
+   "name": "Wave R 53",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr054",
+   "name": "Wave R 54",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr055",
+   "name": "Wave R 55",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr056",
+   "name": "Wave R 56",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr057",
+   "name": "Wave R 57",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr058",
+   "name": "Wave R 58",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr059",
+   "name": "Wave R 59",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr060",
+   "name": "Wave R 60",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr061",
+   "name": "Wave R 61",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr062",
+   "name": "Wave R 62",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr063",
+   "name": "Wave R 63",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr064",
+   "name": "Wave R 64",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr065",
+   "name": "Wave R 65",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr066",
+   "name": "Wave R 66",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr067",
+   "name": "Wave R 67",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr068",
+   "name": "Wave R 68",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr069",
+   "name": "Wave R 69",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr070",
+   "name": "Wave R 70",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr071",
+   "name": "Wave R 71",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr072",
+   "name": "Wave R 72",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr073",
+   "name": "Wave R 73",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr074",
+   "name": "Wave R 74",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr075",
+   "name": "Wave R 75",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr076",
+   "name": "Wave R 76",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr077",
+   "name": "Wave R 77",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr078",
+   "name": "Wave R 78",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr079",
+   "name": "Wave R 79",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr080",
+   "name": "Wave R 80",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr081",
+   "name": "Wave R 81",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr082",
+   "name": "Wave R 82",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr083",
+   "name": "Wave R 83",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr084",
+   "name": "Wave R 84",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr085",
+   "name": "Wave R 85",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr086",
+   "name": "Wave R 86",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr087",
+   "name": "Wave R 87",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr088",
+   "name": "Wave R 88",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr089",
+   "name": "Wave R 89",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr090",
+   "name": "Wave R 90",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr091",
+   "name": "Wave R 91",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr092",
+   "name": "Wave R 92",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr093",
+   "name": "Wave R 93",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr094",
+   "name": "Wave R 94",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr095",
+   "name": "Wave R 95",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr096",
+   "name": "Wave R 96",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.7,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr097",
+   "name": "Wave R 97",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.7,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr098",
+   "name": "Wave R 98",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.7,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr099",
+   "name": "Wave R 99",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr100",
+   "name": "Wave R 100",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr101",
+   "name": "Wave R 101",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr102",
+   "name": "Wave R 102",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr103",
+   "name": "Wave R 103",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr104",
+   "name": "Wave R 104",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr105",
+   "name": "Wave R 105",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr106",
+   "name": "Wave R 106",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr107",
+   "name": "Wave R 107",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.6,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr108",
+   "name": "Wave R 108",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr109",
+   "name": "Wave R 109",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr110",
+   "name": "Wave R 110",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr111",
+   "name": "Wave R 111",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr112",
+   "name": "Wave R 112",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.5143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr113",
+   "name": "Wave R 113",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr114",
+   "name": "Wave R 114",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr115",
+   "name": "Wave R 115",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr116",
+   "name": "Wave R 116",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr117",
+   "name": "Wave R 117",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr118",
+   "name": "Wave R 118",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.4,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr119",
+   "name": "Wave R 119",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3857,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr120",
+   "name": "Wave R 120",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3714,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr121",
+   "name": "Wave R 121",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3571,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr122",
+   "name": "Wave R 122",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3429,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr123",
+   "name": "Wave R 123",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3286,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr124",
+   "name": "Wave R 124",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr125",
+   "name": "Wave R 125",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr126",
+   "name": "Wave R 126",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3143,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr127",
+   "name": "Wave R 127",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "vr128",
+   "name": "Wave R 128",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.3,
+   "live": true,
+   "unit": ""
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Poli-Juicebox",
+  "vendor": "Poli",
+  "uid": "PlJb",
+  "version": 1500,
+  "so": "poli_juicebox.so",
+  "effect": true,
+  "params": "params.json",
+  "layout": "layout.conf",
+  "art": "html",
+  "skin_post": "skin_post.py",
+  "targets": ["aarch64"],
+  "programs": {"param": "preset"},
+  "defines": {"HAS_DISPLAY_REV": 1},
+  "build": {
+    "root": "..",
+    "sources": ["src/JuiceDSP.cpp", "src/engine.cpp"],
+    "cflags": ["-Isrc", "-O3", "-ffast-math", "-U__FAST_MATH__"],
+    "libs": ["-lm"]
+  }
+}

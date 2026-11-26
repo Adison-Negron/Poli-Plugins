@@ -1,0 +1,3115 @@
+{
+ "params": [
+  {
+   "key": "f1",
+   "name": "Freq 1",
+   "min": 0,
+   "max": 100,
+   "default": 5.8697,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "g1",
+   "name": "Gain 1",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "q1",
+   "name": "Q 1",
+   "min": 0,
+   "max": 100,
+   "default": 37.7453,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "t1",
+   "name": "Type 1",
+   "options": [
+    "Bell",
+    "Low Shelf",
+    "High Shelf",
+    "Low Cut 6",
+    "Low Cut 12",
+    "Low Cut 24",
+    "Low Cut 48",
+    "High Cut 6",
+    "High Cut 12",
+    "High Cut 24",
+    "High Cut 48",
+    "Notch",
+    "Band Pass",
+    "Tilt"
+   ],
+   "default": 4,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "on1",
+   "name": "Band 1",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "f2",
+   "name": "Freq 2",
+   "min": 0,
+   "max": 100,
+   "default": 20.0687,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "g2",
+   "name": "Gain 2",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "q2",
+   "name": "Q 2",
+   "min": 0,
+   "max": 100,
+   "default": 37.7453,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "t2",
+   "name": "Type 2",
+   "options": [
+    "Bell",
+    "Low Shelf",
+    "High Shelf",
+    "Low Cut 6",
+    "Low Cut 12",
+    "Low Cut 24",
+    "Low Cut 48",
+    "High Cut 6",
+    "High Cut 12",
+    "High Cut 24",
+    "High Cut 48",
+    "Notch",
+    "Band Pass",
+    "Tilt"
+   ],
+   "default": 1,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "on2",
+   "name": "Band 2",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 1,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "f3",
+   "name": "Freq 3",
+   "min": 0,
+   "max": 100,
+   "default": 33.3333,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "g3",
+   "name": "Gain 3",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "q3",
+   "name": "Q 3",
+   "min": 0,
+   "max": 100,
+   "default": 44.3405,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "t3",
+   "name": "Type 3",
+   "options": [
+    "Bell",
+    "Low Shelf",
+    "High Shelf",
+    "Low Cut 6",
+    "Low Cut 12",
+    "Low Cut 24",
+    "Low Cut 48",
+    "High Cut 6",
+    "High Cut 12",
+    "High Cut 24",
+    "High Cut 48",
+    "Notch",
+    "Band Pass",
+    "Tilt"
+   ],
+   "default": 0,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "on3",
+   "name": "Band 3",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 1,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "f4",
+   "name": "Freq 4",
+   "min": 0,
+   "max": 100,
+   "default": 46.598,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "g4",
+   "name": "Gain 4",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "q4",
+   "name": "Q 4",
+   "min": 0,
+   "max": 100,
+   "default": 44.3405,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "t4",
+   "name": "Type 4",
+   "options": [
+    "Bell",
+    "Low Shelf",
+    "High Shelf",
+    "Low Cut 6",
+    "Low Cut 12",
+    "Low Cut 24",
+    "Low Cut 48",
+    "High Cut 6",
+    "High Cut 12",
+    "High Cut 24",
+    "High Cut 48",
+    "Notch",
+    "Band Pass",
+    "Tilt"
+   ],
+   "default": 0,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "on4",
+   "name": "Band 4",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 1,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "f5",
+   "name": "Freq 5",
+   "min": 0,
+   "max": 100,
+   "default": 62.502,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "g5",
+   "name": "Gain 5",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "q5",
+   "name": "Q 5",
+   "min": 0,
+   "max": 100,
+   "default": 44.3405,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "t5",
+   "name": "Type 5",
+   "options": [
+    "Bell",
+    "Low Shelf",
+    "High Shelf",
+    "Low Cut 6",
+    "Low Cut 12",
+    "Low Cut 24",
+    "Low Cut 48",
+    "High Cut 6",
+    "High Cut 12",
+    "High Cut 24",
+    "High Cut 48",
+    "Notch",
+    "Band Pass",
+    "Tilt"
+   ],
+   "default": 0,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "on5",
+   "name": "Band 5",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 1,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "f6",
+   "name": "Freq 6",
+   "min": 0,
+   "max": 100,
+   "default": 74.7679,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "g6",
+   "name": "Gain 6",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "q6",
+   "name": "Q 6",
+   "min": 0,
+   "max": 100,
+   "default": 44.3405,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "t6",
+   "name": "Type 6",
+   "options": [
+    "Bell",
+    "Low Shelf",
+    "High Shelf",
+    "Low Cut 6",
+    "Low Cut 12",
+    "Low Cut 24",
+    "Low Cut 48",
+    "High Cut 6",
+    "High Cut 12",
+    "High Cut 24",
+    "High Cut 48",
+    "Notch",
+    "Band Pass",
+    "Tilt"
+   ],
+   "default": 0,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "on6",
+   "name": "Band 6",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 1,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "f7",
+   "name": "Freq 7",
+   "min": 0,
+   "max": 100,
+   "default": 86.7353,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "g7",
+   "name": "Gain 7",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "q7",
+   "name": "Q 7",
+   "min": 0,
+   "max": 100,
+   "default": 37.7453,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "t7",
+   "name": "Type 7",
+   "options": [
+    "Bell",
+    "Low Shelf",
+    "High Shelf",
+    "Low Cut 6",
+    "Low Cut 12",
+    "Low Cut 24",
+    "Low Cut 48",
+    "High Cut 6",
+    "High Cut 12",
+    "High Cut 24",
+    "High Cut 48",
+    "Notch",
+    "Band Pass",
+    "Tilt"
+   ],
+   "default": 2,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "on7",
+   "name": "Band 7",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 1,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "f8",
+   "name": "Freq 8",
+   "min": 0,
+   "max": 100,
+   "default": 96.7697,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "g8",
+   "name": "Gain 8",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "q8",
+   "name": "Q 8",
+   "min": 0,
+   "max": 100,
+   "default": 37.7453,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "t8",
+   "name": "Type 8",
+   "options": [
+    "Bell",
+    "Low Shelf",
+    "High Shelf",
+    "Low Cut 6",
+    "Low Cut 12",
+    "Low Cut 24",
+    "Low Cut 48",
+    "High Cut 6",
+    "High Cut 12",
+    "High Cut 24",
+    "High Cut 48",
+    "Notch",
+    "Band Pass",
+    "Tilt"
+   ],
+   "default": 8,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "on8",
+   "name": "Band 8",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "bypass",
+   "name": "Pass",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "qbank",
+   "name": "Q-Link Bands",
+   "options": [
+    "1-4",
+    "5-8"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "analyzer",
+   "name": "Visualizer",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 1,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "qf1",
+   "name": "1 Freq",
+   "min": 0,
+   "max": 100,
+   "default": 5.8697,
+   "dynamic_display": true,
+   "dynamic_name": true,
+   "unit": ""
+  },
+  {
+   "key": "qg1",
+   "name": "1 Gain",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "dynamic_display": true,
+   "dynamic_name": true,
+   "unit": ""
+  },
+  {
+   "key": "qq1",
+   "name": "1 Q",
+   "min": 0,
+   "max": 100,
+   "default": 37.7453,
+   "dynamic_display": true,
+   "dynamic_name": true,
+   "unit": ""
+  },
+  {
+   "key": "qt1",
+   "name": "1 Type",
+   "options": [
+    "Bell",
+    "Low Shelf",
+    "High Shelf",
+    "Low Cut 6",
+    "Low Cut 12",
+    "Low Cut 24",
+    "Low Cut 48",
+    "High Cut 6",
+    "High Cut 12",
+    "High Cut 24",
+    "High Cut 48",
+    "Notch",
+    "Band Pass",
+    "Tilt"
+   ],
+   "default": 4,
+   "qlink_ticks": 4,
+   "dynamic_name": true
+  },
+  {
+   "key": "qf2",
+   "name": "2 Freq",
+   "min": 0,
+   "max": 100,
+   "default": 20.0687,
+   "dynamic_display": true,
+   "dynamic_name": true,
+   "unit": ""
+  },
+  {
+   "key": "qg2",
+   "name": "2 Gain",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "dynamic_display": true,
+   "dynamic_name": true,
+   "unit": ""
+  },
+  {
+   "key": "qq2",
+   "name": "2 Q",
+   "min": 0,
+   "max": 100,
+   "default": 37.7453,
+   "dynamic_display": true,
+   "dynamic_name": true,
+   "unit": ""
+  },
+  {
+   "key": "qt2",
+   "name": "2 Type",
+   "options": [
+    "Bell",
+    "Low Shelf",
+    "High Shelf",
+    "Low Cut 6",
+    "Low Cut 12",
+    "Low Cut 24",
+    "Low Cut 48",
+    "High Cut 6",
+    "High Cut 12",
+    "High Cut 24",
+    "High Cut 48",
+    "Notch",
+    "Band Pass",
+    "Tilt"
+   ],
+   "default": 1,
+   "qlink_ticks": 4,
+   "dynamic_name": true
+  },
+  {
+   "key": "qf3",
+   "name": "3 Freq",
+   "min": 0,
+   "max": 100,
+   "default": 33.3333,
+   "dynamic_display": true,
+   "dynamic_name": true,
+   "unit": ""
+  },
+  {
+   "key": "qg3",
+   "name": "3 Gain",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "dynamic_display": true,
+   "dynamic_name": true,
+   "unit": ""
+  },
+  {
+   "key": "qq3",
+   "name": "3 Q",
+   "min": 0,
+   "max": 100,
+   "default": 44.3405,
+   "dynamic_display": true,
+   "dynamic_name": true,
+   "unit": ""
+  },
+  {
+   "key": "qt3",
+   "name": "3 Type",
+   "options": [
+    "Bell",
+    "Low Shelf",
+    "High Shelf",
+    "Low Cut 6",
+    "Low Cut 12",
+    "Low Cut 24",
+    "Low Cut 48",
+    "High Cut 6",
+    "High Cut 12",
+    "High Cut 24",
+    "High Cut 48",
+    "Notch",
+    "Band Pass",
+    "Tilt"
+   ],
+   "default": 0,
+   "qlink_ticks": 4,
+   "dynamic_name": true
+  },
+  {
+   "key": "qf4",
+   "name": "4 Freq",
+   "min": 0,
+   "max": 100,
+   "default": 46.598,
+   "dynamic_display": true,
+   "dynamic_name": true,
+   "unit": ""
+  },
+  {
+   "key": "qg4",
+   "name": "4 Gain",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "dynamic_display": true,
+   "dynamic_name": true,
+   "unit": ""
+  },
+  {
+   "key": "qq4",
+   "name": "4 Q",
+   "min": 0,
+   "max": 100,
+   "default": 44.3405,
+   "dynamic_display": true,
+   "dynamic_name": true,
+   "unit": ""
+  },
+  {
+   "key": "qt4",
+   "name": "4 Type",
+   "options": [
+    "Bell",
+    "Low Shelf",
+    "High Shelf",
+    "Low Cut 6",
+    "Low Cut 12",
+    "Low Cut 24",
+    "Low Cut 48",
+    "High Cut 6",
+    "High Cut 12",
+    "High Cut 24",
+    "High Cut 48",
+    "Notch",
+    "Band Pass",
+    "Tilt"
+   ],
+   "default": 0,
+   "qlink_ticks": 4,
+   "dynamic_name": true
+  },
+  {
+   "key": "dx1",
+   "name": "Dot 1",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "dx2",
+   "name": "Dot 2",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "dx3",
+   "name": "Dot 3",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "dx4",
+   "name": "Dot 4",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "dx5",
+   "name": "Dot 5",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "dx6",
+   "name": "Dot 6",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "dx7",
+   "name": "Dot 7",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "dx8",
+   "name": "Dot 8",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "dy1",
+   "name": "Dot 1 dB",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "dy2",
+   "name": "Dot 2 dB",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "dy3",
+   "name": "Dot 3 dB",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "dy4",
+   "name": "Dot 4 dB",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "dy5",
+   "name": "Dot 5 dB",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "dy6",
+   "name": "Dot 6 dB",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "dy7",
+   "name": "Dot 7 dB",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "dy8",
+   "name": "Dot 8 dB",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv01",
+   "name": "Curve 1",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv02",
+   "name": "Curve 2",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv03",
+   "name": "Curve 3",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv04",
+   "name": "Curve 4",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv05",
+   "name": "Curve 5",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv06",
+   "name": "Curve 6",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv07",
+   "name": "Curve 7",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv08",
+   "name": "Curve 8",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv09",
+   "name": "Curve 9",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv10",
+   "name": "Curve 10",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv11",
+   "name": "Curve 11",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv12",
+   "name": "Curve 12",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv13",
+   "name": "Curve 13",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv14",
+   "name": "Curve 14",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv15",
+   "name": "Curve 15",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv16",
+   "name": "Curve 16",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv17",
+   "name": "Curve 17",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv18",
+   "name": "Curve 18",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv19",
+   "name": "Curve 19",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv20",
+   "name": "Curve 20",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv21",
+   "name": "Curve 21",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv22",
+   "name": "Curve 22",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv23",
+   "name": "Curve 23",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv24",
+   "name": "Curve 24",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv25",
+   "name": "Curve 25",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv26",
+   "name": "Curve 26",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv27",
+   "name": "Curve 27",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv28",
+   "name": "Curve 28",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv29",
+   "name": "Curve 29",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv30",
+   "name": "Curve 30",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv31",
+   "name": "Curve 31",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv32",
+   "name": "Curve 32",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv33",
+   "name": "Curve 33",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv34",
+   "name": "Curve 34",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv35",
+   "name": "Curve 35",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv36",
+   "name": "Curve 36",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv37",
+   "name": "Curve 37",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv38",
+   "name": "Curve 38",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv39",
+   "name": "Curve 39",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv40",
+   "name": "Curve 40",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv41",
+   "name": "Curve 41",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv42",
+   "name": "Curve 42",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv43",
+   "name": "Curve 43",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv44",
+   "name": "Curve 44",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv45",
+   "name": "Curve 45",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv46",
+   "name": "Curve 46",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv47",
+   "name": "Curve 47",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv48",
+   "name": "Curve 48",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv49",
+   "name": "Curve 49",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv50",
+   "name": "Curve 50",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv51",
+   "name": "Curve 51",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv52",
+   "name": "Curve 52",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv53",
+   "name": "Curve 53",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv54",
+   "name": "Curve 54",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv55",
+   "name": "Curve 55",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv56",
+   "name": "Curve 56",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv57",
+   "name": "Curve 57",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv58",
+   "name": "Curve 58",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv59",
+   "name": "Curve 59",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv60",
+   "name": "Curve 60",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv61",
+   "name": "Curve 61",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv62",
+   "name": "Curve 62",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv63",
+   "name": "Curve 63",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv64",
+   "name": "Curve 64",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv65",
+   "name": "Curve 65",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv66",
+   "name": "Curve 66",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv67",
+   "name": "Curve 67",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv68",
+   "name": "Curve 68",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv69",
+   "name": "Curve 69",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv70",
+   "name": "Curve 70",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv71",
+   "name": "Curve 71",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv72",
+   "name": "Curve 72",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv73",
+   "name": "Curve 73",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv74",
+   "name": "Curve 74",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv75",
+   "name": "Curve 75",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv76",
+   "name": "Curve 76",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv77",
+   "name": "Curve 77",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv78",
+   "name": "Curve 78",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv79",
+   "name": "Curve 79",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "cv80",
+   "name": "Curve 80",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp01",
+   "name": "Spectrum 1",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp02",
+   "name": "Spectrum 2",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp03",
+   "name": "Spectrum 3",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp04",
+   "name": "Spectrum 4",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp05",
+   "name": "Spectrum 5",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp06",
+   "name": "Spectrum 6",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp07",
+   "name": "Spectrum 7",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp08",
+   "name": "Spectrum 8",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp09",
+   "name": "Spectrum 9",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp10",
+   "name": "Spectrum 10",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp11",
+   "name": "Spectrum 11",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp12",
+   "name": "Spectrum 12",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp13",
+   "name": "Spectrum 13",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp14",
+   "name": "Spectrum 14",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp15",
+   "name": "Spectrum 15",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp16",
+   "name": "Spectrum 16",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp17",
+   "name": "Spectrum 17",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp18",
+   "name": "Spectrum 18",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp19",
+   "name": "Spectrum 19",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp20",
+   "name": "Spectrum 20",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp21",
+   "name": "Spectrum 21",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp22",
+   "name": "Spectrum 22",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp23",
+   "name": "Spectrum 23",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp24",
+   "name": "Spectrum 24",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp25",
+   "name": "Spectrum 25",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp26",
+   "name": "Spectrum 26",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp27",
+   "name": "Spectrum 27",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp28",
+   "name": "Spectrum 28",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp29",
+   "name": "Spectrum 29",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp30",
+   "name": "Spectrum 30",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp31",
+   "name": "Spectrum 31",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp32",
+   "name": "Spectrum 32",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp33",
+   "name": "Spectrum 33",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp34",
+   "name": "Spectrum 34",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp35",
+   "name": "Spectrum 35",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp36",
+   "name": "Spectrum 36",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp37",
+   "name": "Spectrum 37",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp38",
+   "name": "Spectrum 38",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp39",
+   "name": "Spectrum 39",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "sp40",
+   "name": "Spectrum 40",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  },
+  {
+   "key": "tb_open",
+   "name": "Type list",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "tsel",
+   "name": "Type band",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "tb_hl",
+   "name": "Type shown",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "topen1",
+   "name": "Type 1 list",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "topen2",
+   "name": "Type 2 list",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "topen3",
+   "name": "Type 3 list",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "topen4",
+   "name": "Type 4 list",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "topen5",
+   "name": "Type 5 list",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "topen6",
+   "name": "Type 6 list",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "topen7",
+   "name": "Type 7 list",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "topen8",
+   "name": "Type 8 list",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "tpick1",
+   "name": "Pick Bell",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "tpick2",
+   "name": "Pick Low Shelf",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "tpick3",
+   "name": "Pick High Shelf",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "tpick4",
+   "name": "Pick Low Cut 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "tpick5",
+   "name": "Pick Low Cut 12",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "tpick6",
+   "name": "Pick Low Cut 24",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "tpick7",
+   "name": "Pick Low Cut 48",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "tpick8",
+   "name": "Pick High Cut 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "tpick9",
+   "name": "Pick High Cut 12",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "tpick10",
+   "name": "Pick High Cut 24",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "tpick11",
+   "name": "Pick High Cut 48",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "tpick12",
+   "name": "Pick Notch",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "tpick13",
+   "name": "Pick Band Pass",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "tpick14",
+   "name": "Pick Tilt",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "tb_close",
+   "name": "Type list close",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true,
+   "unit": ""
+  },
+  {
+   "key": "preset",
+   "name": "Preset",
+   "options": [
+    "Init",
+    "Vox: Pop Vocal",
+    "Vox: Rap Vocal",
+    "Vox: R&B Vocal",
+    "Vox: Podcast Voice",
+    "Vox: Vocal Air",
+    "Vox: Vocal De-Mud",
+    "Vox: Backing Vocals",
+    "Drm: Kick Punch",
+    "Drm: Kick Sub",
+    "Drm: Snare Crack",
+    "Drm: Claps",
+    "Drm: Hi-Hats",
+    "Drm: Overheads",
+    "Drm: Drum Bus",
+    "Bass: 808 Clean",
+    "Bass: 808 Knock",
+    "Bass: Bass Guitar",
+    "Bass: Synth Bass",
+    "Inst: Acoustic Guitar",
+    "Inst: Electric Guitar",
+    "Inst: Piano",
+    "Inst: Rhodes & Keys",
+    "Inst: Pads & Strings",
+    "Inst: Synth Lead",
+    "Tone: Airy",
+    "Tone: Darker",
+    "Tone: Warm",
+    "Tone: Bright",
+    "Tone: Smile Curve",
+    "Tone: Clarity",
+    "Tone: Mid Focus",
+    "Mix: Master Polish",
+    "Mix: Low End Tidy",
+    "Mix: Sample Clean",
+    "Mix: Loop Sit Back",
+    "FX: Telephone",
+    "FX: AM Radio",
+    "FX: Lo-Fi",
+    "FX: Walkie Talkie",
+    "FX: Megaphone",
+    "FX: Underwater",
+    "FX: Cassette"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 2
+  },
+  {
+   "key": "preset_prev",
+   "name": "Preset <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_next",
+   "name": "Preset >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_list",
+   "name": "Preset list",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "browsing",
+   "name": "Browsing",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pre_hl",
+   "name": "Preset shown",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pick1",
+   "name": "Pick 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick2",
+   "name": "Pick 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick3",
+   "name": "Pick 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick4",
+   "name": "Pick 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick5",
+   "name": "Pick 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick6",
+   "name": "Pick 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick7",
+   "name": "Pick 7",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick8",
+   "name": "Pick 8",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick9",
+   "name": "Pick 9",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick10",
+   "name": "Pick 10",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick11",
+   "name": "Pick 11",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick12",
+   "name": "Pick 12",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick13",
+   "name": "Pick 13",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick14",
+   "name": "Pick 14",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick15",
+   "name": "Pick 15",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick16",
+   "name": "Pick 16",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick17",
+   "name": "Pick 17",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick18",
+   "name": "Pick 18",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick19",
+   "name": "Pick 19",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick20",
+   "name": "Pick 20",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick21",
+   "name": "Pick 21",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick22",
+   "name": "Pick 22",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick23",
+   "name": "Pick 23",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick24",
+   "name": "Pick 24",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick25",
+   "name": "Pick 25",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick26",
+   "name": "Pick 26",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick27",
+   "name": "Pick 27",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick28",
+   "name": "Pick 28",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick29",
+   "name": "Pick 29",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick30",
+   "name": "Pick 30",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick31",
+   "name": "Pick 31",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick32",
+   "name": "Pick 32",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick33",
+   "name": "Pick 33",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick34",
+   "name": "Pick 34",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick35",
+   "name": "Pick 35",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick36",
+   "name": "Pick 36",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick37",
+   "name": "Pick 37",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick38",
+   "name": "Pick 38",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick39",
+   "name": "Pick 39",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick40",
+   "name": "Pick 40",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick41",
+   "name": "Pick 41",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick42",
+   "name": "Pick 42",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick43",
+   "name": "Pick 43",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "learn",
+   "name": "Learn",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "learn_prog",
+   "name": "Learn progress",
+   "min": 0,
+   "max": 1,
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "voice",
+   "name": "Voice",
+   "display": "string",
+   "live": true
+  },
+  {
+   "key": "dsel",
+   "name": "Dynamics band",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "dsel_prev",
+   "name": "Dyn band <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "dsel_next",
+   "name": "Dyn band >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "dthr",
+   "name": "Threshold",
+   "min": -60,
+   "max": 0,
+   "default": -30,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "drng",
+   "name": "Range",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "datt",
+   "name": "Attack",
+   "min": 0,
+   "max": 100,
+   "default": 50.0,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "drel",
+   "name": "Release",
+   "min": 0,
+   "max": 100,
+   "default": 51.1115,
+   "dynamic_display": true,
+   "unit": ""
+  },
+  {
+   "key": "dact",
+   "name": "Dynamic gain",
+   "min": -18,
+   "max": 18,
+   "default": 0,
+   "live": true,
+   "unit": ""
+  }
+ ]
+}

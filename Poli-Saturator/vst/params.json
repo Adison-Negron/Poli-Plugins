@@ -1,0 +1,408 @@
+{
+ "name": "Poli-Saturator",
+ "params": [
+  {
+   "key": "sat",
+   "name": "Saturation",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "smash",
+   "name": "Smash",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 0.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "crunch",
+   "name": "Crunch",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 400.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "soften",
+   "name": "Soften",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 250.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "low",
+   "name": "Low",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "mid",
+   "name": "Mid",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "high",
+   "name": "High",
+   "min": 0.0,
+   "max": 1000.0,
+   "default": 500.0,
+   "dynamic_display": true
+  },
+  {
+   "key": "type",
+   "name": "Type",
+   "options": [
+    "Tube",
+    "Tape",
+    "Clip",
+    "Fold"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 4
+  },
+  {
+   "key": "type_prev",
+   "name": "Type <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "type_next",
+   "name": "Type >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset",
+   "name": "Preset",
+   "options": [
+    "Init",
+    "Drum: Kick Warmth",
+    "Drum: Kick Punch",
+    "Drum: Kick Sub Thump",
+    "Drum: Snare Crack",
+    "Drum: Snare Body",
+    "Drum: Hat Grit",
+    "Drum: Drum Bus Tape",
+    "Drum: Drum Bus Glue",
+    "Drum: Break Crunch",
+    "Drum: Loop Smash",
+    "Drum: 808 Harmonics",
+    "Drum: Room Crush",
+    "Vox: Warm Vocal",
+    "Vox: Presence",
+    "Vox: Smooth Lead",
+    "Vox: Gritty Vocal",
+    "Vox: Radio Voice",
+    "Vox: Tape Vocal",
+    "Vox: Airy Vocal",
+    "Vox: Backing Fat",
+    "Vox: Rap Punch",
+    "Vox: Dark Vocal",
+    "Vox: Whisper Glue",
+    "Bass: Warm Bass",
+    "Bass: Bass Grind",
+    "Bass: Sub Harmonics",
+    "Bass: Tape Bass",
+    "Bass: Fold Bass",
+    "Bass: Bass Presence",
+    "Bass: Pluck Crunch",
+    "Bass: Bass Glue",
+    "Bass: Rumble",
+    "Keys: Electric Piano",
+    "Keys: Piano Tape",
+    "Keys: Organ Drive",
+    "Keys: Warm Pad",
+    "Keys: Lead Bite",
+    "Keys: Synth Fold",
+    "Keys: Saw Smash",
+    "Keys: Arp Sizzle",
+    "Keys: Chord Tape",
+    "Bus: Master Glue",
+    "Bus: Gentle Tape",
+    "Bus: Mix Bus Warm",
+    "Bus: Mix Bus Drive",
+    "Bus: Master Polish",
+    "Bus: Loud Master",
+    "Bus: Subtle Heat",
+    "Bus: Open Air",
+    "Bus: Parallel Smash",
+    "Bus: Vinyl Warmth",
+    "Bus: Radio Ready",
+    "FX: Lo-Fi Crunch",
+    "FX: Tape Destroyer",
+    "FX: Fold Madness",
+    "FX: Metal Fold",
+    "FX: Broken Radio",
+    "FX: Warm Mud",
+    "FX: Screamer",
+    "FX: Soft Squash",
+    "FX: Glitch Fold",
+    "FX: Bit Grit",
+    "FX: Heavy Low End",
+    "FX: Silk Fold"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "qlink_ticks": 2
+  },
+  {
+   "key": "preset_prev",
+   "name": "Preset <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_next",
+   "name": "Preset >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "preset_list",
+   "name": "Preset list",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "browsing",
+   "name": "Browsing",
+   "options": [
+    "Off",
+    "On"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "bview",
+   "name": "Browser view",
+   "options": [
+    "Closed",
+    "v1",
+    "v2",
+    "v3",
+    "v4",
+    "v5",
+    "v6",
+    "v7",
+    "v8",
+    "v9",
+    "v10",
+    "v11",
+    "v12"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "pre_hl",
+   "name": "Preset shown",
+   "options": [
+    "-",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "default": 0,
+   "live": true
+  },
+  {
+   "key": "bpage_prev",
+   "name": "Page <",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "bpage_next",
+   "name": "Page >",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat1",
+   "name": "Category 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat2",
+   "name": "Category 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat3",
+   "name": "Category 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat4",
+   "name": "Category 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat5",
+   "name": "Category 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat6",
+   "name": "Category 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "cat7",
+   "name": "Category 7",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick1",
+   "name": "Pick 1",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick2",
+   "name": "Pick 2",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick3",
+   "name": "Pick 3",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick4",
+   "name": "Pick 4",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick5",
+   "name": "Pick 5",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick6",
+   "name": "Pick 6",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick7",
+   "name": "Pick 7",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick8",
+   "name": "Pick 8",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick9",
+   "name": "Pick 9",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick10",
+   "name": "Pick 10",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick11",
+   "name": "Pick 11",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  },
+  {
+   "key": "pick12",
+   "name": "Pick 12",
+   "min": 0.0,
+   "max": 1.0,
+   "default": 0.0,
+   "momentary": true
+  }
+ ]
+}

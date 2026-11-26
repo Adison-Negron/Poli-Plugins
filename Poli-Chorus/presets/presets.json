@@ -1,0 +1,880 @@
+{
+ "cats": [
+  "All",
+  "Classic",
+  "Ensemble",
+  "Vibrato",
+  "Guitar & Keys",
+  "Vocals & Pads",
+  "Creative"
+ ],
+ "presets": [
+  {
+   "name": "Init",
+   "short": "Init",
+   "cat": "Init",
+   "catIndex": 0,
+   "mode": "Classic",
+   "pos": [
+    523,
+    500,
+    0,
+    600,
+    1000,
+    250,
+    667,
+    500
+   ]
+  },
+  {
+   "name": "Cls: Silver Shimmer",
+   "short": "Silver Shimmer",
+   "cat": "Classic",
+   "catIndex": 1,
+   "mode": "Classic",
+   "pos": [
+    546,
+    450,
+    0,
+    700,
+    1000,
+    200,
+    667,
+    500
+   ]
+  },
+  {
+   "name": "Cls: Juno Lush",
+   "short": "Juno Lush",
+   "cat": "Classic",
+   "catIndex": 1,
+   "mode": "Classic",
+   "pos": [
+    469,
+    700,
+    120,
+    1000,
+    752,
+    350,
+    667,
+    500
+   ]
+  },
+  {
+   "name": "Cls: Subtle Thickener",
+   "short": "Subtle Thickener",
+   "cat": "Classic",
+   "catIndex": 1,
+   "mode": "Classic",
+   "pos": [
+    435,
+    220,
+    0,
+    550,
+    1000,
+    100,
+    667,
+    350
+   ]
+  },
+  {
+   "name": "Cls: Wide Dimension",
+   "short": "Wide Dimension",
+   "cat": "Classic",
+   "catIndex": 1,
+   "mode": "Classic",
+   "pos": [
+    367,
+    380,
+    100,
+    1000,
+    841,
+    250,
+    667,
+    450
+   ]
+  },
+  {
+   "name": "Cls: Slow Swirl",
+   "short": "Slow Swirl",
+   "cat": "Classic",
+   "catIndex": 1,
+   "mode": "Classic",
+   "pos": [
+    207,
+    800,
+    300,
+    850,
+    695,
+    300,
+    667,
+    550
+   ]
+  },
+  {
+   "name": "Cls: Bright Sparkle",
+   "short": "Bright Sparkle",
+   "cat": "Classic",
+   "catIndex": 1,
+   "mode": "Classic",
+   "pos": [
+    714,
+    300,
+    0,
+    800,
+    1000,
+    0,
+    667,
+    400
+   ]
+  },
+  {
+   "name": "Cls: Studio Sweet",
+   "short": "Studio Sweet",
+   "cat": "Classic",
+   "catIndex": 1,
+   "mode": "Classic",
+   "pos": [
+    583,
+    400,
+    180,
+    750,
+    889,
+    150,
+    667,
+    500
+   ]
+  },
+  {
+   "name": "Cls: Mono Safe",
+   "short": "Mono Safe",
+   "cat": "Classic",
+   "catIndex": 1,
+   "mode": "Classic",
+   "pos": [
+    523,
+    350,
+    0,
+    250,
+    1000,
+    150,
+    667,
+    400
+   ]
+  },
+  {
+   "name": "Cls: Rotor Glide",
+   "short": "Rotor Glide",
+   "cat": "Classic",
+   "catIndex": 1,
+   "mode": "Classic",
+   "pos": [
+    849,
+    200,
+    0,
+    600,
+    1000,
+    100,
+    667,
+    450
+   ]
+  },
+  {
+   "name": "Ens: String Machine",
+   "short": "String Machine",
+   "cat": "Ensemble",
+   "catIndex": 2,
+   "mode": "Ensemble",
+   "pos": [
+    453,
+    600,
+    0,
+    900,
+    785,
+    450,
+    667,
+    600
+   ]
+  },
+  {
+   "name": "Ens: Solina Dream",
+   "short": "Solina Dream",
+   "cat": "Ensemble",
+   "catIndex": 2,
+   "mode": "Ensemble",
+   "pos": [
+    415,
+    750,
+    60,
+    1000,
+    715,
+    500,
+    667,
+    650
+   ]
+  },
+  {
+   "name": "Ens: Big Ensemble",
+   "short": "Big Ensemble",
+   "cat": "Ensemble",
+   "catIndex": 2,
+   "mode": "Ensemble",
+   "pos": [
+    498,
+    850,
+    120,
+    1000,
+    814,
+    300,
+    667,
+    700
+   ]
+  },
+  {
+   "name": "Ens: Choir Pad",
+   "short": "Choir Pad",
+   "cat": "Ensemble",
+   "catIndex": 2,
+   "mode": "Ensemble",
+   "pos": [
+    367,
+    550,
+    150,
+    1000,
+    1000,
+    250,
+    667,
+    600
+   ]
+  },
+  {
+   "name": "Ens: Subtle Strings",
+   "short": "Subtle Strings",
+   "cat": "Ensemble",
+   "catIndex": 2,
+   "mode": "Ensemble",
+   "pos": [
+    469,
+    300,
+    0,
+    800,
+    1000,
+    150,
+    667,
+    450
+   ]
+  },
+  {
+   "name": "Ens: Detuned Cloud",
+   "short": "Detuned Cloud",
+   "cat": "Ensemble",
+   "catIndex": 2,
+   "mode": "Ensemble",
+   "pos": [
+    629,
+    650,
+    250,
+    1000,
+    651,
+    400,
+    667,
+    700
+   ]
+  },
+  {
+   "name": "Ens: Lush Wash",
+   "short": "Lush Wash",
+   "cat": "Ensemble",
+   "catIndex": 2,
+   "mode": "Ensemble",
+   "pos": [
+    304,
+    900,
+    350,
+    1000,
+    599,
+    550,
+    667,
+    750
+   ]
+  },
+  {
+   "name": "Ens: Silky Pad",
+   "short": "Silky Pad",
+   "cat": "Ensemble",
+   "catIndex": 2,
+   "mode": "Ensemble",
+   "pos": [
+    435,
+    500,
+    100,
+    850,
+    1000,
+    200,
+    667,
+    550
+   ]
+  },
+  {
+   "name": "Ens: Wide Hall",
+   "short": "Wide Hall",
+   "cat": "Ensemble",
+   "catIndex": 2,
+   "mode": "Ensemble",
+   "pos": [
+    338,
+    700,
+    180,
+    1000,
+    752,
+    350,
+    667,
+    650
+   ]
+  },
+  {
+   "name": "Vib: Gentle Vibrato",
+   "short": "Gentle Vibrato",
+   "cat": "Vibrato",
+   "catIndex": 3,
+   "mode": "Vibrato",
+   "pos": [
+    877,
+    180,
+    0,
+    400,
+    1000,
+    0,
+    667,
+    1000
+   ]
+  },
+  {
+   "name": "Vib: Tape Wobble",
+   "short": "Tape Wobble",
+   "cat": "Vibrato",
+   "catIndex": 3,
+   "mode": "Vibrato",
+   "pos": [
+    546,
+    350,
+    0,
+    600,
+    752,
+    400,
+    667,
+    1000
+   ]
+  },
+  {
+   "name": "Vib: Fast Flutter",
+   "short": "Fast Flutter",
+   "cat": "Vibrato",
+   "catIndex": 3,
+   "mode": "Vibrato",
+   "pos": [
+    969,
+    120,
+    0,
+    500,
+    1000,
+    100,
+    667,
+    1000
+   ]
+  },
+  {
+   "name": "Vib: Slow Pitch Sway",
+   "short": "Slow Pitch Sway",
+   "cat": "Vibrato",
+   "catIndex": 3,
+   "mode": "Vibrato",
+   "pos": [
+    338,
+    550,
+    0,
+    700,
+    1000,
+    100,
+    667,
+    1000
+   ]
+  },
+  {
+   "name": "Vib: Rotary Spin",
+   "short": "Rotary Spin",
+   "cat": "Vibrato",
+   "catIndex": 3,
+   "mode": "Vibrato",
+   "pos": [
+    922,
+    450,
+    0,
+    1000,
+    785,
+    300,
+    667,
+    1000
+   ]
+  },
+  {
+   "name": "Vib: Seasick",
+   "short": "Seasick",
+   "cat": "Vibrato",
+   "catIndex": 3,
+   "mode": "Vibrato",
+   "pos": [
+    262,
+    1000,
+    150,
+    800,
+    715,
+    200,
+    667,
+    1000
+   ]
+  },
+  {
+   "name": "Vib: Lo-Fi Warble",
+   "short": "Lo-Fi Warble",
+   "cat": "Vibrato",
+   "catIndex": 3,
+   "mode": "Vibrato",
+   "pos": [
+    696,
+    600,
+    0,
+    600,
+    569,
+    600,
+    667,
+    1000
+   ]
+  },
+  {
+   "name": "Vib: Stereo Vibrato",
+   "short": "Stereo Vibrato",
+   "cat": "Vibrato",
+   "catIndex": 3,
+   "mode": "Vibrato",
+   "pos": [
+    887,
+    250,
+    0,
+    1000,
+    1000,
+    0,
+    667,
+    1000
+   ]
+  },
+  {
+   "name": "Vib: Half Wet Vibe",
+   "short": "Half Wet Vibe",
+   "cat": "Vibrato",
+   "catIndex": 3,
+   "mode": "Vibrato",
+   "pos": [
+    869,
+    300,
+    0,
+    600,
+    1000,
+    150,
+    667,
+    550
+   ]
+  },
+  {
+   "name": "Gtr: Clean Guitar Shine",
+   "short": "Clean Guitar Shine",
+   "cat": "Guitar & Keys",
+   "catIndex": 4,
+   "mode": "Classic",
+   "pos": [
+    523,
+    350,
+    0,
+    800,
+    1000,
+    150,
+    667,
+    450
+   ]
+  },
+  {
+   "name": "Gtr: Dreamy Guitar",
+   "short": "Dreamy Guitar",
+   "cat": "Guitar & Keys",
+   "catIndex": 4,
+   "mode": "Classic",
+   "pos": [
+    392,
+    550,
+    250,
+    900,
+    752,
+    250,
+    667,
+    500
+   ]
+  },
+  {
+   "name": "Gtr: 80s Rhythm",
+   "short": "80s Rhythm",
+   "cat": "Guitar & Keys",
+   "catIndex": 4,
+   "mode": "Classic",
+   "pos": [
+    498,
+    600,
+    200,
+    1000,
+    841,
+    300,
+    667,
+    550
+   ]
+  },
+  {
+   "name": "Gtr: E-Piano Sheen",
+   "short": "E-Piano Sheen",
+   "cat": "Guitar & Keys",
+   "catIndex": 4,
+   "mode": "Classic",
+   "pos": [
+    469,
+    400,
+    0,
+    900,
+    1000,
+    250,
+    667,
+    450
+   ]
+  },
+  {
+   "name": "Gtr: Rhodes Wide",
+   "short": "Rhodes Wide",
+   "cat": "Guitar & Keys",
+   "catIndex": 4,
+   "mode": "Ensemble",
+   "pos": [
+    415,
+    450,
+    50,
+    1000,
+    1000,
+    250,
+    667,
+    500
+   ]
+  },
+  {
+   "name": "Gtr: Organ Shimmer",
+   "short": "Organ Shimmer",
+   "cat": "Guitar & Keys",
+   "catIndex": 4,
+   "mode": "Vibrato",
+   "pos": [
+    904,
+    350,
+    0,
+    900,
+    1000,
+    200,
+    667,
+    650
+   ]
+  },
+  {
+   "name": "Gtr: Acoustic Sparkle",
+   "short": "Acoustic Sparkle",
+   "cat": "Guitar & Keys",
+   "catIndex": 4,
+   "mode": "Classic",
+   "pos": [
+    565,
+    250,
+    0,
+    700,
+    1000,
+    50,
+    667,
+    350
+   ]
+  },
+  {
+   "name": "Gtr: Jangle",
+   "short": "Jangle",
+   "cat": "Guitar & Keys",
+   "catIndex": 4,
+   "mode": "Classic",
+   "pos": [
+    676,
+    280,
+    100,
+    850,
+    1000,
+    0,
+    667,
+    400
+   ]
+  },
+  {
+   "name": "Vox: Vocal Thickener",
+   "short": "Vocal Thickener",
+   "cat": "Vocals & Pads",
+   "catIndex": 5,
+   "mode": "Classic",
+   "pos": [
+    469,
+    200,
+    0,
+    650,
+    1000,
+    100,
+    667,
+    300
+   ]
+  },
+  {
+   "name": "Vox: Backing Wide",
+   "short": "Backing Wide",
+   "cat": "Vocals & Pads",
+   "catIndex": 5,
+   "mode": "Ensemble",
+   "pos": [
+    435,
+    400,
+    0,
+    1000,
+    1000,
+    150,
+    667,
+    450
+   ]
+  },
+  {
+   "name": "Vox: Airy Doubler",
+   "short": "Airy Doubler",
+   "cat": "Vocals & Pads",
+   "catIndex": 5,
+   "mode": "Classic",
+   "pos": [
+    615,
+    180,
+    0,
+    800,
+    1000,
+    0,
+    667,
+    350
+   ]
+  },
+  {
+   "name": "Vox: Soft Pad Bloom",
+   "short": "Soft Pad Bloom",
+   "cat": "Vocals & Pads",
+   "catIndex": 5,
+   "mode": "Ensemble",
+   "pos": [
+    338,
+    650,
+    150,
+    1000,
+    785,
+    250,
+    667,
+    600
+   ]
+  },
+  {
+   "name": "Vox: Warm Choir",
+   "short": "Warm Choir",
+   "cat": "Vocals & Pads",
+   "catIndex": 5,
+   "mode": "Ensemble",
+   "pos": [
+    392,
+    500,
+    100,
+    900,
+    734,
+    400,
+    667,
+    550
+   ]
+  },
+  {
+   "name": "Vox: Dream Vox",
+   "short": "Dream Vox",
+   "cat": "Vocals & Pads",
+   "catIndex": 5,
+   "mode": "Classic",
+   "pos": [
+    304,
+    700,
+    250,
+    1000,
+    715,
+    300,
+    667,
+    500
+   ]
+  },
+  {
+   "name": "Vox: Synth Pad Wide",
+   "short": "Synth Pad Wide",
+   "cat": "Vocals & Pads",
+   "catIndex": 5,
+   "mode": "Ensemble",
+   "pos": [
+    392,
+    600,
+    80,
+    1000,
+    1000,
+    200,
+    667,
+    550
+   ]
+  },
+  {
+   "name": "FX: Underwater",
+   "short": "Underwater",
+   "cat": "Creative",
+   "catIndex": 6,
+   "mode": "Classic",
+   "pos": [
+    262,
+    1000,
+    700,
+    900,
+    354,
+    500,
+    667,
+    600
+   ]
+  },
+  {
+   "name": "FX: Metal Wash",
+   "short": "Metal Wash",
+   "cat": "Creative",
+   "catIndex": 6,
+   "mode": "Classic",
+   "pos": [
+    773,
+    700,
+    850,
+    1000,
+    1000,
+    200,
+    611,
+    700
+   ]
+  },
+  {
+   "name": "FX: Robot Choir",
+   "short": "Robot Choir",
+   "cat": "Creative",
+   "catIndex": 6,
+   "mode": "Ensemble",
+   "pos": [
+    904,
+    400,
+    500,
+    1000,
+    1000,
+    250,
+    639,
+    700
+   ]
+  },
+  {
+   "name": "FX: Warped Tape",
+   "short": "Warped Tape",
+   "cat": "Creative",
+   "catIndex": 6,
+   "mode": "Vibrato",
+   "pos": [
+    435,
+    1000,
+    350,
+    850,
+    500,
+    700,
+    667,
+    1000
+   ]
+  },
+  {
+   "name": "FX: Jet Chorus",
+   "short": "Jet Chorus",
+   "cat": "Creative",
+   "catIndex": 6,
+   "mode": "Classic",
+   "pos": [
+    131,
+    600,
+    900,
+    800,
+    1000,
+    150,
+    584,
+    600
+   ]
+  },
+  {
+   "name": "FX: Spring Boing",
+   "short": "Spring Boing",
+   "cat": "Creative",
+   "catIndex": 6,
+   "mode": "Vibrato",
+   "pos": [
+    980,
+    700,
+    0,
+    600,
+    1000,
+    250,
+    667,
+    1000
+   ]
+  },
+  {
+   "name": "FX: Space Shimmer",
+   "short": "Space Shimmer",
+   "cat": "Creative",
+   "catIndex": 6,
+   "mode": "Ensemble",
+   "pos": [
+    523,
+    800,
+    600,
+    1000,
+    674,
+    300,
+    639,
+    700
+   ]
+  },
+  {
+   "name": "FX: Broken Cassette",
+   "short": "Broken Cassette",
+   "cat": "Creative",
+   "catIndex": 6,
+   "mode": "Vibrato",
+   "pos": [
+    642,
+    850,
+    250,
+    700,
+    459,
+    800,
+    667,
+    1000
+   ]
+  }
+ ]
+}

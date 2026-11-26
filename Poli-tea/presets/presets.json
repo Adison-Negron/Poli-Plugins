@@ -1,0 +1,1098 @@
+{
+ "cats": [
+  "All",
+  "Master",
+  "Glue",
+  "Loud",
+  "Warm",
+  "Air",
+  "Wide",
+  "Beats",
+  "Lo-Fi"
+ ],
+ "presets": [
+  {
+   "name": "Init",
+   "short": "Init",
+   "cat": "Init",
+   "catIndex": 0,
+   "pos": [
+    500,
+    300,
+    500,
+    500,
+    500,
+    500,
+    200,
+    889,
+    988
+   ],
+   "sc": 0,
+   "use": "Neutral starting point"
+  },
+  {
+   "name": "Master: Green Tea",
+   "short": "Green Tea",
+   "cat": "Master",
+   "catIndex": 1,
+   "pos": [
+    500,
+    200,
+    550,
+    500,
+    575,
+    400,
+    250,
+    861,
+    988
+   ],
+   "sc": 0,
+   "use": "All-round gentle master: a little weight and air, 2 dB of limiting"
+  },
+  {
+   "name": "Master: Earl Grey",
+   "short": "Earl Grey",
+   "cat": "Master",
+   "catIndex": 1,
+   "pos": [
+    500,
+    300,
+    575,
+    475,
+    550,
+    500,
+    300,
+    889,
+    979
+   ],
+   "sc": 0,
+   "use": "Mix bus polish: slight mid cut, tight lows, light tape"
+  },
+  {
+   "name": "Master: Matcha Streaming",
+   "short": "Matcha Streaming",
+   "cat": "Master",
+   "catIndex": 1,
+   "pos": [
+    500,
+    250,
+    550,
+    500,
+    550,
+    450,
+    350,
+    806,
+    958
+   ],
+   "sc": 0,
+   "use": "Streaming-ready: ceiling -1 dB, moderate loudness"
+  },
+  {
+   "name": "Master: Jasmine Clarity",
+   "short": "Jasmine Clarity",
+   "cat": "Master",
+   "catIndex": 1,
+   "pos": [
+    500,
+    150,
+    500,
+    440,
+    625,
+    350,
+    200,
+    889,
+    979
+   ],
+   "sc": 0,
+   "use": "Opens a cloudy mix: mids pulled back, air lifted"
+  },
+  {
+   "name": "Master: Oolong Balanced",
+   "short": "Oolong Balanced",
+   "cat": "Master",
+   "catIndex": 1,
+   "pos": [
+    500,
+    350,
+    600,
+    525,
+    575,
+    550,
+    400,
+    778,
+    988
+   ],
+   "sc": 0,
+   "use": "Fuller, more present master with a firmer limiter"
+  },
+  {
+   "name": "Master: Chamomile Gentle",
+   "short": "Chamomile Gentle",
+   "cat": "Master",
+   "catIndex": 1,
+   "pos": [
+    500,
+    100,
+    500,
+    500,
+    525,
+    250,
+    100,
+    944,
+    979
+   ],
+   "sc": 0,
+   "use": "Barely there: the lightest touch of glue and ceiling"
+  },
+  {
+   "name": "Master: Pu-erh Heavy",
+   "short": "Pu-erh Heavy",
+   "cat": "Master",
+   "catIndex": 1,
+   "pos": [
+    500,
+    500,
+    650,
+    550,
+    500,
+    700,
+    500,
+    722,
+    988
+   ],
+   "sc": 0,
+   "use": "Dense, weighty master for big genres"
+  },
+  {
+   "name": "Master: White Tea Clear",
+   "short": "White Tea Clear",
+   "cat": "Master",
+   "catIndex": 1,
+   "pos": [
+    500,
+    50,
+    500,
+    500,
+    540,
+    200,
+    150,
+    917,
+    988
+   ],
+   "sc": 0,
+   "use": "Transparent: ceiling protection and a whisper of width"
+  },
+  {
+   "name": "Glue: Chai Glue",
+   "short": "Chai Glue",
+   "cat": "Glue",
+   "catIndex": 2,
+   "pos": [
+    500,
+    200,
+    525,
+    525,
+    500,
+    450,
+    150,
+    944,
+    988
+   ],
+   "sc": 0,
+   "use": "Classic bus glue for a full mix"
+  },
+  {
+   "name": "Glue: Rooibos Soft",
+   "short": "Rooibos Soft",
+   "cat": "Glue",
+   "catIndex": 2,
+   "pos": [
+    500,
+    150,
+    500,
+    515,
+    500,
+    300,
+    100,
+    972,
+    988
+   ],
+   "sc": 0,
+   "use": "Soft, slow glue for acoustic and sparse material"
+  },
+  {
+   "name": "Glue: Assam Tight",
+   "short": "Assam Tight",
+   "cat": "Glue",
+   "catIndex": 2,
+   "pos": [
+    500,
+    250,
+    550,
+    500,
+    500,
+    650,
+    200,
+    917,
+    988
+   ],
+   "sc": 0,
+   "use": "Tighter, more controlled bus: more compression"
+  },
+  {
+   "name": "Glue: Hojicha Roasted",
+   "short": "Hojicha Roasted",
+   "cat": "Glue",
+   "catIndex": 2,
+   "pos": [
+    500,
+    400,
+    550,
+    550,
+    475,
+    550,
+    150,
+    944,
+    988
+   ],
+   "sc": 0,
+   "use": "Roasted glue: more tube body in the mids"
+  },
+  {
+   "name": "Glue: Darjeeling Light",
+   "short": "Darjeeling Light",
+   "cat": "Glue",
+   "catIndex": 2,
+   "pos": [
+    500,
+    100,
+    500,
+    500,
+    525,
+    225,
+    100,
+    972,
+    988
+   ],
+   "sc": 0,
+   "use": "Very light cohesion for already polished mixes"
+  },
+  {
+   "name": "Glue: Ceylon Cohesion",
+   "short": "Ceylon Cohesion",
+   "cat": "Glue",
+   "catIndex": 2,
+   "pos": [
+    500,
+    250,
+    575,
+    500,
+    500,
+    500,
+    200,
+    917,
+    988
+   ],
+   "sc": 0,
+   "use": "Keeps stems sitting together, low end steady"
+  },
+  {
+   "name": "Glue: Raw Key Glue",
+   "short": "Raw Key Glue",
+   "cat": "Glue",
+   "catIndex": 2,
+   "pos": [
+    500,
+    250,
+    550,
+    500,
+    500,
+    500,
+    150,
+    944,
+    988
+   ],
+   "sc": 1,
+   "use": "External-style key: compressors listen to the raw input, so Input and EQ don't change how hard they work"
+  },
+  {
+   "name": "Loud: Builder's Brew",
+   "short": "Builder's Brew",
+   "cat": "Loud",
+   "catIndex": 3,
+   "pos": [
+    500,
+    400,
+    575,
+    525,
+    575,
+    600,
+    600,
+    667,
+    988
+   ],
+   "sc": 0,
+   "use": "Strong, even loudness for pop and rock"
+  },
+  {
+   "name": "Loud: Masala Max",
+   "short": "Masala Max",
+   "cat": "Loud",
+   "catIndex": 3,
+   "pos": [
+    500,
+    600,
+    625,
+    550,
+    600,
+    750,
+    700,
+    583,
+    988
+   ],
+   "sc": 0,
+   "use": "Hot and punchy: club-ready loudness"
+  },
+  {
+   "name": "Loud: Boba Bomb",
+   "short": "Boba Bomb",
+   "cat": "Loud",
+   "catIndex": 3,
+   "pos": [
+    500,
+    700,
+    650,
+    540,
+    575,
+    850,
+    850,
+    500,
+    988
+   ],
+   "sc": 0,
+   "use": "Maximum push: extreme loudness, expect colour"
+  },
+  {
+   "name": "Loud: Thai Tea Punch",
+   "short": "Thai Tea Punch",
+   "cat": "Loud",
+   "catIndex": 3,
+   "pos": [
+    500,
+    350,
+    600,
+    500,
+    550,
+    650,
+    500,
+    639,
+    988
+   ],
+   "sc": 0,
+   "use": "Loud with the transients kept alive"
+  },
+  {
+   "name": "Loud: Brick Tea Wall",
+   "short": "Brick Tea Wall",
+   "cat": "Loud",
+   "catIndex": 3,
+   "pos": [
+    500,
+    550,
+    600,
+    575,
+    550,
+    800,
+    800,
+    528,
+    988
+   ],
+   "sc": 0,
+   "use": "Wall of sound for hard genres"
+  },
+  {
+   "name": "Loud: Quick Steep",
+   "short": "Quick Steep",
+   "cat": "Loud",
+   "catIndex": 3,
+   "pos": [
+    500,
+    200,
+    500,
+    500,
+    500,
+    450,
+    350,
+    778,
+    988
+   ],
+   "sc": 0,
+   "use": "Quick +4 dB of safe loudness"
+  },
+  {
+   "name": "Loud: Kombucha Kick",
+   "short": "Kombucha Kick",
+   "cat": "Loud",
+   "catIndex": 3,
+   "pos": [
+    500,
+    450,
+    675,
+    500,
+    560,
+    700,
+    650,
+    611,
+    988
+   ],
+   "sc": 0,
+   "use": "Bass-forward loudness, a bit fizzy on top"
+  },
+  {
+   "name": "Warm: Tape Tea",
+   "short": "Tape Tea",
+   "cat": "Warm",
+   "catIndex": 4,
+   "pos": [
+    500,
+    650,
+    600,
+    500,
+    450,
+    500,
+    150,
+    917,
+    988
+   ],
+   "sc": 0,
+   "use": "Tape-style saturation and a soft top"
+  },
+  {
+   "name": "Warm: Tube Latte",
+   "short": "Tube Latte",
+   "cat": "Warm",
+   "catIndex": 4,
+   "pos": [
+    500,
+    600,
+    550,
+    560,
+    500,
+    550,
+    150,
+    917,
+    988
+   ],
+   "sc": 0,
+   "use": "Creamy tube harmonics in the mids"
+  },
+  {
+   "name": "Warm: Honey Tea",
+   "short": "Honey Tea",
+   "cat": "Warm",
+   "catIndex": 4,
+   "pos": [
+    500,
+    450,
+    560,
+    525,
+    410,
+    450,
+    150,
+    944,
+    988
+   ],
+   "sc": 0,
+   "use": "Sweet, rounded top end"
+  },
+  {
+   "name": "Warm: Roasted Barley",
+   "short": "Roasted Barley",
+   "cat": "Warm",
+   "catIndex": 4,
+   "pos": [
+    500,
+    700,
+    625,
+    540,
+    440,
+    650,
+    200,
+    889,
+    988
+   ],
+   "sc": 0,
+   "use": "Thick and toasty: a lot of low-mid colour"
+  },
+  {
+   "name": "Warm: Cinnamon Cuppa",
+   "short": "Cinnamon Cuppa",
+   "cat": "Warm",
+   "catIndex": 4,
+   "pos": [
+    500,
+    550,
+    575,
+    500,
+    525,
+    525,
+    150,
+    917,
+    988
+   ],
+   "sc": 0,
+   "use": "Warm with a touch of spice in the highs"
+  },
+  {
+   "name": "Warm: Vintage Pot",
+   "short": "Vintage Pot",
+   "cat": "Warm",
+   "catIndex": 4,
+   "pos": [
+    500,
+    500,
+    560,
+    485,
+    460,
+    475,
+    100,
+    944,
+    988
+   ],
+   "sc": 0,
+   "use": "Old-console feel: gentle everything"
+  },
+  {
+   "name": "Warm: Smoky Lapsang",
+   "short": "Smoky Lapsang",
+   "cat": "Warm",
+   "catIndex": 4,
+   "pos": [
+    500,
+    800,
+    610,
+    550,
+    350,
+    700,
+    250,
+    861,
+    988
+   ],
+   "sc": 0,
+   "use": "Dark and smoky: heavy colour, rolled-off air"
+  },
+  {
+   "name": "Air: Silver Needle",
+   "short": "Silver Needle",
+   "cat": "Air",
+   "catIndex": 5,
+   "pos": [
+    500,
+    200,
+    500,
+    500,
+    725,
+    400,
+    200,
+    889,
+    988
+   ],
+   "sc": 0,
+   "use": "Silky air on top without harshness"
+  },
+  {
+   "name": "Air: Peach Oolong",
+   "short": "Peach Oolong",
+   "cat": "Air",
+   "catIndex": 5,
+   "pos": [
+    500,
+    250,
+    500,
+    525,
+    675,
+    450,
+    250,
+    889,
+    988
+   ],
+   "sc": 0,
+   "use": "Fruity brightness: highs and a little presence"
+  },
+  {
+   "name": "Air: Mint Sparkle",
+   "short": "Mint Sparkle",
+   "cat": "Air",
+   "catIndex": 5,
+   "pos": [
+    500,
+    200,
+    475,
+    500,
+    775,
+    500,
+    200,
+    889,
+    988
+   ],
+   "sc": 0,
+   "use": "Cool, sparkling top end"
+  },
+  {
+   "name": "Air: Dew Drop",
+   "short": "Dew Drop",
+   "cat": "Air",
+   "catIndex": 5,
+   "pos": [
+    500,
+    100,
+    500,
+    475,
+    650,
+    350,
+    150,
+    917,
+    988
+   ],
+   "sc": 0,
+   "use": "Light lift for dull recordings"
+  },
+  {
+   "name": "Air: Lemon Zest",
+   "short": "Lemon Zest",
+   "cat": "Air",
+   "catIndex": 5,
+   "pos": [
+    500,
+    300,
+    500,
+    550,
+    700,
+    500,
+    300,
+    833,
+    988
+   ],
+   "sc": 0,
+   "use": "Bright and forward, vocals pop"
+  },
+  {
+   "name": "Air: Frosted Glass",
+   "short": "Frosted Glass",
+   "cat": "Air",
+   "catIndex": 5,
+   "pos": [
+    500,
+    150,
+    540,
+    460,
+    800,
+    450,
+    250,
+    861,
+    988
+   ],
+   "sc": 0,
+   "use": "Crystal highs with a clean low end"
+  },
+  {
+   "name": "Wide: Jasmine Pearl",
+   "short": "Jasmine Pearl",
+   "cat": "Wide",
+   "catIndex": 6,
+   "pos": [
+    500,
+    200,
+    500,
+    500,
+    625,
+    750,
+    250,
+    889,
+    988
+   ],
+   "sc": 0,
+   "use": "Wide, airy mix; the lows stay mono"
+  },
+  {
+   "name": "Wide: Sakura Spread",
+   "short": "Sakura Spread",
+   "cat": "Wide",
+   "catIndex": 6,
+   "pos": [
+    500,
+    150,
+    500,
+    500,
+    560,
+    600,
+    150,
+    917,
+    988
+   ],
+   "sc": 0,
+   "use": "Gentle widening for stereo-poor mixes"
+  },
+  {
+   "name": "Wide: Milk Tea Stereo",
+   "short": "Milk Tea Stereo",
+   "cat": "Wide",
+   "catIndex": 6,
+   "pos": [
+    500,
+    350,
+    500,
+    540,
+    575,
+    700,
+    200,
+    889,
+    988
+   ],
+   "sc": 0,
+   "use": "Creamy, wide mids and highs"
+  },
+  {
+   "name": "Wide: Ocean Mist",
+   "short": "Ocean Mist",
+   "cat": "Wide",
+   "catIndex": 6,
+   "pos": [
+    500,
+    150,
+    500,
+    500,
+    675,
+    950,
+    250,
+    861,
+    988
+   ],
+   "sc": 0,
+   "use": "Maximum width with air"
+  },
+  {
+   "name": "Wide: Mono-Safe Tea",
+   "short": "Mono-Safe Tea",
+   "cat": "Wide",
+   "catIndex": 6,
+   "pos": [
+    500,
+    150,
+    500,
+    500,
+    500,
+    225,
+    150,
+    917,
+    988
+   ],
+   "sc": 0,
+   "use": "Narrower, very mono-friendly: little widening"
+  },
+  {
+   "name": "Wide: Festival Wide",
+   "short": "Festival Wide",
+   "cat": "Wide",
+   "catIndex": 6,
+   "pos": [
+    500,
+    400,
+    600,
+    500,
+    600,
+    825,
+    450,
+    722,
+    988
+   ],
+   "sc": 0,
+   "use": "Big and wide for large speakers"
+  },
+  {
+   "name": "Beats: Boba Drums",
+   "short": "Boba Drums",
+   "cat": "Beats",
+   "catIndex": 7,
+   "pos": [
+    500,
+    400,
+    600,
+    525,
+    540,
+    600,
+    350,
+    806,
+    988
+   ],
+   "sc": 0,
+   "use": "Punchy drum bus with fat lows"
+  },
+  {
+   "name": "Beats: Boom Bap Brew",
+   "short": "Boom Bap Brew",
+   "cat": "Beats",
+   "catIndex": 7,
+   "pos": [
+    500,
+    600,
+    625,
+    500,
+    460,
+    600,
+    300,
+    833,
+    988
+   ],
+   "sc": 0,
+   "use": "Dusty boom-bap bus: warm and heavy"
+  },
+  {
+   "name": "Beats: Trap Tea",
+   "short": "Trap Tea",
+   "cat": "Beats",
+   "catIndex": 7,
+   "pos": [
+    500,
+    450,
+    650,
+    500,
+    600,
+    650,
+    550,
+    667,
+    988
+   ],
+   "sc": 0,
+   "use": "Weighty sub with crisp hats"
+  },
+  {
+   "name": "Beats: Punchy Pearls",
+   "short": "Punchy Pearls",
+   "cat": "Beats",
+   "catIndex": 7,
+   "pos": [
+    500,
+    350,
+    575,
+    540,
+    560,
+    550,
+    300,
+    833,
+    988
+   ],
+   "sc": 0,
+   "use": "Snappy transients and tight lows"
+  },
+  {
+   "name": "Beats: Sample Smash",
+   "short": "Sample Smash",
+   "cat": "Beats",
+   "catIndex": 7,
+   "pos": [
+    500,
+    650,
+    575,
+    550,
+    500,
+    700,
+    400,
+    750,
+    988
+   ],
+   "sc": 0,
+   "use": "Glues chopped samples into one block"
+  },
+  {
+   "name": "Beats: House Steep",
+   "short": "House Steep",
+   "cat": "Beats",
+   "catIndex": 7,
+   "pos": [
+    500,
+    350,
+    625,
+    500,
+    575,
+    575,
+    450,
+    722,
+    988
+   ],
+   "sc": 0,
+   "use": "Four-on-the-floor bus: steady low end"
+  },
+  {
+   "name": "Beats: Break Brew",
+   "short": "Break Brew",
+   "cat": "Beats",
+   "catIndex": 7,
+   "pos": [
+    500,
+    550,
+    560,
+    540,
+    550,
+    675,
+    350,
+    778,
+    988
+   ],
+   "sc": 0,
+   "use": "Breakbeat bus: lively, a bit gritty"
+  },
+  {
+   "name": "Beats: MPC Master",
+   "short": "MPC Master",
+   "cat": "Beats",
+   "catIndex": 7,
+   "pos": [
+    500,
+    500,
+    600,
+    500,
+    550,
+    575,
+    500,
+    694,
+    988
+   ],
+   "sc": 0,
+   "use": "Quick beat-tape master: warm, loud, safe"
+  },
+  {
+   "name": "Lo-Fi: Dusty Tea",
+   "short": "Dusty Tea",
+   "cat": "Lo-Fi",
+   "catIndex": 8,
+   "pos": [
+    500,
+    800,
+    550,
+    500,
+    275,
+    750,
+    200,
+    889,
+    988
+   ],
+   "sc": 0,
+   "use": "Dark and dusty: rolled-off highs, tape warmth"
+  },
+  {
+   "name": "Lo-Fi: Cassette Cup",
+   "short": "Cassette Cup",
+   "cat": "Lo-Fi",
+   "catIndex": 8,
+   "pos": [
+    500,
+    850,
+    575,
+    575,
+    375,
+    800,
+    350,
+    778,
+    988
+   ],
+   "sc": 0,
+   "use": "Cassette-ish squeeze and fuzz"
+  },
+  {
+   "name": "Lo-Fi: Crunchy Boba",
+   "short": "Crunchy Boba",
+   "cat": "Lo-Fi",
+   "catIndex": 8,
+   "pos": [
+    500,
+    1000,
+    550,
+    500,
+    550,
+    900,
+    700,
+    556,
+    988
+   ],
+   "sc": 0,
+   "use": "Crunch: heavy drive and compression"
+  },
+  {
+   "name": "Lo-Fi: Telephone Tea",
+   "short": "Telephone Tea",
+   "cat": "Lo-Fi",
+   "catIndex": 8,
+   "pos": [
+    500,
+    600,
+    275,
+    675,
+    325,
+    650,
+    300,
+    833,
+    988
+   ],
+   "sc": 0,
+   "use": "Mid-focused, thin: lows and highs pulled down"
+  },
+  {
+   "name": "Lo-Fi: Mud Puddle",
+   "short": "Mud Puddle",
+   "cat": "Lo-Fi",
+   "catIndex": 8,
+   "pos": [
+    500,
+    700,
+    700,
+    450,
+    250,
+    700,
+    250,
+    861,
+    988
+   ],
+   "sc": 0,
+   "use": "Murky and thick: lows up, highs gone"
+  },
+  {
+   "name": "Lo-Fi: Radio Brew",
+   "short": "Radio Brew",
+   "cat": "Lo-Fi",
+   "catIndex": 8,
+   "pos": [
+    500,
+    550,
+    450,
+    600,
+    600,
+    850,
+    600,
+    611,
+    988
+   ],
+   "sc": 0,
+   "use": "Broadcast-style squeeze and presence"
+  },
+  {
+   "name": "Lo-Fi: Smash Tea Bag",
+   "short": "Smash Tea Bag",
+   "cat": "Lo-Fi",
+   "catIndex": 8,
+   "pos": [
+    500,
+    900,
+    600,
+    575,
+    575,
+    1000,
+    900,
+    444,
+    988
+   ],
+   "sc": 0,
+   "use": "Everything pushed: for effect, not subtlety"
+  }
+ ]
+}

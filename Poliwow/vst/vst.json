@@ -1,0 +1,21 @@
+{
+  "name": "Poliwow",
+  "vendor": "Poli",
+  "uid": "PlWw",
+  "version": 1300,
+  "effect": true,
+  "art": "html",
+  "so": "poliwow.so",
+  "params": "params.json",
+  "layout": "layout.conf",
+  "skin_post": "skin_post.py",
+  "programs": {"param": "style"},
+  "targets": ["aarch64"],
+  "defines": {"HAS_DISPLAY_REV": 1, "HAS_SONG_POS": 1},
+  "build": {
+    "root": "..",
+    "sources": ["src/WowDSP.cpp", "src/engine.cpp"],
+    "cflags": ["-Isrc", "-O3", "-ffast-math", "-U__FAST_MATH__"],
+    "libs": ["-lm", "-lstdc++"]
+  }
+}

@@ -1,0 +1,10 @@
+build/
+dist/
+release/
+__pycache__/
+*.o
+*.so
+*.wav
+*.raw
+.usb_drive
+logs/
